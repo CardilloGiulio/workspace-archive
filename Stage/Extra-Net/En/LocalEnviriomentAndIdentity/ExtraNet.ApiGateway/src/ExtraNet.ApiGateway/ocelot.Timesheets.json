@@ -1,0 +1,14 @@
+{
+    "SwaggerEndPoints": [
+        {
+            "Key": "ExtraNet.Timesheets.API",
+            "Config": [
+                {
+                    "Name": "ExtraNet Timesheets API",
+                    "Version": "v1",
+                    "Url": "http://{HostTimesheets}:{PortTimesheets}/swagger/v1/swagger.json"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37ABC0CA-3687-4DD4-8214-34DC55A55E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiulioCardillo.Exercize1.API", "src\GiulioCardillo.Exercize1.API\GiulioCardillo.Exercize1.API.csproj", "{97CB7E25-DE90-4F72-AC36-8A5FF0395279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiulioCardillo.Exercize1.Persistence", "src\GiulioCardillo.Exercize1.Persistence\GiulioCardillo.Exercize1.Persistence.csproj", "{D764EC8E-A8B9-45B7-9FF1-79C76A9DF1A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{903FF80E-4F82-4624-99CD-AB8FC3C4E21A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{BB610280-5BF2-4E54-915C-1362CFF8E1ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{DA54ACE8-A701-4613-A3A4-2C9C993CCDF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiulioCardillo.Exercise1.QueryAbstract", "src\GiulioCardillo.Exercise1.Services\GiulioCardillo.Exercise1.QueryAbstract\GiulioCardillo.Exercise1.QueryAbstract.csproj", "{D1E700A4-A143-4884-81D7-4D9515875BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiulioCardillo.Exercise1.Query", "src\GiulioCardillo.Exercise1.Services\GiulioCardillo.Exercise1.Query\GiulioCardillo.Exercise1.Query.csproj", "{ECA214B0-78EF-4699-BEB5-6922A92224C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiulioCardillo.Exercise1.CommandAbstract", "src\GiulioCardillo.Exercise1.Services\GiulioCardillo.Exercise1.CommandAbstract\GiulioCardillo.Exercise1.CommandAbstract.csproj", "{927C31FB-F834-4A70-B356-E2B78D5F5849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiulioCardillo.Exercise1.Command", "src\GiulioCardillo.Exercise1.Services\GiulioCardillo.Exercise1.Command\GiulioCardillo.Exercise1.Command.csproj", "{D38A2805-42A4-486A-A53D-CBCC6018E756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiulioCardillo.Exercise1.Domain", "GiulioCardillo.Exercise1.Domain\GiulioCardillo.Exercise1.Domain.csproj", "{C9F5D8DA-112B-443E-80F5-183AC65659DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97CB7E25-DE90-4F72-AC36-8A5FF0395279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CB7E25-DE90-4F72-AC36-8A5FF0395279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CB7E25-DE90-4F72-AC36-8A5FF0395279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CB7E25-DE90-4F72-AC36-8A5FF0395279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D764EC8E-A8B9-45B7-9FF1-79C76A9DF1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D764EC8E-A8B9-45B7-9FF1-79C76A9DF1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D764EC8E-A8B9-45B7-9FF1-79C76A9DF1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D764EC8E-A8B9-45B7-9FF1-79C76A9DF1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E700A4-A143-4884-81D7-4D9515875BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E700A4-A143-4884-81D7-4D9515875BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E700A4-A143-4884-81D7-4D9515875BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E700A4-A143-4884-81D7-4D9515875BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA214B0-78EF-4699-BEB5-6922A92224C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA214B0-78EF-4699-BEB5-6922A92224C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA214B0-78EF-4699-BEB5-6922A92224C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA214B0-78EF-4699-BEB5-6922A92224C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{927C31FB-F834-4A70-B356-E2B78D5F5849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927C31FB-F834-4A70-B356-E2B78D5F5849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927C31FB-F834-4A70-B356-E2B78D5F5849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927C31FB-F834-4A70-B356-E2B78D5F5849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38A2805-42A4-486A-A53D-CBCC6018E756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38A2805-42A4-486A-A53D-CBCC6018E756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38A2805-42A4-486A-A53D-CBCC6018E756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38A2805-42A4-486A-A53D-CBCC6018E756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F5D8DA-112B-443E-80F5-183AC65659DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F5D8DA-112B-443E-80F5-183AC65659DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F5D8DA-112B-443E-80F5-183AC65659DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F5D8DA-112B-443E-80F5-183AC65659DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97CB7E25-DE90-4F72-AC36-8A5FF0395279} = {37ABC0CA-3687-4DD4-8214-34DC55A55E38}
+		{D764EC8E-A8B9-45B7-9FF1-79C76A9DF1A4} = {37ABC0CA-3687-4DD4-8214-34DC55A55E38}
+		{903FF80E-4F82-4624-99CD-AB8FC3C4E21A} = {37ABC0CA-3687-4DD4-8214-34DC55A55E38}
+		{BB610280-5BF2-4E54-915C-1362CFF8E1ED} = {903FF80E-4F82-4624-99CD-AB8FC3C4E21A}
+		{DA54ACE8-A701-4613-A3A4-2C9C993CCDF5} = {903FF80E-4F82-4624-99CD-AB8FC3C4E21A}
+		{D1E700A4-A143-4884-81D7-4D9515875BC7} = {DA54ACE8-A701-4613-A3A4-2C9C993CCDF5}
+		{ECA214B0-78EF-4699-BEB5-6922A92224C0} = {DA54ACE8-A701-4613-A3A4-2C9C993CCDF5}
+		{927C31FB-F834-4A70-B356-E2B78D5F5849} = {DA54ACE8-A701-4613-A3A4-2C9C993CCDF5}
+		{D38A2805-42A4-486A-A53D-CBCC6018E756} = {DA54ACE8-A701-4613-A3A4-2C9C993CCDF5}
+		{C9F5D8DA-112B-443E-80F5-183AC65659DB} = {BB610280-5BF2-4E54-915C-1362CFF8E1ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CFA51F1-E68F-42F7-980F-97220AEBF526}
+	EndGlobalSection
+EndGlobal

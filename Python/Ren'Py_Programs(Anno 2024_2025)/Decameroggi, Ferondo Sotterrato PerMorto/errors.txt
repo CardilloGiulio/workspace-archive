@@ -1,0 +1,11 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens.rpy", line 123: invalid syntax
+    image main_menu_bg_scaled = im.Scale("images/bg_title.jpg", 1920, 1080)
+                             ^
+    
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Thu Apr 10 13:00:40 2025

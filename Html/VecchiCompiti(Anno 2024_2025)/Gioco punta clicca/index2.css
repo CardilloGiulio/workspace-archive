@@ -1,0 +1,33 @@
+body { font-family: sans-serif; color:azure; background-image:url("https://img.freepik.com/foto-gratuito/paesaggio-della-giungla-in-stile-pixel-art_23-2151557066.jpg"); }
+.scene {
+
+  position: relative;
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  background-image: url("https://t3.ftcdn.net/jpg/05/49/87/48/360_F_549874832_odaIb0fUsf27oYS6qXj392f5673mRSW5.jpg");       /* rettangolo stanza */
+  border: 3px solid #444; /* bordo visibile */
+}
+
+.hotspot {
+  position: absolute;
+  width: 80px; height: 80px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+#coins   { left: 40px;  top: 200px; background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-TN02RyVvIlS3O3aSZ_0O5BRqd4KzkClVWw&s"); background-size: cover; }
+#slotmachine { left: 260px; top: 180px; background-image: url("https://em-content.zobj.net/source/twitter/348/slot-machine_1f3b0.png"); background-size: cover;}
+#exitdoor  { right: 40px; top: 80px;  background-image: url("https://images.emojiterra.com/google/android-12l/512px/1f6aa.png"); background-size: cover; }
+#log {
+  width:600px;
+  margin:20px auto;
+  padding:10px;
+  background:rgb(0, 0, 0);
+  border:1px solid #aaa;
+  height:120px;
+  overflow:auto;
+  color:azure;
+}

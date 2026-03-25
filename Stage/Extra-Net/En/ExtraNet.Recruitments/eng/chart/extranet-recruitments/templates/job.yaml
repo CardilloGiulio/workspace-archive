@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ include "extranet-recruitments.fullname" . }}-job
+spec:
+  template:
+    metadata:
+      name: extranet-recruitments-job
+      labels:
+        jobgroup: extranet-recruitments-job
+    spec:
+      serviceAccountName: {{ include "extranet-recruitments.fullname" . }}
+      containers:
+      - name: extranet-recruitments-job
+        image: {{ include "extranet-recruitments.image" ( dict "imageRoot" .Values.extranetrecruitmentsjob.image "global" .Values.global "scope" $ ) }}
+        env:
+          - name: PostgresDatabase__ConnectionString
+            valueFrom: 
+              secretKeyRef:
+                name: db-secret
+                key: connectionstring
+      restartPolicy: Never

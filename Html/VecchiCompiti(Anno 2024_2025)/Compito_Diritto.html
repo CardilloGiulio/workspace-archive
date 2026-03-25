@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Story: Le avventure di Marco</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #3498db;
+      color: #fff;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    nav {
+      flex: 1 1 200px;
+      background: #ecf0f1;
+      padding: 15px;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+      min-height: 100vh;
+    }
+    nav h2 {
+      font-size: 1.3em;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    .nav-button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      background: #2980b9;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    .nav-button:hover {
+      background: #1c5980;
+    }
+    main {
+      flex: 3 1 600px;
+      padding: 20px;
+    }
+    section {
+      display: none;
+      padding: 10px 0;
+    }
+    section.active {
+      display: block;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    p { 
+      text-align: justify;
+      margin: 0.8em 0;
+    }
+    /* Updated meme image size: bigger */
+    .meme-img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+      display: none;
+      margin: 10px auto;
+    }
+    em.caption {
+      display: block;
+      text-align: center;
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 1em;
+    }
+    .interactive-btn {
+      padding: 8px 12px;
+      margin: 10px 0;
+      background: #27ae60;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .interactive-btn:hover {
+      background: #1e8449;
+    }
+    /* Quiz styling */
+    .quiz-answer {
+      display: block;
+      margin: 5px 0;
+      padding: 8px 12px;
+      background: #e67e22;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .quiz-answer:hover {
+      background: #d35400;
+    }
+    .quiz-feedback {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      background: #bdc3c7;
+      padding: 10px;
+      position: relative;
+    }
+    /* Pulsante musica */
+    #musicControl {
+      padding: 8px 12px;
+      background: #8e44ad;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    #musicControl:hover {
+      background: #71368a;
+    }
+  </style>
+  <script>
+    // Function to toggle meme image display
+    function toggleMeme(id) {
+      var img = document.getElementById(id);
+      if (img.style.display === "none" || img.style.display === "") {
+        img.style.display = "block";
+      } else {
+        img.style.display = "none";
+      }
+    }
+    // Function to switch between sections via navigation buttons
+    function showSection(sectionId) {
+      var sections = document.querySelectorAll("main section");
+      sections.forEach(function(section) {
+        section.classList.remove("active");
+      });
+      document.getElementById(sectionId).classList.add("active");
+    }
+  </script>
+</head>
+
+
+<body>
+<header>
+  <h1>La (Dis)avventura di Marco: Dal Baby Gang al Tribunale per i Minorenni</h1>
+  <p>Un percorso interattivo con meme, musica e quiz per scoprire il processo penale minorile in modo leggero e divertente!</p>
+</header>
+
+<div class="container">
+  <nav>
+    <h2>Menu</h2>
+    <button class="nav-button" data-target="intro">Introduzione</button>
+    <button class="nav-button" data-target="reato">Il reato</button>
+    <button class="nav-button" data-target="indagini">Le indagini</button>
+    <button class="nav-button" data-target="colloquio">Il colloquio</button>
+    <button class="nav-button" data-target="servizi">Servizi Sociali</button>
+    <button class="nav-button" data-target="messa">Messa alla prova</button>
+    <button class="nav-button" data-target="percorso">Percorso e Conclusione</button>
+    <button class="nav-button" data-target="memeGallery">Meme Gallery</button>
+    <button class="nav-button" data-target="quiz">Quiz Finale</button>
+  </nav>
+  
+  <main>
+    <!-- Introduzione -->
+    <section id="intro" class="active">
+      <h2>Introduzione</h2>
+      <p>
+        Benvenuti in questa esperienza interattiva che vi conduce attraverso le intricate vicende di Marco, un sedicenne alla deriva, diviso tra l’attrazione per la ribellione e la ricerca disperata di approvazione. La sua storia è un crocevia di scelte sbagliate, errori giovanili e, sorprendentemente, un pizzico di ironia tagliente.
+      </p>
+      <p>
+        Fin dalle prime pagine, noterete come il racconto sappia giocare con le contraddizioni: il dramma degli sguardi giudicanti e l’umorismo dissacrante dei meme si intrecciano per evidenziare la crudele realtà di una società che spesso celebra l'apparenza a discapito del contenuto. Ricordate, ad esempio, quella satirica immagine del “Boss mocking a girl” che sbeffeggia la vanità sfacciata, prendendosi gioco anche delle apparenze (sì, come se si stesse prendendo in giro quella tipica esagerazione dei complimenti sul lato posteriore!).  
+      </p>
+    </section>
+    
+    <!-- Il reato -->
+    <section id="reato">
+      <h2>Il reato commesso</h2>
+      <p>
+        In una calda giornata estiva, Marco si trovò immerso in una spirale di emozioni forti: la voglia di emergere e di non essere più considerato un semplice esecutore di ordini. Influenzato dalla sua baby gang, il giovane decise di compiere un atto impulsivo e privo di logica: rubare lo smartphone di un coetaneo nel parco.
+      </p>
+      <p>
+        In quell'istante, egli si sentì invincibile, indossando per un breve tempo il ruolo di un “boss” senza scrupoli. Ma la cruda realtà bussò presto alla sua porta, smentendo ogni illusione di potere. Proprio come il nostro “Meme Boss” che ironicamente ricorda a chi si crede all’altezza che, nel mondo del crimine, la gerarchia viene decisa da azioni ben diverse dalle apparenze.
+      </p>
+      <!-- Original Meme: Meme Boss -->
+      <button class="interactive-btn" onclick="toggleMeme('memeBoss')">Mostra/Nascondi Meme</button>
+      <img id="memeBoss" class="meme-img" src="https://static.tvtropes.org/pmwiki/pub/images/3b44c1c2_be9a_49eb_8e6e_323d67e91011.jpeg" alt="Meme Boss">
+      <em class="caption">Quando pensi di essere il boss, ma il crimine ti ricorda chi comanda davvero!</em>
+      <!-- New Meme: Boss mocking a girl -->
+      <button class="interactive-btn" onclick="toggleMeme('memeBossMocking')">Mostra/Nascondi Meme</button>
+      <img id="memeBossMocking" class="meme-img" src="https://images7.memedroid.com/images/UPLOADED806/645c5c34ab2aa.jpeg" alt="Boss mocking a girl">
+      <em class="caption">Il potere spesso si esibisce in modi ridicoli: come quel "boss" che non perde occasione per schernire l'eccesso di vanità, magari prendendosi gioco anche di una ragazza e dei suoi tratti esagerati – insomma, un vero e proprio mocking sulla superficialità!</em>
+    </section>
+
+    <!-- Le indagini -->
+    <section id="indagini">
+      <h2>Le indagini della polizia</h2>
+      <p>
+        Non appena la notizia del furto si sparse, le forze dell’ordine si lanciarono in un’indagine serrata. Tra immagini di sicurezza sfocate, testimonianze contraddittorie e un groviglio di indizi, la verità sembrava nascosta sotto strati di confusione.
+      </p>
+      <p>
+        Gli investigatori, armati di determinazione, iniziarono a mettere insieme i pezzi del puzzle, evidenziando come ogni dettaglio, anche il più insignificante, potesse essere la chiave per risolvere l’enigma del crimine giovanile. In questo processo, il “Meme Investigazioni” diventa quasi un inno ironico alla disperata ricerca della verità, un commento visivo alla complessità delle prove.
+      </p>
+      <!-- Original Meme: Meme Investigazioni -->
+      <button class="interactive-btn" onclick="toggleMeme('memeInvestigazioni')">Mostra/Nascondi Meme</button>
+      <img id="memeInvestigazioni" class="meme-img" src="https://i.redd.it/rcrzgv5khgib1.png" alt="Meme Investigazioni">
+      <em class="caption">La polizia in azione: la verità emerge tra indizi e misteri!</em>
+    </section>
+
+    <!-- Il colloquio -->
+    <section id="colloquio">
+      <h2>Il colloquio con le autorità</h2>
+      <p>
+        Poco tempo dopo, la realtà iniziò a farsi in termini netti. Una mattina, due Carabinieri si presentarono alla porta di casa di Marco, pronti a discutere il suo comportamento. L’atmosfera fu immediatamente tesa: le parole misurate, gli sguardi taglienti e la consapevolezza che ogni battito del cuore poteva essere l’anticamera di una punizione imminente.
+      </p>
+      <p>
+        Durante questo confronto, ogni piccola esitazione e ogni tentativo di giustificazione tradiva il giovane, costringendolo a confrontarsi con la propria fragilità. La scena ricordava fortemente il “Meme Sorpreso” – un’immagine che cattura quel momento in cui la realtà colpisce improvvisa e impietosa. Inoltre, il tentativo di stemperare la tensione, come un “good cop” pronto a sorridere in maniera forzata, e quelle domande spinose a cui Marco preferì non rispondere, sono stati splendidamente commentati dai “Good Cop Meme” e dal “Refusal Question”.
+      </p>
+      <!-- Original Meme: Meme Sorpreso -->
+      <button class="interactive-btn" onclick="toggleMeme('memeSorpreso')">Mostra/Nascondi Meme</button>
+      <img id="memeSorpreso" class="meme-img" src="https://en.meming.world/images/en/6/6e/Surprised_Pikachu.jpg" alt="Meme Sorpreso">
+      <em class="caption">Quell'attimo in cui la realtà colpisce con forza!</em>
+      <!-- New Meme: Good Cop Meme -->
+      <button class="interactive-btn" onclick="toggleMeme('memeGoodCop')">Mostra/Nascondi Meme</button>
+      <img id="memeGoodCop" class="meme-img" src="https://i.chzbgr.com/full/3624388864/h9AA59C33/ill-talk-ill-talk" alt="Good Cop Meme">
+      <em class="caption">Un approccio soft che cercava di stemperare una tensione ormai inarrestabile.</em>
+      <!-- New Meme: Refusal Question -->
+      <button class="interactive-btn" onclick="toggleMeme('memeRefusal')">Mostra/Nascondi Meme</button>
+      <img id="memeRefusal" class="meme-img" src="https://media.makeameme.org/created/me-not-answering-40214a8c24.jpg" alt="Refusal Question">
+      <em class="caption">Quando le domande diventano troppo spinose e, in un impeto di ribellione, la risposta resta sospesa!</em>
+    </section>
+
+    <!-- Servizi Sociali -->
+    <section id="servizi">
+      <h2>L'intervento dei Servizi Sociali</h2>
+      <p>
+        Con il procedere delle indagini e il peso del giudizio sociale che incombeva, la situazione di Marco venne incontro a una svolta inaspettata: il coinvolgimento dei Servizi Sociali. In questo nuovo capitolo, la sua famiglia si trovò costretta a confrontarsi con la realtà delle proprie fragilità e con la necessità di un cambiamento radicale.
+      </p>
+      <p>
+        Un assistente sociale, armato non solo di protocolli ma anche di un sincero desiderio di aiutare, si presentò a casa per scavare a fondo nelle cause di quel comportamento autodistruttivo. Tra le domande e i silenzi carichi di incomprensione, si percepiva l’inquietudine di tutti, come espressa nel “Meme huh?”, dove l’incredulità e la confusione diventano un’istantanea di quanto la vita spesso sfugga a ogni logica.
+      </p>
+      <!-- New Meme: Meme Huh? -->
+      <button class="interactive-btn" onclick="toggleMeme('memeHuh')">Mostra/Nascondi Meme</button>
+      <img id="memeHuh" class="meme-img" src="https://www.pngitem.com/pimgs/m/223-2233202_futaba-persona-5-meme-hd-png-download.png" alt="Meme huh?">
+      <em class="caption">Il momento “eh, come?” in cui ogni domanda sembra non trovare risposta.</em>
+    </section>
+
+    <!-- Messa alla prova -->
+    <section id="messa">
+      <h2>La proposta del giudice: Messa alla Prova</h2>
+      <p>
+        Arrivò il giorno dell'udienza, un momento carico di ansia, in cui il destino di Marco sembrava appeso a un filo sottile. Nel tribunale, l’atmosfera era intrisa di tensione e speranza al tempo stesso: invece di inasprire la condanna, il giudice scelse una via di possibilità, proponendogli una messa alla prova volta a trasformare il suo destino.
+      </p>
+      <p>
+        In quella sala, ogni parola, ogni silenzio, sembrava pesare più di mille giudizi. Le prove venivano esaminate con rigore, e le obiezioni sollevate riecheggiavano come un richiamo a rispondere alle domande fondamentali della giustizia. Fu in questo scenario che il “Meme Ace Attorney” si fece strada, simbolo di quella verità inconfutabile che emergeva tra le righe dei testimoni e la documentazione inconfutabile, mentre il celebre “Meme della obiezione” incarnava quel preciso istante in cui ogni cosa sembrava non reggere più.
+      </p>
+      <!-- Original Meme: Meme Ace Attorney -->
+      <button class="interactive-btn" onclick="toggleMeme('memeAceAttorney')">Mostra/Nascondi Meme</button>
+      <img id="memeAceAttorney" class="meme-img" src="https://media.tenor.com/NeubPwLVK94AAAAe/ace-attorney-phoenix-wright.png" alt="Meme Ace Attorney">
+      <em class="caption">Quando le prove non lasciano spazio a dubbi e la verità diventa innegabile.</em>
+      <!-- Original Meme: Meme della obiezione -->
+      <button class="interactive-btn" onclick="toggleMeme('memeObiezione')">Mostra/Nascondi Meme</button>
+      <img id="memeObiezione" class="meme-img" src="https://i.ytimg.com/vi/T3ZV21N2Ra8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDFYxVwxJki2n1Zpfwh0OcalvbrAw" alt="Meme della obiezione">
+      <em class="caption">Obiezione! Quel momento in cui ogni parola sembra sgretolarsi sotto il peso della verità.</em>
+      <!-- New Meme: Meme Angry -->
+      <button class="interactive-btn" onclick="toggleMeme('memeAngry')">Mostra/Nascondi Meme</button>
+      <img id="memeAngry" class="meme-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNmQT2ZZtOG0OplqC4vQaESU1FYs_KMsgUVA&s" alt="Meme Angry">
+      <em class="caption">La frustrazione e la rabbia esplodono al culmine di un giudizio che sembra inesorabile.</em>
+    </section>
+
+    <!-- Percorso e Conclusione -->
+    <section id="percorso">
+      <h2>Il percorso e la conclusione</h2>
+      <p>
+        Col passare dei mesi, il percorso di Marco si trasformò in una lunga maratona di introspezione e crescita. Ogni giorno rappresentava una battaglia interiore: tra il rimorso per gli errori commessi e la speranza di poter riscrivere il proprio futuro.
+      </p>
+      <p>
+        Non fu facile ricucire i legami con la famiglia, ritrovare la fiducia perduta e affrontare il giudizio di una società pronta a condannare. Tra momenti di sincera vulnerabilità e istanti in cui la facciata del “tutto è sotto controllo” veniva meno, l’umorismo si fece largo nei dettagli più inaspettati.
+        Qui, il “Meme This is fine” racconta in maniera amara un sorriso forzato davanti al caos interiore, mentre il doloroso ricordo di essere stati espulsi dalla scuola – simbolo del rifiuto del sistema – si trasforma nel “Meme: Expelled from School”. Ed infine, il “Realization Meme” accompagna il fatidico momento in cui Marco comprende, troppo tardi, l’impatto devastante delle sue scelte.
+      </p>
+      <!-- Original Meme: Meme This is fine -->
+      <button class="interactive-btn" onclick="toggleMeme('memeThisIsFine')">Mostra/Nascondi Meme</button>
+      <img id="memeThisIsFine" class="meme-img" src="https://miro.medium.com/v2/0*ZjYSm_q36J4KChdn" alt="Meme This is fine">
+      <em class="caption">Un sorriso forzato quando tutto intorno sembra crollare.</em>
+      <!-- New Meme: Expelled from School -->
+      <button class="interactive-btn" onclick="toggleMeme('memeExpelled')">Mostra/Nascondi Meme</button>
+      <img id="memeExpelled" class="meme-img" src="https://i.ytimg.com/vi/ScTSH6pkaB0/maxresdefault.jpg" alt="Meme: Expelled and Kicked Out">
+      <em class="caption">Quando l'espulsione dalla scuola si traduce in una dura lezione di solitudine e isolamento.</em>
+      <!-- New Meme: Realization Meme -->
+      <button class="interactive-btn" onclick="toggleMeme('memeRealization')">Mostra/Nascondi Meme</button>
+      <img id="memeRealization" class="meme-img" src="https://i.pinimg.com/236x/42/5a/20/425a206924b9054e26290d8bf25dd639.jpg" alt="Realization Meme">
+      <em class="caption">Il fatale momento di consapevolezza, quando ogni scelta diventa nitida – anche se il cambiamento arriva troppo tardi.</em>
+    </section>
+    
+    <!-- Meme Gallery -->
+    <section id="memeGallery">
+      <h2>Meme Gallery</h2>
+      <p>Qui trovate la raccolta completa di tutti i meme usati lungo il percorso di Marco, simboli visivi di momenti intensi e spesso ironici. Sfogliate la gallery per rivivere ogni attimo narrativo:</p>
+      <ul>
+        <li>
+          <strong>Meme Boss:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeBoss')">Visualizza / Nascondi</button>
+          <img id="galleryMemeBoss" class="meme-img" src="https://static.tvtropes.org/pmwiki/pub/images/3b44c1c2_be9a_49eb_8e6e_323d67e91011.jpeg" alt="Meme Boss">
+          <em class="caption">Quando ti senti invincibile, ma il destino ha altri piani.</em>
+        </li>
+        <li>
+          <strong>Meme Investigazioni:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeInvestigazioni')">Visualizza / Nascondi</button>
+          <img id="galleryMemeInvestigazioni" class="meme-img" src="https://i.redd.it/rcrzgv5khgib1.png" alt="Meme Investigazioni">
+          <em class="caption">La meticolosa ricerca della verità tra prove e segreti nascosti.</em>
+        </li>
+        <li>
+          <strong>Meme Sorpreso:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeSorpreso')">Visualizza / Nascondi</button>
+          <img id="galleryMemeSorpreso" class="meme-img" src="https://en.meming.world/images/en/6/6e/Surprised_Pikachu.jpg" alt="Meme Sorpreso">
+          <em class="caption">Quell’istante in cui la realtà ti colpisce senza preavviso.</em>
+        </li>
+        <li>
+          <strong>Meme Ace Attorney:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeAceAttorney')">Visualizza / Nascondi</button>
+          <img id="galleryMemeAceAttorney" class="meme-img" src="https://media.tenor.com/NeubPwLVK94AAAAe/ace-attorney-phoenix-wright.png" alt="Meme Ace Attorney">
+          <em class="caption">Quando le prove parlano da sole e non si può fare nulla per nasconderle.</em>
+        </li>
+        <li>
+          <strong>Meme della obiezione:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeObiezione')">Visualizza / Nascondi</button>
+          <img id="galleryMemeObiezione" class="meme-img" src="https://i.ytimg.com/vi/T3ZV21N2Ra8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDFYxVwxJki2n1Zpfwh0OcalvbrAw" alt="Meme della obiezione">
+          <em class="caption">Quell'attimo in cui tutto sembra non avere senso… Obiezione!</em>
+        </li>
+        <li>
+          <strong>Meme This is fine:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeThisIsFine')">Visualizza / Nascondi</button>
+          <img id="galleryMemeThisIsFine" class="meme-img" src="https://miro.medium.com/v2/0*ZjYSm_q36J4KChdn" alt="Meme This is fine">
+          <em class="caption">Quando anche il caos più totale viene mascherato da un sorriso forzato.</em>
+        </li>
+        <li>
+          <strong>Good Cop Meme:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeGoodCop')">Visualizza / Nascondi</button>
+          <img id="galleryMemeGoodCop" class="meme-img" src="https://i.chzbgr.com/full/3624388864/h9AA59C33/ill-talk-ill-talk" alt="Good Cop Meme">
+          <em class="caption">L’approccio soft che cerca di lenire tensioni inaspettate.</em>
+        </li>
+        <li>
+          <strong>Refusal Question:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeRefusal')">Visualizza / Nascondi</button>
+          <img id="galleryMemeRefusal" class="meme-img" src="https://media.makeameme.org/created/me-not-answering-40214a8c24.jpg" alt="Refusal Question">
+          <em class="caption">Quando le domande si fanno troppo difficili, e la risposta rimane in sospeso.</em>
+        </li>
+        <li>
+          <strong>Meme huh?:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeHuh')">Visualizza / Nascondi</button>
+          <img id="galleryMemeHuh" class="meme-img" src="https://www.pngitem.com/pimgs/m/223-2233202_futaba-persona-5-meme-hd-png-download.png" alt="Meme huh?">
+          <em class="caption">Il silenzio di chi resta perplesso davanti a fatti incredibili.</em>
+        </li>
+        <li>
+          <strong>Meme: Expelled from School:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeExpelled')">Visualizza / Nascondi</button>
+          <img id="galleryMemeExpelled" class="meme-img" src="https://i.ytimg.com/vi/ScTSH6pkaB0/maxresdefault.jpg" alt="Expelled from School">
+          <em class="caption">Il duro colpo di essere esclusi, non solo dalla scuola, ma anche dalla sicurezza di casa.</em>
+        </li>
+        <li>
+          <strong>Meme Angry:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeAngry')">Visualizza / Nascondi</button>
+          <img id="galleryMemeAngry" class="meme-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNmQT2ZZtOG0OplqC4vQaESU1FYs_KMsgUVA&s" alt="Meme Angry">
+          <em class="caption">La rabbia che esplode proprio quando meno te lo aspetti.</em>
+        </li>
+        <li>
+          <strong>Realization Meme:</strong>
+          <button class="interactive-btn" onclick="toggleMeme('galleryMemeRealization')">Visualizza / Nascondi</button>
+          <img id="galleryMemeRealization" class="meme-img" src="https://i.pinimg.com/236x/42/5a/20/425a206924b9054e26290d8bf25dd639.jpg" alt="Realization Meme">
+          <em class="caption">Il momento in cui ogni verità si fa subito chiara, anche se arriva troppo tardi.</em>
+        </li>
+      </ul>
+    </section>
+    
+<!-- Quiz Finale -->
+<section id="quiz">
+  <h2>Quiz Finale</h2>
+  <p>
+    Ora che avete seguito ogni emozionante capitolo del percorso di Marco, mettete alla prova la vostra attenzione e comprensione con il nostro quiz finale. Dimostrate di aver colto ogni dettaglio, riferimento ironico e le implicazioni legali della storia.
+  </p>
+  <form id="quizForm">
+    <ol>
+      <!-- Question 1 -->
+      <li>
+        <p>1. Durante il furto dello smartphone, quale meme rappresenta al meglio il sentimento di invincibilità di Marco?</p>
+        <div class="options">
+          <input type="radio" id="q1a" name="q1" value="memeBoss">
+          <label for="q1a">Meme Boss</label><br>
+          <input type="radio" id="q1b" name="q1" value="memeInvestigazioni">
+          <label for="q1b">Meme Investigazioni</label><br>
+          <input type="radio" id="q1c" name="q1" value="memeGoodCop">
+          <label for="q1c">Good Cop Meme</label>
+        </div>
+        <div class="meme-image">
+          <img src="https://static.tvtropes.org/pmwiki/pub/images/3b44c1c2_be9a_49eb_8e6e_323d67e91011.jpeg" alt="Meme Boss" style="max-width:200px;">
+        </div>
+      </li>
+
+      <!-- Question 2 -->
+      <li>
+        <p>2. Quale meme enfatizza il momento in cui la verità emerge dalle indagini della polizia?</p>
+        <div class="options">
+          <input type="radio" id="q2a" name="q2" value="memeInvestigazioni">
+          <label for="q2a">Meme Investigazioni</label><br>
+          <input type="radio" id="q2b" name="q2" value="memeSorpreso">
+          <label for="q2b">Meme Sorpreso</label><br>
+          <input type="radio" id="q2c" name="q2" value="memeRefusal">
+          <label for="q2c">Refusal Question</label>
+        </div>
+        <div class="meme-image">
+          <img src="https://i.redd.it/rcrzgv5khgib1.png" alt="Meme Investigazioni" style="max-width:200px;">
+        </div>
+      </li>
+
+      <!-- Question 3 -->
+      <li>
+        <p>3. Durante il colloquio con le autorità, quale meme esprime al meglio il sentimento di sorpresa?</p>
+        <div class="options">
+          <input type="radio" id="q3a" name="q3" value="memeSorpreso">
+          <label for="q3a">Meme Sorpreso</label><br>
+          <input type="radio" id="q3b" name="q3" value="memeGoodCop">
+          <label for="q3b">Good Cop Meme</label><br>
+          <input type="radio" id="q3c" name="q3" value="memeObiezione">
+          <label for="q3c">Meme della obiezione</label>
+        </div>
+        <div class="meme-image">
+          <img src="https://en.meming.world/images/en/6/6e/Surprised_Pikachu.jpg" alt="Meme Sorpreso" style="max-width:200px;">
+        </div>
+      </li>
+
+      <!-- Question 4 -->
+      <li>
+        <p>4. A quale punto della storia viene utilizzato il Good Cop Meme?</p>
+        <div class="options">
+          <input type="radio" id="q4a" name="q4" value="colloquio">
+          <label for="q4a">Durante il colloquio con le autorità</label><br>
+          <input type="radio" id="q4b" name="q4" value="indagini">
+          <label for="q4b">Durante le indagini della polizia</label><br>
+          <input type="radio" id="q4c" name="q4" value="messa">
+          <label for="q4c">Durante la messa alla prova</label>
+        </div>
+      </li>
+
+      <!-- Question 5 -->
+      <li>
+        <p>5. Quale meme viene usato per rappresentare il momento in cui Marco affronta il giudizio della scuola?</p>
+        <div class="options">
+          <input type="radio" id="q5a" name="q5" value="memeExpelled">
+          <label for="q5a">Meme: Expelled from School</label><br>
+          <input type="radio" id="q5b" name="q5" value="memeThisIsFine">
+          <label for="q5b">Meme This is Fine</label><br>
+          <input type="radio" id="q5c" name="q5" value="memeRealization">
+          <label for="q5c">Realization Meme</label>
+        </div>
+        <div class="meme-image">
+          <img src="https://i.ytimg.com/vi/ScTSH6pkaB0/maxresdefault.jpg" alt="Meme Expelled" style="max-width:200px;">
+        </div>
+      </li>
+
+      <!-- Question 6 -->
+      <li>
+        <p>6. Associa il meme al momento corretto della storia: <strong>Meme Ace Attorney</strong></p>
+        <div class="options">
+          <input type="radio" id="q6a" name="q6" value="colloquio">
+          <label for="q6a">Durante il colloquio con le autorità</label><br>
+          <input type="radio" id="q6b" name="q6" value="messa">
+          <label for="q6b">Durante la messa alla prova in tribunale</label><br>
+          <input type="radio" id="q6c" name="q6" value="percorso">
+          <label for="q6c">Durante il percorso di introspezione</label>
+        </div>
+        <div class="meme-image">
+          <img src="https://media.tenor.com/NeubPwLVK94AAAAe/ace-attorney-phoenix-wright.png" alt="Meme Ace Attorney" style="max-width:200px;">
+        </div>
+      </li>
+
+      <!-- Question 7 -->
+      <li>
+        <p>7. Quale meme evidenzia il sentimento di fallimento e l'accettazione del caos interiore?</p>
+        <div class="options">
+          <input type="radio" id="q7a" name="q7" value="memeThisIsFine">
+          <label for="q7a">Meme This is Fine</label><br>
+          <input type="radio" id="q7b" name="q7" value="memeObiezione">
+          <label for="q7b">Meme della obiezione</label><br>
+          <input type="radio" id="q7c" name="q7" value="memeAngry">
+          <label for="q7c">Meme Angry</label>
+        </div>
+        <div class="meme-image">
+          <img src="https://miro.medium.com/v2/0*ZjYSm_q36J4KChdn" alt="Meme This is Fine" style="max-width:200px;">
+        </div>
+      </li>
+
+      <!-- Question 8 -->
+      <li>
+        <p>8. In quale parte della storia si introduce il "Meme huh?" e qual è il suo scopo narrativo?</p>
+        <div class="options">
+          <input type="radio" id="q8a" name="q8" value="servizi">
+          <label for="q8a">Durante l'intervento dei Servizi Sociali per esprimere confusione</label><br>
+          <input type="radio" id="q8b" name="q8" value="colloquio">
+          <label for="q8b">Durante il colloquio, per evidenziare l'incredulità</label><br>
+          <input type="radio" id="q8c" name="q8" value="percorso">
+          <label for="q8c">Durante il percorso personale di Marco</label>
+        </div>
+        <div class="meme-image">
+          <img src="https://www.pngitem.com/pimgs/m/223-2233202_futaba-persona-5-meme-hd-png-download.png" alt="Meme huh?" style="max-width:200px;">
+        </div>
+      </li>
+
+      <!-- Question 9 -->
+      <li>
+        <p>9. Quale meme viene utilizzato per rappresentare il momento di consapevolezza finale di Marco?</p>
+        <div class="options">
+          <input type="radio" id="q9a" name="q9" value="memeRealization">
+          <label for="q9a">Realization Meme</label><br>
+          <input type="radio" id="q9b" name="q9" value="memeInvestigazioni">
+          <label for="q9b">Meme Investigazioni</label><br>
+          <input type="radio" id="q9c" name="q9" value="memeExpelled">
+          <label for="q9c">Meme: Expelled from School</label>
+        </div>
+        <div class="meme-image">
+          <img src="https://i.pinimg.com/236x/42/5a/20/425a206924b9054e26290d8bf25dd639.jpg" alt="Realization Meme" style="max-width:200px;">
+        </div>
+      </li>
+
+      <!-- Question 10 -->
+      <li>
+        <p>10. Quale meme meglio riflette il mix di humor e disperazione che caratterizza la storia di Marco?</p>
+        <div class="options">
+          <input type="radio" id="q10a" name="q10" value="memeBossMocking">
+          <label for="q10a">Boss mocking a girl</label><br>
+          <input type="radio" id="q10b" name="q10" value="memeGoodCop">
+          <label for="q10b">Good Cop Meme</label><br>
+          <input type="radio" id="q10c" name="q10" value="memeSorpreso">
+          <label for="q10c">Meme Sorpreso</label>
+        </div>
+        <div class="meme-image">
+          <img src="https://images7.memedroid.com/images/UPLOADED806/645c5c34ab2aa.jpeg" alt="Boss mocking a girl" style="max-width:200px;">
+        </div>
+      </li>
+
+      <!-- Question 11 (Law-related) -->
+      <li>
+        <p>11. Qual è l'importanza della messa alla prova nel sistema giudiziario minorile?</p>
+        <div class="options">
+          <input type="radio" id="q11a" name="q11" value="possibilita">
+          <label for="q11a">Permette una seconda possibilità al giovane, evitando la detenzione</label><br>
+          <input type="radio" id="q11b" name="q11" value="punizione">
+          <label for="q11b">Rappresenta una punizione severa e definitiva</label><br>
+          <input type="radio" id="q11c" name="q11" value="inutilita">
+          <label for="q11c">Non ha alcun impatto sul percorso riabilitativo</label>
+        </div>
+      </li>
+
+      <!-- Question 12 (Law-related) -->
+      <li>
+        <p>12. In che modo il ruolo dei Servizi Sociali è fondamentale nel percorso di riabilitazione di Marco?</p>
+        <div class="options">
+          <input type="radio" id="q12a" name="q12" value="supporto">
+          <label for="q12a">Offrendo supporto emotivo e interventi mirati alle dinamiche familiari</label><br>
+          <input type="radio" id="q12b" name="q12" value="punizione">
+          <label for="q12b">Facendo pressione per una punizione più severa</label><br>
+          <input type="radio" id="q12c" name="q12" value="ignoranza">
+          <label for="q12c">Ignorando i problemi e lasciando che la situazione peggiori</label>
+        </div>
+      </li>
+    </ol>
+    <button type="submit">Invia Risposte</button>
+  </form>
+</section>
+
+<script>
+document.getElementById('quizForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  // Define the correct answers for each question
+  const correctAnswers = {
+    q1: 'memeBoss',
+    q2: 'memeInvestigazioni',
+    q3: 'memeSorpreso',
+    q4: 'colloquio',
+    q5: 'memeExpelled',
+    q6: 'messa',
+    q7: 'memeThisIsFine',
+    q8: 'servizi',
+    q9: 'memeRealization',
+    q10: 'memeBossMocking',
+    q11: 'possibilita',
+    q12: 'supporto'
+  };
+
+  let score = 0;
+  let wrongAnswers = 0;
+  const totalQuestions = Object.keys(correctAnswers).length;
+
+  // Loop over each question and check the answer
+  for (let question in correctAnswers) {
+    const selectedOption = document.querySelector('input[name="' + question + '"]:checked');
+    if (selectedOption) {
+      if (selectedOption.value === correctAnswers[question]) {
+        score++;
+      } else {
+        wrongAnswers++;
+      }
+    } else {
+      // Count unanswered questions as wrong answers
+      wrongAnswers++;
+    }
+  }
+
+  let message = "Hai risposto correttamente a " + score + " su " + totalQuestions + " domande.";
+  if (wrongAnswers >= 3) {
+    message += " Consiglio: rivedi attentamente le sezioni sulla storia e sul diritto per migliorare la comprensione.";
+  }
+  alert(message);
+});
+</script>
+
+    
+  </main>
+</div>
+
+
+<footer>
+  <p>La pagina è stata realizzata per scopi didattici e di intrattenimento.</p>
+  <button id="musicControl" onclick="toggleMusic()">Avvia/Metti in pausa le Musichette</button>
+  <br>
+  <!-- Audio player nascosto -->
+  <audio id="backgroundMusic" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+</footer>
+
+<script>
+  // Navigazione: mostra la sezione scelta e nasconde le altre
+  const navButtons = document.querySelectorAll('.nav-button');
+  const sections = document.querySelectorAll('main section');
+
+  navButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const target = button.getAttribute('data-target');
+      sections.forEach(section => {
+        section.classList.remove('active');
+      });
+      document.getElementById(target).classList.add('active');
+      // Scrolla in cima al main
+      document.querySelector('main').scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+
+  // Funzione per mostrare/nascondere meme
+  function toggleMeme(id) {
+    const meme = document.getElementById(id);
+    if (meme.style.display === "block") {
+      meme.style.display = "none";
+    } else {
+      meme.style.display = "block";
+    }
+  }
+
+  // Funzione per il quiz interattivo
+  function checkAnswer(answer) {
+    const feedback = document.getElementById("quizFeedback");
+    if (answer === 'correct') {
+      feedback.innerHTML = "<span style='color: green;'>Corretto! Marco ha imparato che il crimine non paga e che ogni errore può diventare una nuova opportunità.</span>";
+    } else {
+      feedback.innerHTML = "<span style='color: red;'>Risposta errata. Riprova!</span>";
+    }
+  }
+
+  // Funzione per il controllo della musica
+  function toggleMusic() {
+    const audio = document.getElementById("backgroundMusic");
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+</script>
+</body>
+</html>

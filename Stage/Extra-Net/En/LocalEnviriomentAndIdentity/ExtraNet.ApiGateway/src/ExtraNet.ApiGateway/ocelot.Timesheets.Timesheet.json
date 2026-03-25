@@ -1,0 +1,149 @@
+{
+    "GlobalConfiguration": {
+        "Prefix": null,
+        "HostTimesheets": null,
+        "PortTimesheets": null
+    },
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/Timesheet/GetMyMonthlyTimesheet/{month}/{year}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetMyMonthlyTimesheet/{month}/{year}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "SelfCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Timesheet/SaveDraftOfMyMonthlyTimesheet",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}SaveDraftOfMyMonthlyTimesheet",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "SelfCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Timesheet/SubmitMyMonthlyTimesheet/{month}/{year}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}SubmitMyMonthlyTimesheet/{month}/{year}",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "SelfCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Timesheet/ExportExcelOfMonthlyTimesheetById/{monthlyTimesheetId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}ExportExcelOfMonthlyTimesheetById/{monthlyTimesheetId}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Timesheet/GetMonthlyTimesheetById/{monthlyTimesheetId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetMonthlyTimesheetById/{monthlyTimesheetId}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Timesheet/GetAllSubmittedMonthlyTimesheets",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetAllSubmittedMonthlyTimesheets",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Timesheet/DraftOfMonthlyTimesheets/{monthlyTimesheetId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}DraftOfMonthlyTimesheets/{monthlyTimesheetId}",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        }
+    ]
+}

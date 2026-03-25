@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/pages.css" />
+  <script defer src="../javascript/nav.js"></script>
+</head>
+<body>
+  <nav aria-label="Primary Navigation">
+    <button id="homeBtn">Home</button>
+    <button id="aboutBtn" aria-current="page">About</button>
+    <button id="contactBtn">Contact</button>
+    <button id="gameBtn">Game</button>
+  </nav>
+
+  <main class="container">
+    <header class="hero" aria-label="Company intro">
+      <h1>About our company</h1>
+      <p>We build reliable software and delightful experiences.</p>
+    </header>
+
+    <section class="about card" id="about">
+      <h2>Who we are</h2>
+      <p>We are a team of engineers, designers, and educators focused on shipping robust products that solve real problems.</p>
+      <ul class="bullets">
+        <li>End-to-end development: discovery → delivery → growth</li>
+        <li>Accessible, performant, and secure by default</li>
+        <li>Transparent collaboration and frequent demos</li>
+      </ul>
+    </section>
+
+    <section class="what-we-do card" id="what-we-do">
+      <h2>What we do</h2>
+      <div class="grid grid-3">
+        <article>
+          <h3>Product Engineering</h3>
+          <p>API-driven apps, cloud backends, and modern front-ends.</p>
+        </article>
+        <article>
+          <h3>Design & UX</h3>
+          <p>Research-led interfaces that are inclusive and consistent.</p>
+        </article>
+        <article>
+          <h3>Data & Automation</h3>
+          <p>Dashboards, ETL, and workflows that save time.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery card" aria-label="Image gallery">
+      <h2>In pictures</h2>
+      <div class="grid grid-4">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" alt="Developers collaborating at laptops" />
+          <figcaption>Pair programming to reduce defects and share knowledge.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://miro.medium.com/1*epqcNSs9BLwjvLfW8tkMrg.jpeg" alt="Sticky notes on a wall during a design sprint" />
+          <figcaption>Design sprints to align on goals quickly.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1488229297570-58520851e868?q=80&w=1200&auto=format&fit=crop" alt="Server racks with indicator lights" />
+          <figcaption>Secure, monitored infrastructure.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1200&auto=format&fit=crop" alt="Code on screen in a modern workspace" />
+          <figcaption>Clean code and clear processes.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="values card" id="values">
+      <h2>Our values</h2>
+      <ul class="bullets">
+        <li><strong>Integrity:</strong> promises made are promises kept.</li>
+        <li><strong>Craft:</strong> we sweat the details so users don’t have to.</li>
+        <li><strong>Learning:</strong> continuous improvement beats perfection.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © <span>2025</span> Industry Of Memory — <a href="mailto:info@memorygames.com">info@memorygames.com</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,34 @@
+global: 
+  imageRegistry: ghcr.io/extranetsrl
+
+nameOverride: ""
+fullnameOverride: ""
+
+extranetapigateway:
+  image:
+    repository: extranet.apigateway
+    pullPolicy: IfNotPresent
+    tag: ""
+
+service:
+  name: http
+  type: ClusterIP
+  port: 80
+  protocol: TCP
+  targetPort: 8080
+
+ingress:
+  enabled: false
+  ingressClassName: ""
+  hostname: ""
+  pathType: "ImplementationSpecific"
+  path: "/gateway/"
+  useRegex: false
+
+secrets:
+  imageRegistry:
+    enabled: false
+    prefixName: ""
+    address: ""
+    username: ""
+    password: ""

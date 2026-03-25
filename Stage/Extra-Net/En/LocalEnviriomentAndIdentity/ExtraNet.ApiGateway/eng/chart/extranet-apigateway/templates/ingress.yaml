@@ -1,0 +1,24 @@
+{{ if .Values.ingress.enabled }}
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ include "extranet-apigateway.fullname" . }}
+  {{- if .Values.ingress.useRegex }}
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    nginx.ingress.kubernetes.io/use-regex: "true"
+  {{- end }}
+spec:
+  ingressClassName: {{ .Values.ingress.ingressClassName }}
+  rules:
+    - host: {{ .Values.ingress.hostname }}
+      http:
+        paths:
+        - backend:
+            service:
+              name: {{ include "extranet-apigateway.fullname" . }}
+              port:
+                name: {{ .Values.service.name }}
+          path: {{ .Values.ingress.path }}{{ if .Values.ingress.useRegex }}(.*){{ end }}
+          pathType: {{ .Values.ingress.pathType }}
+{{ end }}

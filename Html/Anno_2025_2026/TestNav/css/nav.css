@@ -1,0 +1,148 @@
+/* Page Body and Divisions */
+
+body {
+  margin: 0;
+  padding-top: var(--nav-h);
+  font-family: system-ui, sans-serif;
+  background-color: #640101;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.flip-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);  
+  gap: 20px;
+  justify-items: center; 
+  align-items: center; 
+  padding: 20px;
+}
+
+/* Navigation Bar */
+
+:root {
+  --nav-h: 70px;
+}
+
+html, body { margin: 0; }
+body { padding-top: var(--nav-h); font-family: system-ui, sans-serif; }
+
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--nav-h);
+  display: flex;
+  align-items: center;
+  gap: 30px;          
+  padding: 0 16px;  
+  background: #111; 
+  color: #fff;
+  z-index: 1000;
+}
+
+nav { justify-content: center; }       
+
+nav a,
+nav button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+nav a:hover, nav a:focus,
+nav button:hover, nav button:focus {
+  background: #480000;
+  outline: none;
+}
+
+@media (max-width: 420px) {
+  nav { flex-wrap: wrap; height: auto; padding-top: 8px; padding-bottom: 8px; }
+  body { padding-top: calc(var(--nav-h) + 16px); }
+}
+
+/* Flip Card */
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  border: 1px solid #6a0000;
+  border-radius: 10px;
+}
+
+.flip-card-front {
+  background: rgb(9, 14, 16);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 0px 20px;
+}
+
+.flip-card-back {
+  background: rgb(58, 0, 0);
+  color: rgb(255, 255, 255);
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0px 20px;
+}
+
+.imageFlip {
+  width: 300%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Game Button */
+#startGameBtn, #resetBtn {
+  color: rgb(255, 255, 255);
+  width: 200px;
+  height: 70px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

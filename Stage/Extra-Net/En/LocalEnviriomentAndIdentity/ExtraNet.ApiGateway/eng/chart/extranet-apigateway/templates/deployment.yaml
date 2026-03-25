@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "extranet-apigateway.fullname" . }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: extranet-apigateway
+  template:
+    metadata:
+      labels:
+        app: extranet-apigateway
+    spec:
+      serviceAccountName: {{ include "extranet-apigateway.fullname" . }}
+      containers:
+        - name: extranet-apigateway
+          image: {{ include "extranet-apigateway.image" ( dict "imageRoot" .Values.extranetapigateway.image "global" .Values.global "scope" $ ) }}
+          imagePullPolicy: {{ .Values.extranetapigateway.image.pullPolicy }}
+          env:
+            - name: Authentication__Keycloak__Authority
+              value: http://keycloak.keycloak.svc.cluster.local:80/keycloak/realms/extra-net
+            - name: Authentication__Keycloak__TokenValidation__ValidIssuer
+              value: http://keycloak.keycloak.svc.cluster.local:80/keycloak/realms/extra-net
+            - name: Ocelot__SwaggerHttpRelativePath
+              value: {{ .Values.ingress.path }}

@@ -1,0 +1,129 @@
+{
+    "GlobalConfiguration": {
+        "Prefix": null,
+        "HostTimesheets": null,
+        "PortTimesheets": null
+    },
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/Documents/UploadMyDocument",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}UploadMyDocument",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "SelfCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Documents/UploadDocument",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}UploadDocument",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Documents/GetDocumentsByEmployeeId/{employeeId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetDocumentsByEmployeeId/{employeeId}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Documents/GetMyDocuments",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetMyDocuments",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "SelfCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Documents/GetDocument/{documentId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetDocument/{documentId}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "SelfCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Documents/DeleteDocument/{documentId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}DeleteDocument/{documentId}",
+            "UpstreamHttpMethod": [ "Delete" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        }
+    ]
+}

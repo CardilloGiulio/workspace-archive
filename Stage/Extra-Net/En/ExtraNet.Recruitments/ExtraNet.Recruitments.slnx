@@ -1,0 +1,13 @@
+<Solution>
+    <Folder Name="/src/" Id="02ea681e-c7d8-13c7-8484-4ac65e1b71e8">
+        <Project Path="src/ExtraNet.Recruitments.API/ExtraNet.Recruitments.API.csproj" />
+        <Project Path="src/ExtraNet.Recruitments.Command.Abstractions/ExtraNet.Recruitments.Command.Abstractions.csproj" Id="5a1748a4-8a18-45fd-8acb-a488f9f687da" />
+        <Project Path="src/ExtraNet.Recruitments.Command/ExtraNet.Recruitments.Command.csproj" Id="fc2864d4-2ebc-453b-a0b7-f4472c544372" />
+        <Project Path="src/ExtraNet.Recruitments.Domain/ExtraNet.Recruitments.Domain.csproj" Id="3d684474-2654-4b42-b316-435f0f6abf59" />
+        <Project Path="src/ExtraNet.Recruitments.Job/ExtraNet.Recruitments.Job.csproj" Id="4787994e-c2e6-47e5-837c-6420e03efb20" />
+        <Project Path="src/ExtraNet.Recruitments.Persistence.Migrations/ExtraNet.Recruitments.Persistence.Migrations.csproj" />
+        <Project Path="src/ExtraNet.Recruitments.Persistence/ExtraNet.Recruitments.Persistence.csproj" Id="7e613a1e-c4a7-401b-bd96-5c2fd95bca50" />
+        <Project Path="src/ExtraNet.Recruitments.Query.Abstractions/ExtraNet.Recruitments.Query.Abstractions.csproj" Id="d6f5b0c6-97bf-49c8-a38b-460c940b6512" />
+        <Project Path="src/ExtraNet.Recruitments.Query/ExtraNet.Recruitments.Query.csproj" Id="1ab96edb-cf7a-4cd8-9115-a791a28a672a" />
+    </Folder>
+</Solution>

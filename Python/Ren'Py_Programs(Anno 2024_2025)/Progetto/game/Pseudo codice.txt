@@ -1,0 +1,122 @@
+## Dichiarazioni delle risorse grafiche
+# Backgrounds
+image bg lab_interno = "bg_lab_interior.png" -> OK
+image bg corridoio_laboratorio = "bg_lab_corridor.png" -> OK
+image bg esplosione = "bg_lab_explosion.png" -> NO
+image bg sotterraneo = "bg_lab_underground.png" -> NO
+image bg esperimento_successo = "bg_lab_experiment_success.png" -> NO
+image bg esperimento_completato = "bg_lab_experiment_complete.png" -> NO
+
+# Sprites di personaggi
+# Mario -> under check
+image mario neutral = "mario_neutral.png" 
+image mario proud = "mario_proud.png"
+image mario despair = "mario_despair.png"
+image mario sadico = "mario_sadico.png"
+image mario impazzito = "mario_impazzito.png"
+
+# Marks
+image marks smirk = "marks_smirk.png" -> NO
+image marks shadow = "marks_shadow.png" -> NO
+image marks panic = "marks_panic.png" -> NO
+
+# Professore
+image professore serious = "professore_serious.png" -> NO
+
+## Script Ren'Py
+label start:
+    scene bg lab_interno with fade
+    narrator "Un’aula di chimica avvolta in un bagliore al neon. Microscopi, beute e provette punteggiano i tavoli, mentre una macchina misteriosa emette un crepitio sommesso."
+    narrator "Mario ha ideato una soluzione chimica capace di dissolvere la plastica senza lasciare residui contaminanti."
+    show mario neutral at center
+    mario "Se funziona, potremmo riscrivere le regole della sostenibilità."
+
+    show marks smirk at right
+    marks "Interessante... ma io potrei fare di meglio."
+
+    narrator "Nasce così la rivalità, celata dietro sorrisi di circostanza."
+
+    jump sabotaggio
+
+label sabotaggio:
+    scene bg lab_interno with fade
+    narrator "Le prime avvisaglie: guarnizioni leggermente allentate, tracce di reagenti estranei nelle provette."
+    show marks shadow at left
+    marks "Piccoli inconvenienti, nulla che non possa risolvere."
+
+    narrator "Mario avverte una tensione crescente, un sussurro continuo nei corridoi del laboratorio, come un presagio di colpa."
+    mario "Qualcuno sta manomettendo il sistema..."
+    
+    narrator "Ma la mente inizia a vacillare: dubbio e paranoia si insinuano."
+
+    jump sviluppo
+
+label sviluppo:
+    scene bg lab_interno with fade
+    narrator "Mario combatte tra l’entusiasmo dell’innovazione e la paura del fallimento. Gli appunti sul tavolo si mescolano a schizzi di formule avanzate."
+    narrator "Sa che il progetto potrebbe salvare ecosistemi interi, ridurre l’impatto della plastica, usare solo composti rinnovabili."
+    
+    narrator "Marks, mosso da invidia, intensifica i sabotaggi: circuiti cortocircuitati, interferenze chimiche, messaggi criptici lasciati sul vetro del cappe aspiranti."
+    
+    narrator "La fiducia tra i due è rotta. Mario inizia a sentirsi osservato, la sua mente scricchiola come la vetreria incrinata."
+
+    menu:
+        "Quale finale esplorare?":
+            "Tragedia":
+                jump tragedia
+            "Miracolo":
+                jump miracolo
+            "Ossessione":
+                jump ossessione
+
+label tragedia:
+    scene bg esplosione with flash
+    narrator "Il sabotaggio di Marks raggiunge l’apice: un componente chiave implode, una reazione incontrollata scoppia nell’aria."
+    show marks panic at right
+    marks "No... non volevo questo!"
+    
+    narrator "Un'esplosione fatale travolge la stanza. Frammenti di vetro e odore di acidi saturano l’aria."
+    narrator "Marks, vittima della sua stessa follia, soccombe ai propri errori."
+    
+    show mario despair at center
+    narrator "Mario crolla psicologicamente. La soluzione si disperde nel vento, emblema della sua rovina."
+    narrator "La speranza di un mondo migliore si spegne in un boato di metallo rotto."
+    
+    return
+
+label miracolo:
+    scene bg corridoio_laboratorio with fade
+    narrator "Il caos è vicino, quando un professore irrompe nel laboratorio."
+    show professore serious at left
+    professore "Fermi tutti! Seguite le mie indicazioni, ora!"
+    
+    narrator "Ripara rapidamente i danni, espelle Marks e riassembla i circuiti compromessi."
+    narrator "Con mani abili e mente lucida, guida Mario verso la rincorsa del successo."
+    
+    scene bg esperimento_successo with dissolve
+    narrator "La macchina entra in funzione meglio di quanto chiunque avesse osato sperare."
+    show mario proud at center
+    mario "Ce l’abbiamo fatta... davvero!"
+    
+    narrator "La notizia si diffonde: Mario è consacrato genio della chimica sostenibile."
+    narrator "Il mondo intero gli deve gratitudine per aver trasformato un’idea in rivoluzione."
+    
+    return
+
+label ossessione:
+    scene bg sotterraneo with dissolve
+    narrator "La paranoia di Mario raggiunge il culmine. Convinto che Marks voglia distruggerlo, decide di agire."
+    show mario sadico at center
+    mario "Non lascerò che si rialzi..."
+    
+    narrator "Lo rinchiude in un sotterraneo freddo, tra tubazioni fumanti e odori acrei."
+    narrator "Tra psicologici tormenti e crudeli esperimenti, Mario trasforma la vendetta nel vero motore del progetto."
+    
+    scene bg esperimento_completato with fade
+    narrator "La soluzione chimica è infine completa, perfetta nei suoi equilibri."
+    narrator "Ma il costo è la sua stessa umanità, marchiata da ossessioni e colpe impossibili da lavare via."
+    
+    show mario impazzito at center
+    narrator "Il genio ha perso sé stesso, sacrificando l'empatia sull'altare della vendetta."
+    
+    return

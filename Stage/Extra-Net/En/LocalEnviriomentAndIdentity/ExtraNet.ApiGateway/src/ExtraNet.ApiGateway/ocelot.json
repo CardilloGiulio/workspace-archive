@@ -1,0 +1,24 @@
+﻿{
+    "GlobalConfiguration": {
+        "Prefix": null,
+        "HostTimesheets": null,
+        "PortTimesheets": null,
+        "HostIdentity": null,
+        "PortIdentity": null,
+        "HostRecruitments": null,
+        "PortRecruitments": null
+    },
+
+    "SwaggerEndPoints": [
+        {
+            "Key": "ExtraNet.Identity.API",
+            "Config": [
+                {
+                    "Name": "ExtraNet Identity API",
+                    "Version": "v1",
+                    "Url": "http://{HostIdentity}:{PortIdentity}/swagger/v1/swagger.json"
+                }
+            ]
+        }
+    ]
+}

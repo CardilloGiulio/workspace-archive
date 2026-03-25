@@ -1,0 +1,11 @@
+{
+    "GlobalConfiguration": {
+        "Prefix": "/gateway/",
+        "HostTimesheets": "extranet-timesheets-api.extranet-timesheets.svc.cluster.local",
+        "PortTimesheets": 80,
+        "HostIdentity": "extranet-identity-api.extranet-identity.svc.cluster.local",
+        "PortIdentity": 80,
+        "HostRecruitments": "extranet-recruitments-api.extranet-recruitments.svc.cluster.local",
+        "PortRecruitments": 80
+    }
+}

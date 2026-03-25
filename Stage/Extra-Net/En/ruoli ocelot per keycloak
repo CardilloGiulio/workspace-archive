@@ -1,0 +1,37 @@
+HumanResourcesCompleteDataEdit:
+  HumanResourcesPersonalInfoEdit:
+    - HumanResourcesPersonalInfoView
+  HumanResourcesCurriculumEdit: -> not implemented in any way
+    - HumanResourcesCurriculumView -> not implemented in any way
+    - HumanResourcesCurriculumAdd -> not implemented in any way
+    - HumanResourcesCurriculumUpdate -> not implemented in any way
+    - HumanResourcesCurriculumRemove -> not implemented in any way
+
+HumanResourcesCompleteDataView:
+  - HumanResourcesPersonalInfoView
+  - HumanResourcesCurriculumView -> not implemented in any way
+
+HumanResourceSelfCompleteDataEdit: -> not implemented in any way
+  HumanResourceSelfPersonalInfoEdit: -> not implemented in any way
+    - HumanResourceSelfPersonalInfoView -> not implemented in any way
+  HumanResourceSelfCurriculumEdit: -> not implemented in any way
+    - HumanResourceSelfCurriculumView -> not implemented in any way
+    - HumanResourceSelfCurriculumAdd -> not implemented in any way
+    - HumanResourceSelfCurriculumUpdate -> not implemented in any way
+    - HumanResourceSelfCurriculumRemove -> not implemented in any way
+
+HumanResourceSelfCompleteDataView: -> not implemented in any way
+  - HumanResourceSelfPersonalInfoView -> not implemented in any way
+  - HumanResourceSelfCurriculumView -> not implemented in any way
+
+JobDescriptionsEdit:
+  - JobDescriptionsView
+  - JobDescriptionsAdd
+  - JobDescriptionsUpdate
+  - JobDescriptionsRemove
+
+CustomersEdit:
+  - CustomersView
+  - CustomersAdd
+  - CustomersUpdate 
+  - CustomersRemove 

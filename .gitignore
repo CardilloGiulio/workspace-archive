@@ -1,0 +1,110 @@
+# =========================
+# Global / OS junk
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Python
+# =========================
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+**/venv/
+**/.venv/
+**/env/
+**/ENV/
+
+# =========================
+# Next.js / Node.js
+# =========================
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Unity
+# =========================
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/MemoryCaptures/
+**/Recordings/
+**/.vs/
+**/.idea/
+**/.gradle/
+**/ExportedObj/
+**/.consulo/
+*.stacktrace
+sysinfo.txt
+
+**/*_BurstDebugInformation_DoNotShip/
+**/*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Large Unity / exported / archive files
+**/*.zip
+**/*.fbx
+**/*.resS
+**/Dante RPG_Data/
+**/*_Data/
+
+**/*.assets
+
+# =========================
+# C# / .NET
+# =========================
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/AnyCPU/
+**/.vs/
+**/.idea/
+**/packages/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.nupkg
+*.snupkg
+**/TestResults/
+*.coverage
+*.coveragexml
+
+# =========================
+# Archive-specific
+# =========================
+**/Archivio spiegazioni/
+
+# =========================
+# Generic temp files
+# =========================
+*.tmp
+*.temp
+*.log
+*.cache
+*.bak
+*.old
+*.swp

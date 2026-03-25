@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OP DELIVERED – CONGRATS!</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- Existing nav styles -->
+    <link rel="stylesheet" href="../css/nav.css" />
+    <!-- Page-specific styles -->
+    <link rel="stylesheet" href="../css/endGame.css" />
+
+    <!-- Existing nav logic -->
+    <script defer src="../javascript/nav.js"></script>
+    <!-- Page-specific logic -->
+    <script defer src="../javascript/endGame.js"></script>
+  </head>
+  <body>
+    <nav aria-label="Primary">
+      <button type="button" id="homeBtn">Home</button>
+      <button type="button" id="aboutBtn">About</button>
+      <button type="button" id="contactBtn">Contact</button>
+      <button type="button" id="gameBtn" aria-current="page">Game</button>
+    </nav>
+
+    <header class="bar">
+      <div class="logo">
+        <div class="snoo"></div>
+        <div>r/YouWin</div>
+      </div>
+      <div class="pill">flair: <b>OP DELIVERED</b></div>
+      <button class="btn" id="btnAward">Give Award</button>
+      <button class="btn" id="btnUpvoteRain">Upvote Rain</button>
+      <button class="btn" id="btnRick">Totally not a rickroll</button>
+      <div class="karma">
+        Karma: <span class="score" id="karma">42</span>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="card">
+        <div class="hero">
+          <div>
+            <h1>CONGRATULATIONS, OP 🎉</h1>
+            <p>Speedrun complete. Mods are asleep, post confetti.</p>
+            <div class="sub">
+              <span class="tag">
+                GOLD x<strong id="goldCount">0</strong>
+              </span>
+              <span class="tag silver">
+                SILVER x<strong id="silverCount">0</strong>
+              </span>
+              <span class="tag plat">
+                PLATINUM x<strong id="platCount">0</strong>
+              </span>
+            </div>
+          </div>
+          <div class="vote" aria-hidden="true">
+            <div class="arrow up" id="upOne"></div>
+            <div class="scoreMini" id="miniScore">+69</div>
+            <div class="arrow down" id="downOne"></div>
+          </div>
+        </div>
+
+        <h3 class="section-title">r/place mini-board</h3>
+        <div class="place" id="place"></div>
+
+        <div class="controls-row">
+          <button class="btn" id="btnChaos">Randomize Row</button>
+          <button class="btn" id="btnClean">Clear</button>
+          <span class="pill">
+            Tip: click to paint • hold <b>Shift</b> to spam
+          </span>
+        </div>
+      </section>
+
+      <aside class="card">
+        <h3 class="section-title section-title--compact">
+          Comment section (sorting by 🔥)
+        </h3>
+
+        <div class="feed" id="feed"></div>
+
+        <div class="controls-row controls-row--no-wrap">
+          <input
+            id="input"
+            class="btn input-field"
+            placeholder="Drop your copium / based take…"
+          />
+          <button class="btn" id="btnPost">Post</button>
+        </div>
+      </aside>
+    </main>
+
+    <div class="help">
+      <b>Keyboard chaos</b><br />
+      <kbd>F</kbd> pay respects · <kbd>A</kbd> give random award ·
+      <kbd>U</kbd> upvote blast · <kbd>B</kbd> airhorn · <kbd>S</kbd> spawn
+      SUS · <kbd>R</kbd> rickroll<br />
+      Karma autoscales. Try the buttons. Try everything. No regrets.
+    </div>
+
+    <!-- Rickroll modal -->
+    <div class="modal" id="modal">
+      <button class="close" id="closeModal">close</button>
+      <div class="inner">
+        <iframe
+          id="yt"
+          width="100%"
+          height="100%"
+          src=""
+          title="rick"
+          allow="autoplay; encrypted-media"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+{
+    "GlobalConfiguration": {
+        "Prefix": null,
+        "HostRecruitments": null,
+        "PortRecruitments": null
+    },
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/JobDescriptions",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostRecruitments}",
+                    "Port": "{PortRecruitments}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}CreateJobDescription",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Recruitments.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "JobDescriptionsAdd"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/JobDescriptions",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostRecruitments}",
+                    "Port": "{PortRecruitments}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetAllJobDescriptions",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Recruitments.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "JobDescriptionsView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/JobDescriptions/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostRecruitments}",
+                    "Port": "{PortRecruitments}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetJobDescription",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Recruitments.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "JobDescriptionsView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/JobDescriptions/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostRecruitments}",
+                    "Port": "{PortRecruitments}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}UpdateJobDescription",
+            "UpstreamHttpMethod": [ "Put" ],
+            "SwaggerKey": "ExtraNet.Recruitments.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "JobDescriptionsUpdate"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/JobDescriptions/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostRecruitments}",
+                    "Port": "{PortRecruitments}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}DeleteJobDescription",
+            "UpstreamHttpMethod": [ "Delete" ],
+            "SwaggerKey": "ExtraNet.Recruitments.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "JobDescriptionsRemove"
+            }
+        }
+    ]
+}

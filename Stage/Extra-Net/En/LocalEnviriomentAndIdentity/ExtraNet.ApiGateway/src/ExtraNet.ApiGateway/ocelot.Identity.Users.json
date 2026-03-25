@@ -1,0 +1,29 @@
+﻿{
+    "GlobalConfiguration": {
+        "Prefix": null,
+        "HostIdentity": null,
+        "PortIdentity": null
+    },
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/Users",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostIdentity}",
+                    "Port": "{PortIdentity}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}UserResetPassword",
+            "UpstreamHttpMethod": [ "Put" ],
+            "SwaggerKey": "ExtraNet.Identity.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "SelfCompleteDataEdit"
+            }
+        }
+    ]
+}

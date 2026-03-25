@@ -1,0 +1,35 @@
+---
+apiVersion: k3d.io/v1alpha5
+kind: Simple
+metadata:
+  name: extra-net-local-k3s
+servers: 1
+agents: 0
+ports:
+  - port: 3030:30030
+    nodeFilters:
+      - server:0:direct
+  - port: 3031:30031
+    nodeFilters:
+      - server:0:direct
+image: docker.io/rancher/k3s:v1.24.4-k3s1
+registries:
+  config: |
+    mirrors:
+      ghcr.io:
+        endpoint:
+          - http://ghcr.io
+    configs:
+      ghcr.io:
+        auth:
+          username: git
+          password: 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
+options:
+  k3s:
+    extraArgs:
+      - arg: "-disable=traefik"
+        nodeFilters:
+          - server:*
+  k3d:
+    wait: true
+    disableLoadbalancer: true

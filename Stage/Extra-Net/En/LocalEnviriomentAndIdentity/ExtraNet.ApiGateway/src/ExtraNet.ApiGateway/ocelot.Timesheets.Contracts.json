@@ -1,0 +1,189 @@
+{
+    "GlobalConfiguration": {
+        "Prefix": null,
+        "HostTimesheets": null,
+        "PortTimesheets": null
+    },
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/Contracts/GetMyContracts",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetMyContracts",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "SelfCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Contracts/GetAllContracts",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetAllContracts",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Contracts/AddContract",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}AddContract",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Contracts/GetContractById/{contractId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}Contracts/GetContractById/{contractId}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Contracts/DeleteContract/{contractId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}DeleteContract/{contractId}",
+            "UpstreamHttpMethod": [ "Delete" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Contracts/UpdateContract",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}UpdateContract",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Contracts/UnassignContractFromEmployee/{contractId}/{employeeId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}UnassignContractFromEmployee/{contractId}/{employeeId}",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Contracts/AssignContractToEmployee/{contractId}/{employeeId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}AssignContractToEmployee/{contractId}/{employeeId}",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Contracts/GetContractsByEmployeeId/{employeeId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetContractsByEmployeeId/{employeeId}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataView"
+            }
+        }
+    ]
+}

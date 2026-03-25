@@ -1,0 +1,32 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: unless-stopped
+    volumes:
+      - ollama:/root/.ollama
+    ports:
+      - "11434:11434"   # expose only if you need LAN access; otherwise remove
+    # If you have NVIDIA GPU and nvidia-container-toolkit installed, uncomment:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - capabilities: ["gpu"]
+
+  openwebui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: openwebui
+    restart: unless-stopped
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+    ports:
+      - "3000:8080"
+    volumes:
+      - openwebui:/app/backend/data
+    depends_on:
+      - ollama
+
+volumes:
+  ollama:
+  openwebui:

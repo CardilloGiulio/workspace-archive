@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ include "extranet-identity.fullname" . }}-job
+spec:
+  template:
+    metadata:
+      name: extranet-identity-job
+      labels:
+        jobgroup: extranet-identity-job
+    spec:
+      serviceAccountName: {{ include "extranet-identity.fullname" . }}
+      containers:
+      - name: extranet-identity-job
+        image: {{ include "extranet-identity.image" ( dict "imageRoot" .Values.extranetidentityjob.image "global" .Values.global "scope" $ ) }}
+        env:
+          {{- range .Values.env }}
+          - name: {{ .name }}
+            value: {{ .value | quote }}
+          {{- end }}
+
+      restartPolicy: Never

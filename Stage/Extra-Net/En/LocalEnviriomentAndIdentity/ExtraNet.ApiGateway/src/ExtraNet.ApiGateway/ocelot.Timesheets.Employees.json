@@ -1,0 +1,169 @@
+{
+    "GlobalConfiguration": {
+        "Prefix": null,
+        "HostTimesheets": null,
+        "PortTimesheets": null
+    },
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/Employees/GetAllEmployees",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetAllEmployees",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Employees/AddEmployee",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}AddEmployee",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Employees/GetEmployeeById/{employeeId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetEmployeeById/{employeeId}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Employees/UpdateEmployee",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}UpdateEmployee",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Employees/DeleteEmployee/{employeeId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}DeleteEmployee/{employeeId}",
+            "UpstreamHttpMethod": [ "Delete" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesPersonalInfoEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Employees/AddContractor",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}AddContractor",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Employees/GetMyEmployeeDetails",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetMyEmployeeDetails",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "SelfCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Employees/UpdateMyEmployeeDetails",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}UpdateMyEmployeeDetails",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "SelfCompleteDataEdit"
+            }
+        }
+    ]
+}

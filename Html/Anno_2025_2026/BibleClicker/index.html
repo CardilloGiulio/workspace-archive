@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bible Clicker</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div id="game-container">
+
+    <input id="upgrades-toggle" class="upgrades-toggle" type="checkbox" />
+
+    <label for="upgrades-toggle" class="upgrades-btn" aria-label="Toggle upgrades">
+      Upgrades
+    </label>
+
+    <div class="score">
+      Faith: <span id="score">0</span>
+    </div>
+    <div class="blessing" id="blessing" hidden>
+      Michael's blessing: <span id="blessing-timer">120</span>s
+    </div>
+
+
+    <div class="play-area">
+      <button id="bible-btn" type="button">
+        <img id="bible-img" src="./images/bible.png" alt="Bible" draggable="false" />
+      </button>
+    </div>
+
+    <aside class="upgrades-panel" aria-label="Upgrades">
+      <div class="upgrades-header">
+        <div class="upgrades-title">Upgrades</div>
+        <label for="upgrades-toggle" class="upgrades-close" aria-label="Close upgrades">✕</label>
+      </div>
+
+      <div class="upgrades-list">
+
+        <button class="upgrade-item" type="button" data-upg="upg_disciples">
+          <img class="upgrade-icon" src="./images/icon_disciples.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Disciples</div>
+            <div class="upgrade-desc">Recruit followers</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+        <button class="upgrade-item" type="button" data-upg="upg_miracles">
+          <img class="upgrade-icon" src="./images/icon_miracles.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Miracles</div>
+            <div class="upgrade-desc">Click power</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+        <button class="upgrade-item" type="button" data-upg="upg_holy_music">
+          <img class="upgrade-icon" src="./images/icon_holy_music.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Holy Music</div>
+            <div class="upgrade-desc">Faith per second</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+        <button class="upgrade-item" type="button" data-upg="upg_prayers">
+          <img class="upgrade-icon" src="./images/icon_prayers.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Prayers</div>
+            <div class="upgrade-desc">Faith per second</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+        <button class="upgrade-item" type="button" data-upg="upg_church">
+          <img class="upgrade-icon" src="./images/icon_church.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Church</div>
+            <div class="upgrade-desc">Faith/sec multiplier</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+        <button class="upgrade-item" type="button" data-upg="upg_scripture">
+          <img class="upgrade-icon" src="./images/icon_scripture.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Scripture</div>
+            <div class="upgrade-desc">Click power + crit scaling later</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+        <button class="upgrade-item" type="button" data-upg="upg_relics">
+          <img class="upgrade-icon" src="./images/icon_relics.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Relics</div>
+            <div class="upgrade-desc">Global multiplier</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+        <button class="upgrade-item" type="button" data-upg="upg_pilgrimage">
+          <img class="upgrade-icon" src="./images/icon_pilgrimage.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Pilgrimage</div>
+            <div class="upgrade-desc">Faith per second</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+        <button class="upgrade-item" type="button" data-upg="upg_cathedral">
+          <img class="upgrade-icon" src="./images/icon_cathedral.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Cathedral</div>
+            <div class="upgrade-desc">Global multiplier</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+        <button class="upgrade-item" type="button" data-upg="upg_choir">
+          <img class="upgrade-icon" src="./images/icon_choir.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Choir</div>
+            <div class="upgrade-desc">Faith per second</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+        <button class="upgrade-item" type="button" data-upg="upg_candles">
+          <img class="upgrade-icon" src="./images/icon_candles.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Candles</div>
+            <div class="upgrade-desc">Shield (later)</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+        <button class="upgrade-item" type="button" data-upg="upg_gospels">
+          <img class="upgrade-icon" src="./images/icon_gospels.png" alt="" />
+          <div class="upgrade-meta">
+            <div class="upgrade-name">Gospels</div>
+            <div class="upgrade-desc">Global multiplier</div>
+            <div class="upgrade-cost">Cost: <span class="cost"></span></div>
+            <div class="upgrade-level">Level: <span class="lvl"></span></div>
+            <div class="upgrade-effect"><span class="effect"></span></div>
+          </div>
+        </button>
+
+      </div>
+
+    </aside>
+    
+    <div id="followers" aria-hidden="true"></div>
+    <div id="status" aria-hidden="true"></div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>

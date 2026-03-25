@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "extranet-recruitments.fullname" . }}-api
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: extranet-recruitments-api
+  template:
+    metadata:
+      labels:
+        app: extranet-recruitments-api
+    spec:
+      serviceAccountName: {{ include "extranet-recruitments.fullname" . }}-k8s-wait-for
+      initContainers:
+        - name: "{{ .Chart.Name }}-init"
+          image: {{.Values.k8swaitfor.image.repository}}:{{.Values.k8swaitfor.image.tag}}
+          imagePullPolicy: {{ .Values.k8swaitfor.image.pullPolicy }}
+          args:
+          - "job-wr"
+          - {{ include "extranet-recruitments.fullname" . }}-job
+      containers:
+        - name: extranet-recruitments-api
+          image: {{ include "extranet-recruitments.image" ( dict "imageRoot" .Values.extranetrecruitmentsapi.image "global" .Values.global "scope" $ ) }}
+          imagePullPolicy: {{ .Values.extranetrecruitmentsapi.image.pullPolicy }}
+          env:
+          - name: PostgresDatabase__ConnectionString
+            valueFrom: 
+              secretKeyRef:
+                name: db-secret
+                key: connectionstring

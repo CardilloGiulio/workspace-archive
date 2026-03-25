@@ -1,0 +1,61 @@
+Test Svolti:
+
+Test 1:
+	create Phone -> OK
+
+Test 2:
+	create Market(Empty) -> OK
+
+Test 3:
+	create Market(With Phone) ->  OK
+
+Test 4:
+	get all Market(Without Id) -> OK
+
+Test 5:
+	get all Phone(Without Id) ->  OK
+
+Test 6:
+	get Market(with Id) ->  OK
+
+Test 7:
+	get Phone(With Id) -> OK
+
+Test 8:
+	update phone -> OK
+
+Test 9:
+	update Market(Adding Phone, also it adds in list of Phone) -> OK
+
+Test 10:
+	update Market(Removing Phone, also it remove in list of Phone) -> OK
+
+Test 11:
+	update Market(Updating Phone, also it update in list of Phone) -> OK
+
+Test 12:
+	remove Phone -> OK
+
+Test 13:
+	remove Market(and also Phone in Market) -> OK
+
+Test 14:
+	double click Phone(create two of the same Phone) -> OK
+
+Test 15:
+	double click Market(create two of the same Market) -> OK
+
+Test 16:
+	delete phone(and delete inside Market) -> OK
+
+Test 17:
+	update Phone(and update inside Market) -> OK
+
+Test 18:
+	if create a Phone in Market it appears when do the get of Phone -> OK
+
+Test 19:
+	Rename Market -> OK
+
+Test 20:
+	Clean list of Market -> OK

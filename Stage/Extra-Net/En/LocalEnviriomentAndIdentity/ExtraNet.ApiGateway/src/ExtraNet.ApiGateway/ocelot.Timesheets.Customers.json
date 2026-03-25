@@ -1,0 +1,109 @@
+{
+    "GlobalConfiguration": {
+        "Prefix": null,
+        "HostTimesheets": null,
+        "PortTimesheets": null
+    },
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/Customers/GetAllCustomers",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetAllCustomers",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataView"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Customers/AddCustomer",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}AddCustomer",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Customers/GetCustomerById/{customerId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}GetCustomerById/{customerId}",
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Customers/DeleteCustomer/{customerId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}DeleteCustomer/{customerId}",
+            "UpstreamHttpMethod": [ "Delete" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/Customers/UpdateCustomer",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "{HostTimesheets}",
+                    "Port": "{PortTimesheets}"
+                }
+            ],
+            "UpstreamPathTemplate": "{Prefix}UpdateCustomer",
+            "UpstreamHttpMethod": [ "Post" ],
+            "SwaggerKey": "ExtraNet.Timesheets.API",
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Keycloak",
+                "AllowedScopes": []
+            },
+            "RouteClaimsRequirement": {
+                "extranet-roles": "EmployeesCompleteDataEdit"
+            }
+        }
+    ]
+}

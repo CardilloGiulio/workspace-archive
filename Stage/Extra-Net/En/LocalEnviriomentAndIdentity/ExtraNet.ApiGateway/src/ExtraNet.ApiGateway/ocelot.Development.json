@@ -1,0 +1,11 @@
+{
+    "GlobalConfiguration": {
+        "Prefix": "/",
+        "HostTimesheets": "localhost",
+        "PortTimesheets": 5088,
+        "HostIdentity": "localhost",
+        "PortIdentity": 5188,
+        "HostRecruitments": "localhost",
+        "PortRecruitments": 5011
+    }
+}

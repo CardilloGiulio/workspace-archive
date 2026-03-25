@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Escape Room: Fisica</title>
+<!-- Import Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+<style>
+    /* Stile globale */
+    body {
+        margin: 0;
+        padding: 20px;
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77, #778da9);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        color: #f1f1f1;
+    }
+    @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    /* Titoli */
+    h1 {
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        color: #ffea00;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+    h2 {
+        font-size: 1.8em;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #ffea00;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        padding-bottom: 5px;
+    }
+    .intro {
+        font-size: 1em;
+        margin-bottom: 15px;
+        color: #d0d0d0;
+    }
+    /* Card per sezioni e domande */
+    .section {
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+    }
+    .question {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    }
+    .question p {
+        margin: 0 0 8px 0;
+    }
+    .options {
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    .options label {
+        display: block;
+        margin: 4px 0;
+        cursor: pointer;
+    }
+    .feedback {
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    .hint {
+        color: #ffea00;
+        font-style: italic;
+        margin: 5px 0 0 10px;
+    }
+    /* Bottone */
+    button {
+        background: #444;
+        color: #f1f1f1;
+        border: 1px solid #666;
+        border-radius: 4px;
+        padding: 7px 14px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+    button:hover {
+        background: #555;
+    }
+    .correct-highlight {
+        color: #0f0 !important;
+        font-weight: bold;
+    }
+    .hidden {
+        display: none;
+    }
+    /* Stile meme */
+    .meme img {
+        max-width: 200px;
+        border-radius: 5px;
+        margin-top: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    }
+</style>
+</head>
+<body>
+
+<!-- Audio per la risposta corretta -->
+<audio id="correctSound" src="level-win-6416.mp3" preload="auto"></audio>
+
+<h1>Escape Room: Fisica</h1>
+<p class="intro">Sei rinchiuso in una stanza misteriosa e l'unica via d'uscita è risolvere una serie di enigmi di fisica. Completa ogni stanza superando gli enigmi per sbloccare quella successiva. Buona fortuna!</p>
+
+<div id="section1" class="section">
+    <h2>Stanza 1: Vettori</h2>
+    <p class="intro">Le grandezze vettoriali sono caratterizzate da modulo, direzione e verso. Ricorda che due vettori sono uguali solo se condividono tutte e tre queste proprietà. Per sommare vettori si usa, ad esempio, la regola del parallelogramma.</p>
+    
+    <!-- Domanda 1 -->
+    <div id="q1" class="question">
+        <p>Durante una staffetta, un atleta corre verso Nord e un altro verso Sud-Est, percorrendo entrambi la stessa distanza. I loro vettori spostamento sono uguali?</p>
+        <div class="options">
+            <label><input type="radio" name="q1" value="A"> Sì, perché entrambi hanno lo stesso modulo.</label>
+            <label><input type="radio" name="q1" value="B" class="correct-option"> No, perché devono avere anche stessa direzione e verso.</label>
+        </div>
+        <button type="button" id="q1-btn" onclick="checkAnswer('q1')">Verifica</button>
+        <span id="q1-feedback" class="feedback"></span>
+        <div id="q1-hint" class="hint" style="display:none;">Suggerimento: due vettori sono uguali solo se hanno modulo, direzione e verso identici.</div>
+        <div id="q1-meme" class="meme hidden"></div>
+    </div>
+    
+    <!-- Domanda 2 -->
+    <div id="q2" class="question">
+        <p>Un vettore A vale 3,0 km verso Nord e un vettore B vale 4,0 km verso Est. Quanto vale il modulo del vettore risultante R = A + B?</p>
+        <div class="options">
+            <label><input type="radio" name="q2" value="A"> 8,5 km</label>
+            <label><input type="radio" name="q2" value="B"> 7,0 km</label>
+            <label><input type="radio" name="q2" value="C" class="correct-option"> 5,0 km</label>
+            <label><input type="radio" name="q2" value="D"> Non è determinabile</label>
+        </div>
+        <button type="button" id="q2-btn" onclick="checkAnswer('q2')">Verifica</button>
+        <span id="q2-feedback" class="feedback"></span>
+        <div id="q2-hint" class="hint" style="display:none;">Suggerimento: A e B sono perpendicolari, usa il teorema di Pitagora.</div>
+        <div id="q2-meme" class="meme hidden"></div>
+    </div>
+</div>
+
+<div id="section2" class="section hidden">
+    <h2>Stanza 2: Massa e Peso</h2>
+    <p class="intro">La massa è una proprietà intrinseca di un corpo (misurata in kg) che non cambia, mentre il peso è la forza gravitazionale (misurata in N) che agisce su quel corpo e può variare in funzione del campo gravitazionale.</p>
+    
+    <!-- Domanda 3 -->
+    <div id="q3" class="question">
+        <p>Quali delle seguenti affermazioni descrivono le differenze tra massa e peso? <br><em>(Seleziona tutte le risposte corrette)</em></p>
+        <div class="options">
+            <label><input type="checkbox" value="A" class="correct-option"> La massa di un oggetto è costante, mentre il peso varia con la gravità.</label>
+            <label><input type="checkbox" value="B" class="correct-option"> La massa si misura in kg, il peso in N.</label>
+            <label><input type="checkbox" value="C" class="correct-option"> La massa è scalare, mentre il peso è vettoriale.</label>
+            <label><input type="checkbox" value="D"> Massa e peso sono la stessa cosa.</label>
+            <label><input type="checkbox" value="E"> Il peso di un oggetto è lo stesso su Terra e sulla Luna.</label>
+        </div>
+        <button type="button" id="q3-btn" onclick="checkAnswer('q3')">Verifica</button>
+        <span id="q3-feedback" class="feedback"></span>
+        <div id="q3-hint" class="hint" style="display:none;">Suggerimento: considera che la massa rimane invariata, mentre il peso dipende dalla gravità.</div>
+        <div id="q3-meme" class="meme hidden"></div>
+    </div>
+    
+    <!-- Domanda 4 -->
+    <div id="q4" class="question">
+        <p>Calcola il peso di un oggetto di massa 5 kg sulla Terra (g = 9,8 m/s<sup>2</sup>). <br><em>(Risposta in Newton)</em></p>
+        <input type="text" id="q4-input" placeholder="Inserisci la risposta in N">
+        <button type="button" id="q4-btn" onclick="checkAnswer('q4')">Verifica</button>
+        <span id="q4-feedback" class="feedback"></span>
+        <div id="q4-hint" class="hint" style="display:none;">Suggerimento: usa la formula P = m * g.</div>
+        <div id="q4-meme" class="meme hidden"></div>
+    </div>
+</div>
+
+<div id="section3" class="section hidden">
+    <h2>Stanza 3: Piano Inclinato</h2>
+    <p class="intro">Su un piano inclinato un oggetto fermo è sottoposto a una forza peso che si scompone in due componenti: una parallela al piano e una perpendicolare, bilanciata dalla reazione del piano. L'attrito statico, se presente, impedisce lo scivolamento.</p>
+    
+    <!-- Domanda 5 -->
+    <div id="q5" class="question">
+        <p>Quali forze agiscono su un oggetto fermo su un piano inclinato? <br><em>(Seleziona tutte le risposte corrette)</em></p>
+        <div class="options">
+            <label><input type="checkbox" value="A" class="correct-option"> La forza peso</label>
+            <label><input type="checkbox" value="B" class="correct-option"> La reazione normale</label>
+            <label><input type="checkbox" value="C" class="correct-option"> La forza di attrito statico</label>
+            <label><input type="checkbox" value="D"> Nessun attrito, poiché l'oggetto è fermo</label>
+        </div>
+        <button type="button" id="q5-btn" onclick="checkAnswer('q5')">Verifica</button>
+        <span id="q5-feedback" class="feedback"></span>
+        <div id="q5-hint" class="hint" style="display:none;">Suggerimento: oltre alla forza peso e alla reazione, serve l'attrito statico per impedire il movimento.</div>
+        <div id="q5-meme" class="meme hidden"></div>
+    </div>
+    
+    <!-- Domanda 6 -->
+    <div id="q6" class="question">
+        <p>Un blocco di 10 kg è fermo su un piano inclinato di 30°. Calcola la componente parallela della forza peso (usa g = 9,8 m/s<sup>2</sup>).</p>
+        <input type="text" id="q6-input" placeholder="Inserisci la risposta in N">
+        <button type="button" id="q6-btn" onclick="checkAnswer('q6')">Verifica</button>
+        <span id="q6-feedback" class="feedback"></span>
+        <div id="q6-hint" class="hint" style="display:none;">Suggerimento: usa la formula P∥ = m * g * sin(θ).</div>
+        <div id="q6-meme" class="meme hidden"></div>
+    </div>
+</div>
+
+<div id="section4" class="section hidden">
+    <h2>Stanza 4: Moto Circolare Uniforme</h2>
+    <p class="intro">Nel moto circolare uniforme l'oggetto percorre una traiettoria circolare a velocità costante. L'accelerazione centripeta è diretta verso il centro e si calcola con a<sub>c</sub> = v² / r, mentre la forza centripeta è data da F<sub>c</sub> = m * v² / r.</p>
+    
+    <!-- Domanda 7 -->
+    <div id="q7" class="question">
+        <p>In un moto circolare uniforme, la forza centripeta agisce:</p>
+        <div class="options">
+            <label><input type="radio" name="q7" value="A" class="correct-option"> Verso il centro della traiettoria</label>
+            <label><input type="radio" name="q7" value="B"> Tangenzialmente al moto</label>
+            <label><input type="radio" name="q7" value="C"> Verso l'esterno della curva</label>
+            <label><input type="radio" name="q7" value="D"> Verso l'alto</label>
+        </div>
+        <button type="button" id="q7-btn" onclick="checkAnswer('q7')">Verifica</button>
+        <span id="q7-feedback" class="feedback"></span>
+        <div id="q7-hint" class="hint" style="display:none;">Suggerimento: il termine “centripeta” significa “verso il centro”.</div>
+        <div id="q7-meme" class="meme hidden"></div>
+    </div>
+    
+    <!-- Domanda 8 -->
+    <div id="q8" class="question">
+        <p>Un oggetto di massa 1 kg percorre una circonferenza di raggio 2 m a una velocità tangenziale di 4 m/s. Calcola la forza centripeta richiesta. <br><em>(Risposta in Newton)</em></p>
+        <input type="text" id="q8-input" placeholder="Inserisci la risposta in N">
+        <button type="button" id="q8-btn" onclick="checkAnswer('q8')">Verifica</button>
+        <span id="q8-feedback" class="feedback"></span>
+        <div id="q8-hint" class="hint" style="display:none;">Suggerimento: applica F<sub>c</sub> = m * v² / r.</div>
+        <div id="q8-meme" class="meme hidden"></div>
+    </div>
+    
+    <p id="final-msg" class="hidden"><strong>Complimenti!</strong> Hai risolto tutti gli enigmi ed hai trovato la via d'uscita!</p>
+</div>
+
+<script>
+// Inserisci l'array di URL dei meme fornito dall'utente
+var memeUrls = [
+    "https://media.tenor.com/_zWYqfZdneIAAAAe/shocked-face-shocked-meme.png",
+    "https://i.pinimg.com/236x/ba/12/ef/ba12ef06b7466d49086472bdaf50f486.jpg",
+    "https://media.makeameme.org/created/physics-kmcpj6.jpg",
+    "https://facts.net/wp-content/uploads/2024/01/18-fun-facts-with-squidward-meme-1706439875.jpg",
+    "https://m.media-amazon.com/images/I/813kqvYoRfL.png",
+    "https://www.westminster.ac.uk/sites/default/public-files/styles/panel_image_third_320px/public/general-images/epq-meme.jpg?itok=PQuo_m3s%20420w,%20/sites/default/public-files/styles/panel_image_1_4/public/general-images/epq-meme.jpg?itok=8sm6UBVy%20560w,%20/sites/default/public-files/styles/panel_image_1_2_768px_/public/general-images/epq-meme.jpg?itok=5b7ZyKpI%20800w",
+    "https://thehowler.org/wp-content/uploads/2018/01/roll-safe-meme-1.jpg",
+    "https://c.files.bbci.co.uk/7CC2/production/_118283913_29xp-meme-mobilemasterat3x-v3.jpg"
+];
+
+// Contatore degli errori per ogni domanda
+var tries = {
+    q1: 0, q2: 0, q3: 0, q4: 0, q5: 0, q6: 0, q7: 0, q8: 0
+};
+
+function showMeme(qId) {
+    // Seleziona una immagine a caso dall'array
+    var randomIndex = Math.floor(Math.random() * memeUrls.length);
+    var memeUrl = memeUrls[randomIndex];
+    var memeContainer = document.getElementById(qId + "-meme");
+    // Crea e inserisce l'immagine nel container
+    memeContainer.innerHTML = '<img src="' + memeUrl + '" alt="Meme Divertente">';
+    memeContainer.classList.remove("hidden");
+}
+
+function checkAnswer(qId) {
+    var correct = false;
+    var qElem = document.getElementById(qId);
+    if (!qElem) return;
+    
+    // Domande con radio button (scelta singola)
+    if(qElem.querySelectorAll('input[type=radio]').length > 0) {
+        var selectedRadio = qElem.querySelector('input[type=radio]:checked');
+        if(!selectedRadio) {
+            document.getElementById(qId + '-feedback').textContent = "Seleziona una risposta.";
+            document.getElementById(qId + '-feedback').style.color = "#ff4c4c";
+            return;
+        }
+        var correctRadio = qElem.querySelector('input[type=radio].correct-option');
+        correct = (correctRadio && correctRadio.checked);
+    }
+    // Domande con checkbox (scelta multipla)
+    else if(qElem.querySelectorAll('input[type=checkbox]').length > 0) {
+        var anyChecked = qElem.querySelector('input[type=checkbox]:checked');
+        if(!anyChecked) {
+            document.getElementById(qId + '-feedback').textContent = "Seleziona almeno una risposta.";
+            document.getElementById(qId + '-feedback').style.color = "#ff4c4c";
+            return;
+        }
+        var correctBoxes = qElem.querySelectorAll('input[type=checkbox].correct-option');
+        var allCorrectChecked = true;
+        for(var i=0; i<correctBoxes.length; i++) {
+            if(!correctBoxes[i].checked) { allCorrectChecked = false; break; }
+        }
+        var anyWrongChecked = qElem.querySelector('input[type=checkbox]:not(.correct-option):checked') !== null;
+        correct = (allCorrectChecked && !anyWrongChecked);
+    }
+    // Domande con input testuale/numerico
+    else if(qElem.querySelector('input[type=text]')) {
+        var inputElem = qElem.querySelector('input[type=text]');
+        var userAnswer = inputElem.value.trim();
+        if(userAnswer === '') {
+            document.getElementById(qId + '-feedback').textContent = "Inserisci una risposta.";
+            document.getElementById(qId + '-feedback').style.color = "#ff4c4c";
+            return;
+        }
+        var numericAnswer = parseFloat(userAnswer.replace(',', '.'));
+        if(isNaN(numericAnswer)) {
+            document.getElementById(qId + '-feedback').textContent = "Inserisci un valore numerico valido.";
+            document.getElementById(qId + '-feedback').style.color = "#ff4c4c";
+            return;
+        }
+        if(qId === 'q4') {
+            if(Math.abs(numericAnswer - 49) < 0.1 || Math.abs(numericAnswer - 50) < 0.1) correct = true;
+            else correct = false;
+        } else if(qId === 'q6') {
+            if(Math.abs(numericAnswer - 49) < 0.1 || Math.abs(numericAnswer - 50) < 0.1) correct = true;
+            else correct = false;
+        } else if(qId === 'q8') {
+            if(Math.abs(numericAnswer - 8) < 0.1) correct = true;
+            else correct = false;
+        } else {
+            correct = false;
+        }
+    }
+    
+    var feedbackElem = document.getElementById(qId + '-feedback');
+    var hintElem = document.getElementById(qId + '-hint');
+    if(correct) {
+        feedbackElem.textContent = "Risposta esatta!";
+        feedbackElem.style.color = "#0f0";
+        if(!qElem.classList.contains('solved')) {
+            qElem.classList.add('solved');
+            // Evidenzia la risposta corretta
+            if(qElem.querySelectorAll('input[type=radio]').length > 0) {
+                var correctRadio = qElem.querySelector('input[type=radio].correct-option');
+                if(correctRadio) { correctRadio.parentElement.classList.add('correct-highlight'); }
+            }
+            if(qElem.querySelectorAll('input[type=checkbox]').length > 0) {
+                var correctBoxes = qElem.querySelectorAll('input[type=checkbox].correct-option');
+                for(var j=0; j<correctBoxes.length; j++) {
+                    correctBoxes[j].parentElement.classList.add('correct-highlight');
+                }
+            }
+            if(qElem.querySelector('input[type=text]')) {
+                qElem.querySelector('input[type=text]').classList.add('correct-highlight');
+            }
+            // Disabilita ulteriori modifiche alla risposta
+            var inputs = qElem.querySelectorAll('input');
+            for(var k=0; k<inputs.length; k++) { inputs[k].disabled = true; }
+            document.getElementById(qId + '-btn').disabled = true;
+            // Riproduce la musichetta di congratulazioni
+            document.getElementById('correctSound').play();
+            // Mostra un meme divertente
+            showMeme(qId);
+            // Verifica se la sezione è completa
+            checkSectionComplete(qId);
+        }
+    } else {
+        feedbackElem.textContent = "Risposta errata. Riprova.";
+        feedbackElem.style.color = "#ff4c4c";
+        tries[qId] += 1;
+        if(tries[qId] >= 3 && hintElem) { hintElem.style.display = "block"; }
+    }
+}
+
+function checkSectionComplete(qId) {
+    var section;
+    if(qId.startsWith('q1') || qId.startsWith('q2')) { section = 'section1'; }
+    else if(qId.startsWith('q3') || qId.startsWith('q4')) { section = 'section2'; }
+    else if(qId.startsWith('q5') || qId.startsWith('q6')) { section = 'section3'; }
+    else if(qId.startsWith('q7') || qId.startsWith('q8')) { section = 'section4'; }
+    if(!section) return;
+    var secElem = document.getElementById(section);
+    var unsolved = secElem.querySelector('.question:not(.solved)');
+    if(unsolved === null) {
+        if(section === 'section1') {
+            document.getElementById('section2').classList.remove('hidden');
+            document.getElementById('section2').scrollIntoView({behavior: 'smooth'});
+        } else if(section === 'section2') {
+            document.getElementById('section3').classList.remove('hidden');
+            document.getElementById('section3').scrollIntoView({behavior: 'smooth'});
+        } else if(section === 'section3') {
+            document.getElementById('section4').classList.remove('hidden');
+            document.getElementById('section4').scrollIntoView({behavior: 'smooth'});
+        } else if(section === 'section4') {
+            document.getElementById('final-msg').classList.remove('hidden');
+            document.getElementById('final-msg').scrollIntoView({behavior: 'smooth'});
+        }
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "GlobalConfiguration": {
+    "Prefix": null,
+    "HostRecruitments": null,
+    "PortRecruitments": null
+  },
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Customers",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{HostRecruitments}",
+          "Port": "{PortRecruitments}"
+        }
+      ],
+      "UpstreamPathTemplate": "{Prefix}GetAllJobCustomers",
+      "UpstreamHttpMethod": [ "Get" ],
+      "SwaggerKey": "ExtraNet.Recruitments.API",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Keycloak",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "extranet-roles": "EmployeesCompleteDataView"
+      }
+    }
+  ]
+}

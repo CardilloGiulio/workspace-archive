@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/pages.css" />
+  <script defer src="../javascript/nav.js"></script>
+</head>
+<body>
+  <nav aria-label="Primary Navigation">
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" aria-current="page">Contact</a>
+    <a href="game.html">Game</a>
+  </nav>
+
+  <main class="container">
+    <header class="hero">
+      <h1>Get in Touch</h1>
+      <p class="muted">We’d love to hear from you. Reach out and let’s connect.</p>
+    </header>
+
+    <section class="grid grid-3">
+      <article class="card">
+        <h2>Email</h2>
+        <p><a href="mailto:info@memorygames.com">info@memorygames.com</a></p>
+        <p class="muted">General inquiries and support.</p>
+      </article>
+
+      <article class="card">
+        <h2>Phone</h2>
+        <p>+1 (234) 567-8901</p>
+        <p class="muted">Mon–Fri, 9 AM – 5 PM CET</p>
+      </article>
+
+      <article class="card">
+        <h2>Address</h2>
+        <p>Via Paolo Veronese 305<br>10147 Torino, Italy</p>
+        <p class="muted">Headquarters and main office.</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Send us a message</h2>
+      <form class="grid grid-2" aria-label="Contact form">
+        <label>
+          Name<br>
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Email<br>
+          <input type="email" name="email" placeholder="your@email.com" required />
+        </label>
+
+        <label class="grid-span-2">
+          Message<br>
+          <textarea name="message" rows="5" placeholder="Write something..." required></textarea>
+        </label>
+
+        <button type="submit" class="grid-span-2">Send Message</button>
+      </form>
+    </section>
+
+    <section class="gallery card" aria-label="Our locations">
+      <h2>Find us</h2>
+      <div class="grid grid-2">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?q=80&w=1200&auto=format&fit=crop"
+               alt="Office building exterior under blue sky" />
+          <figcaption>Our main office in Turin.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=1200&auto=format&fit=crop"
+               alt="Friendly team working at desks" />
+          <figcaption>Teamwork makes everything smoother.</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © <span>2025</span> Industry Of Memory — <a href="mailto:info@memorygames.com">info@memorygames.com</a>
+  </footer>
+</body>
+</html>

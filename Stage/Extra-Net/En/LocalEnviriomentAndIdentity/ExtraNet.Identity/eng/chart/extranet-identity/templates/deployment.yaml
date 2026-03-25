@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "extranet-identity.fullname" . }}-api
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: extranet-identity-api
+  template:
+    metadata:
+      labels:
+        app: extranet-identity-api
+    spec:
+      serviceAccountName: {{ include "extranet-identity.fullname" . }}-k8s-wait-for
+      initContainers:
+        - name: "{{ .Chart.Name }}-init"
+          image: {{.Values.k8swaitfor.image.repository}}:{{.Values.k8swaitfor.image.tag}}
+          imagePullPolicy: {{ .Values.k8swaitfor.image.pullPolicy }}
+          args:
+          - "job-wr"
+          - {{ include "extranet-identity.fullname" . }}-job
+      containers:
+        - name: extranet-identity-api
+          image: {{ include "extranet-identity.image" ( dict "imageRoot" .Values.extranetidentityapi.image "global" .Values.global "scope" $ ) }}
+          imagePullPolicy: {{ .Values.extranetidentityapi.image.pullPolicy }}
+          env:
+            {{- range .Values.env }}
+            - name: {{ .name }}
+              value: {{ .value | quote }}
+            {{- end }}

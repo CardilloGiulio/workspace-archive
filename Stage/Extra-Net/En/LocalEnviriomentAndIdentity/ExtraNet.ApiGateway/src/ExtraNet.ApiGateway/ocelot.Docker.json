@@ -1,0 +1,11 @@
+{
+    "GlobalConfiguration": {
+        "Prefix": "/",
+        "HostTimesheets": "host.docker.internal",
+        "PortTimesheets": 5088,
+        "HostIdentity": "host.docker.internal",
+        "PortIdentity": 5188,
+        "HostRecruitments": "host.docker.internal",
+        "PortRecruitments": 5011
+    }
+}

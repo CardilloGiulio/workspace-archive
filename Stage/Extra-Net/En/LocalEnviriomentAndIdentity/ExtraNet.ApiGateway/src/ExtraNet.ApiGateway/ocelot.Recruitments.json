@@ -1,0 +1,14 @@
+{
+    "SwaggerEndPoints": [
+        {
+            "Key": "ExtraNet.Recruitments.API",
+            "Config": [
+                {
+                    "Name": "ExtraNet Recruitments API",
+                    "Version": "v1",
+                    "Url": "http://{HostRecruitments}:{PortRecruitments}/swagger/v1/swagger.json"
+                }
+            ]
+        }
+    ]
+}
