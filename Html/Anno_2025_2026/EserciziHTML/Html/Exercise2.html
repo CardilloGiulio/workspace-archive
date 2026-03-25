@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
+</head>
+<body>
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <img id="themeIcon" src="../Images/System/day.png" alt="Dark mode icon">
+    </button>
+
+    <nav class="nav-bar">
+        <a href="Exercise1.html" class="nav-link">Exercise 1</a>
+        <a href="Exercise2.html" class="nav-link active">Exercise 2</a>
+        <a href="Exercise3.html" class="nav-link">Exercise 3</a>
+    </nav>
+
+    <main>
+        <header>
+            <h1>Exercise 2</h1>
+            <p>Exercise 1 and Exercise 2 combined in one page.</p>
+        </header>
+
+        <section class="exercises-container">
+            <div class="exercise-block">
+                <h2>Messages</h2>
+                <button onclick="showMessage()">Show message</button>
+                <div id="output"></div>
+            </div>
+
+            <div class="exercise-block">
+                <h2>Text editor</h2>
+                <p id="text">This is the original text.</p>
+                <input type="text" id="newText" placeholder="Write new text here">
+                <button onclick="changeText()">Change text</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="../Javascript/exercise2.js"></script>
+    <script src="../Javascript/theme.js"></script>
+</body>
+</html>
