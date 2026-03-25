@@ -1,7 +1,7 @@
 # workspace-archive
 
 A personal **workspace archive**: a collection of projects, experiments, and ideas built over time.  
-This repository acts both as a **backup** and as a **timeline of learning**, from school assignments to personal prototypes. :contentReference[oaicite:1]{index=1}
+This repository acts both as a **backup** and as a **timeline of learning**, from school assignments to personal prototypes.
 
 ---
 
