@@ -1,0 +1,174 @@
+/* ---------- Reset ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- Base ---------- */
+
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    padding: 32px 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background: var(--bg);
+    color: var(--text);
+}
+
+/* ---------- Layout ---------- */
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 24px;
+}
+
+header p {
+    max-width: 700px;
+}
+
+/* ---------- Navigation ---------- */
+
+nav {
+    max-width: 960px;
+    margin: 0 auto 24px auto;
+    padding: 14px 18px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-soft);
+    font-weight: 600;
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+    background: var(--surface-hover);
+    color: var(--text);
+}
+
+nav a.active {
+    background: var(--primary);
+    color: var(--text-inverse);
+}
+
+/* ---------- Typography ---------- */
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    color: var(--text);
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 14px;
+    color: var(--text);
+}
+
+p {
+    margin-bottom: 12px;
+    color: var(--text-soft);
+}
+
+/* ---------- Section / Card ---------- */
+
+section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 22px;
+    margin-bottom: 24px;
+}
+
+/* ---------- Inputs ---------- */
+
+input {
+    width: 100%;
+    max-width: 340px;
+    padding: 11px 14px;
+    margin-bottom: 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    background: var(--surface);
+    color: var(--text);
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+/* ---------- Buttons ---------- */
+
+button,
+.btn {
+    padding: 11px 16px;
+    border: none;
+    border-radius: var(--radius-sm);
+    background: var(--primary);
+    color: var(--text-inverse);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.15s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+button:hover,
+.btn:hover {
+    background: var(--primary-hover);
+}
+
+button:active,
+.btn:active {
+    transform: translateY(1px);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px 14px;
+    }
+
+    nav {
+        padding: 12px;
+    }
+
+    nav a {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .theme-toggle {
+        top: 16px;
+        right: 16px;
+        width: 78px;
+        height: 44px;
+    }
+}
