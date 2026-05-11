@@ -1,10 +1,7 @@
 import type { Engine, Scene } from "@babylonjs/core";
 import type { UpdateManager } from "../update/UpdateManager";
 
-import {
-  debugOk,
-  debugStep,
-} from "../debug/debugLogger";
+import { debugOk, debugStep } from "../debug/debugLogger";
 
 export function applyRenderSettings(
   engine: Engine,

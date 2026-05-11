@@ -1,0 +1,125 @@
+[
+  {
+    "name": "westDoorBlockerCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.006,
+    "height": 0.032,
+    "depth": 0.055,
+    "position": [
+      -0.148,
+      0.085,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 0,
+    "alpha": 0,
+    "colliderOnly": true,
+    "debugColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "doorId": "westDoor",
+    "doorPart": "blocker",
+    "startsOpen": false,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "eastDoorBlockerCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.006,
+    "height": 0.032,
+    "depth": 0.055,
+    "position": [
+      -0.074,
+      0.085,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 0,
+    "alpha": 0,
+    "colliderOnly": true,
+    "debugColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "doorId": "eastDoor",
+    "doorPart": "blocker",
+    "startsOpen": false,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "southDoorBlockerCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.032,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.111,
+      0.044,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 0,
+    "alpha": 0,
+    "colliderOnly": true,
+    "debugColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "doorId": "southDoor",
+    "doorPart": "blocker",
+    "startsOpen": false,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  }
+]

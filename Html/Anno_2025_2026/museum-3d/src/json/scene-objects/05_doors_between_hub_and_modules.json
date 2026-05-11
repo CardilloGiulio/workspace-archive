@@ -164,7 +164,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -173,7 +173,15 @@
       "friction": 0.8,
       "restitution": 0.1
     },
-    "alpha": 0.35
+    "alpha": 0.35,
+    "doorId": "westDoor",
+    "doorPart": "leaf",
+    "openOffset": [
+      0,
+      -0.018,
+      0
+    ],
+    "startsOpen": false
   },
   {
     "name": "WestHubModuleGlassDoorLeafB",
@@ -200,7 +208,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -209,7 +217,15 @@
       "friction": 0.8,
       "restitution": 0.1
     },
-    "alpha": 0.35
+    "alpha": 0.35,
+    "doorId": "westDoor",
+    "doorPart": "leaf",
+    "openOffset": [
+      0,
+      0.018,
+      0
+    ],
+    "startsOpen": false
   },
   {
     "name": "WestHubModuleDoorHandleA",
@@ -236,7 +252,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -244,7 +260,15 @@
       "mass": 0,
       "friction": 0.8,
       "restitution": 0.1
-    }
+    },
+    "doorId": "westDoor",
+    "doorPart": "handle",
+    "openOffset": [
+      0,
+      -0.018,
+      0
+    ],
+    "startsOpen": false
   },
   {
     "name": "WestHubModuleDoorHandleB",
@@ -271,7 +295,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -279,7 +303,15 @@
       "mass": 0,
       "friction": 0.8,
       "restitution": 0.1
-    }
+    },
+    "doorId": "westDoor",
+    "doorPart": "handle",
+    "openOffset": [
+      0,
+      0.018,
+      0
+    ],
+    "startsOpen": false
   },
   {
     "name": "EastHubModuleDoorFrameNorthPost",
@@ -446,7 +478,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -455,7 +487,15 @@
       "friction": 0.8,
       "restitution": 0.1
     },
-    "alpha": 0.35
+    "alpha": 0.35,
+    "doorId": "eastDoor",
+    "doorPart": "leaf",
+    "openOffset": [
+      0,
+      -0.018,
+      0
+    ],
+    "startsOpen": false
   },
   {
     "name": "EastHubModuleGlassDoorLeafB",
@@ -482,7 +522,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -491,7 +531,15 @@
       "friction": 0.8,
       "restitution": 0.1
     },
-    "alpha": 0.35
+    "alpha": 0.35,
+    "doorId": "eastDoor",
+    "doorPart": "leaf",
+    "openOffset": [
+      0,
+      0.018,
+      0
+    ],
+    "startsOpen": false
   },
   {
     "name": "EastHubModuleDoorHandleA",
@@ -518,7 +566,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -526,7 +574,15 @@
       "mass": 0,
       "friction": 0.8,
       "restitution": 0.1
-    }
+    },
+    "doorId": "eastDoor",
+    "doorPart": "handle",
+    "openOffset": [
+      0,
+      -0.018,
+      0
+    ],
+    "startsOpen": false
   },
   {
     "name": "EastHubModuleDoorHandleB",
@@ -553,7 +609,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -561,7 +617,15 @@
       "mass": 0,
       "friction": 0.8,
       "restitution": 0.1
-    }
+    },
+    "doorId": "eastDoor",
+    "doorPart": "handle",
+    "openOffset": [
+      0,
+      0.018,
+      0
+    ],
+    "startsOpen": false
   },
   {
     "name": "SouthHubModuleDoorFrameWestPost",
@@ -728,7 +792,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -737,7 +801,15 @@
       "friction": 0.8,
       "restitution": 0.1
     },
-    "alpha": 0.35
+    "alpha": 0.35,
+    "doorId": "southDoor",
+    "doorPart": "leaf",
+    "openOffset": [
+      -0.018,
+      0,
+      0
+    ],
+    "startsOpen": false
   },
   {
     "name": "SouthHubModuleGlassDoorLeafB",
@@ -764,7 +836,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -773,7 +845,15 @@
       "friction": 0.8,
       "restitution": 0.1
     },
-    "alpha": 0.35
+    "alpha": 0.35,
+    "doorId": "southDoor",
+    "doorPart": "leaf",
+    "openOffset": [
+      0.018,
+      0,
+      0
+    ],
+    "startsOpen": false
   },
   {
     "name": "SouthHubModuleDoorHandleA",
@@ -800,7 +880,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -808,7 +888,15 @@
       "mass": 0,
       "friction": 0.8,
       "restitution": 0.1
-    }
+    },
+    "doorId": "southDoor",
+    "doorPart": "handle",
+    "openOffset": [
+      -0.018,
+      0,
+      0
+    ],
+    "startsOpen": false
   },
   {
     "name": "SouthHubModuleDoorHandleB",
@@ -835,7 +923,7 @@
     ],
     "collision": false,
     "visible": true,
-    "isPickable": false,
+    "isPickable": true,
     "rigidBody": {
       "enabled": false,
       "type": "static",
@@ -843,6 +931,14 @@
       "mass": 0,
       "friction": 0.8,
       "restitution": 0.1
-    }
+    },
+    "doorId": "southDoor",
+    "doorPart": "handle",
+    "openOffset": [
+      0.018,
+      0,
+      0
+    ],
+    "startsOpen": false
   }
 ]

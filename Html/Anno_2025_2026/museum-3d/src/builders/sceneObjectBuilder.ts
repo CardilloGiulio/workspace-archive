@@ -15,11 +15,12 @@ import { registerBuiltInLoaders } from "@babylonjs/loaders/dynamic";
 
 import type { SceneObjectData, Vector3Tuple } from "../types/sceneObjectData";
 import { resolveModelUrl } from "../registries/modelRegistry";
-
 import {
-  debugOk,
-  debugStep,
-} from "../debug/debugLogger";
+  DEBUG_COLLIDERS_VISIBLE,
+  DEBUG_WALKABLE_VISIBLE,
+} from "../debug/debugSettings";
+
+import { debugOk, debugStep } from "../debug/debugLogger";
 
 registerBuiltInLoaders();
 
@@ -58,10 +59,10 @@ function createGroups(
     }
 
     const group = new TransformNode(data.name, scene);
-
     group.position = toVector3(data.position ?? [0, 0, 0]);
     group.rotation = toVector3(getRotationInRadians(data));
     group.scaling = toVector3(data.scale ?? [1, 1, 1]);
+
     group.metadata = {
       name: data.name,
       objectType: "group",
@@ -71,29 +72,6 @@ function createGroups(
   }
 
   return groups;
-}
-
-function getParentGroup(
-  scene: Scene,
-  groups: Map<string, TransformNode>,
-  data: SceneObjectData
-): TransformNode | null {
-  if (!data.parentGroup) {
-    return null;
-  }
-
-  const existingGroup = groups.get(data.parentGroup);
-
-  if (existingGroup) {
-    return existingGroup;
-  }
-
-  const fallbackGroup = new TransformNode(data.parentGroup, scene);
-  groups.set(data.parentGroup, fallbackGroup);
-
-  console.warn(`Group "${data.parentGroup}" was missing. Created at origin.`);
-
-  return fallbackGroup;
 }
 
 async function buildSceneObject(
@@ -133,11 +111,7 @@ async function buildModelObject(
   root.rotation = toVector3(getRotationInRadians(data));
   root.scaling = toVector3(data.scale ?? [1, 1, 1]);
 
-  const importedNodes = [
-    ...result.meshes,
-    ...result.transformNodes,
-  ];
-
+  const importedNodes = [...result.meshes, ...result.transformNodes];
   const importedNodeSet = new Set(importedNodes);
 
   const topLevelNodes = importedNodes.filter((node) => {
@@ -155,7 +129,6 @@ async function buildModelObject(
 
     mesh.isPickable = data.isPickable ?? false;
     mesh.checkCollisions = collisionEnabled && hasGeometry;
-
     applyMetadata(mesh, data, collisionEnabled && hasGeometry);
   }
 
@@ -220,10 +193,30 @@ function createShape(scene: Scene, data: SceneObjectData): Mesh {
         },
         scene
       );
-
-    default:
-      throw new Error(`Unsupported primitive shape for "${data.name}"`);
   }
+}
+
+function getParentGroup(
+  scene: Scene,
+  groups: Map<string, TransformNode>,
+  data: SceneObjectData
+): TransformNode | null {
+  if (!data.parentGroup) {
+    return null;
+  }
+
+  const existingGroup = groups.get(data.parentGroup);
+
+  if (existingGroup) {
+    return existingGroup;
+  }
+
+  const fallbackGroup = new TransformNode(data.parentGroup, scene);
+  groups.set(data.parentGroup, fallbackGroup);
+
+  console.warn(`Group "${data.parentGroup}" was missing. Created at origin.`);
+
+  return fallbackGroup;
 }
 
 function applyObjectValues(mesh: Mesh, data: SceneObjectData): void {
@@ -231,26 +224,41 @@ function applyObjectValues(mesh: Mesh, data: SceneObjectData): void {
   mesh.rotation = toVector3(getRotationInRadians(data));
   mesh.scaling = toVector3(data.scale ?? [1, 1, 1]);
 
-  mesh.isPickable = data.isPickable ?? false;
+  mesh.isPickable = data.walkable === true || isInteractiveDoorPart(data) ? true : data.isPickable ?? false;
   mesh.checkCollisions = shouldUseCameraCollision(data);
 
-  mesh.isVisible = data.visible ?? true;
-  mesh.visibility = data.visibility ?? 1;
+  const showCollider = data.colliderOnly === true && DEBUG_COLLIDERS_VISIBLE;
+  const showWalkable = data.walkable === true && DEBUG_WALKABLE_VISIBLE;
+  const forcedVisible = showCollider || showWalkable;
+
+  mesh.isVisible = forcedVisible ? true : data.visible ?? true;
+  mesh.visibility = forcedVisible ? 0.35 : data.visibility ?? 1;
+  mesh.showBoundingBox = forcedVisible;
 }
 
 function applyMaterial(scene: Scene, mesh: Mesh, data: SceneObjectData): void {
   const material = new StandardMaterial(`${data.name}Material`, scene);
-
   material.backFaceCulling = false;
+
+  const showCollider = data.colliderOnly === true && DEBUG_COLLIDERS_VISIBLE;
+  const showWalkable = data.walkable === true && DEBUG_WALKABLE_VISIBLE;
 
   if (data.image) {
     material.diffuseTexture = new Texture(data.image, scene);
   } else {
-    const color = data.debugColor ?? data.color ?? [1, 1, 1];
+    const color = showCollider
+      ? data.debugColor ?? [1, 0, 0]
+      : showWalkable
+        ? data.debugColor ?? [0, 0.2, 1]
+        : data.debugColor ?? data.color ?? [1, 1, 1];
+
     material.diffuseColor = new Color3(color[0], color[1], color[2]);
   }
 
-  if (data.alpha !== undefined) {
+  if (showCollider || showWalkable) {
+    material.alpha = 0.35;
+    material.wireframe = true;
+  } else if (data.alpha !== undefined) {
     material.alpha = data.alpha;
   }
 
@@ -273,12 +281,22 @@ function applyMetadata(
     externalUrl: data.externalUrl,
     isPickable: data.isPickable ?? false,
     collision: collisionEnabled,
+    walkable: data.walkable ?? false,
+    doorId: data.doorId,
+    doorPart: data.doorPart,
+    startsOpen: data.startsOpen ?? false,
+    openOffset: data.openOffset,
+    colliderOnly: data.colliderOnly ?? false,
     visible: data.visible,
     visibility: data.visibility,
     alpha: data.alpha,
-    colliderOnly: data.colliderOnly ?? false,
     rigidBody: data.rigidBody,
   };
+}
+
+
+function isInteractiveDoorPart(data: SceneObjectData): boolean {
+  return data.doorId !== undefined && data.doorPart !== "blocker";
 }
 
 function shouldUseCameraCollision(data: SceneObjectData): boolean {

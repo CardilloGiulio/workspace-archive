@@ -1,8 +1,10 @@
 import {
+  SUPPORTED_DOOR_PARTS,
   SUPPORTED_OBJECT_TYPES,
   SUPPORTED_RIGID_BODY_SHAPES,
   SUPPORTED_RIGID_BODY_TYPES,
   SUPPORTED_SHAPES,
+  type DoorPart,
   type ObjectType,
   type RigidBodyData,
   type RigidBodyShape,
@@ -12,11 +14,7 @@ import {
   type Vector3Tuple,
 } from "../types/sceneObjectData";
 
-import {
-  debugOk,
-  debugStep,
-  debugWarn,
-} from "../debug/debugLogger";
+import { debugOk, debugStep, debugWarn } from "../debug/debugLogger";
 
 const jsonModules = import.meta.glob<unknown>(
   "../json/scene-objects/*.json",
@@ -108,6 +106,13 @@ function isSceneObjectData(value: unknown): value is SceneObjectData {
 
   if (!isOptionalBoolean(value.isPickable)) return false;
   if (!isOptionalBoolean(value.collision)) return false;
+  if (!isOptionalBoolean(value.walkable)) return false;
+
+  if (!isOptionalString(value.doorId)) return false;
+  if (!isOptionalDoorPart(value.doorPart)) return false;
+  if (!isOptionalBoolean(value.startsOpen)) return false;
+  if (!isOptionalVector3Tuple(value.openOffset)) return false;
+
   if (!isOptionalBoolean(value.visible)) return false;
   if (!isOptionalBoolean(value.colliderOnly)) return false;
 
@@ -117,6 +122,25 @@ function isSceneObjectData(value: unknown): value is SceneObjectData {
   if (!isOptionalRigidBodyData(value.rigidBody)) return false;
 
   return true;
+}
+
+function isObjectType(value: unknown): value is ObjectType {
+  return (
+    typeof value === "string" &&
+    SUPPORTED_OBJECT_TYPES.includes(value as ObjectType)
+  );
+}
+
+
+function isDoorPart(value: unknown): value is DoorPart {
+  return (
+    typeof value === "string" &&
+    SUPPORTED_DOOR_PARTS.includes(value as DoorPart)
+  );
+}
+
+function isOptionalDoorPart(value: unknown): value is DoorPart | undefined {
+  return value === undefined || isDoorPart(value);
 }
 
 function isRigidBodyData(value: unknown): value is RigidBodyData {
@@ -148,13 +172,6 @@ function isOptionalRigidBodyData(
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null && !Array.isArray(value);
-}
-
-function isObjectType(value: unknown): value is ObjectType {
-  return (
-    typeof value === "string" &&
-    SUPPORTED_OBJECT_TYPES.includes(value as ObjectType)
-  );
 }
 
 function isShapeType(value: unknown): value is ShapeType {

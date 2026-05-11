@@ -1,12 +1,14 @@
-export type ObjectType = "primitive" | "model" | "group";
-
 export type ShapeType = "box" | "sphere" | "plane";
+
+export type ObjectType = "primitive" | "model" | "group";
 
 export type Vector3Tuple = [number, number, number];
 
 export type RigidBodyType = "static" | "dynamic";
 
 export type RigidBodyShape = "auto" | "box" | "sphere";
+
+export type DoorPart = "leaf" | "handle" | "blocker";
 
 export type RigidBodyData = {
   enabled: boolean;
@@ -47,6 +49,12 @@ export type SceneObjectData = {
 
   isPickable?: boolean;
   collision?: boolean;
+  walkable?: boolean;
+
+  doorId?: string;
+  doorPart?: DoorPart;
+  startsOpen?: boolean;
+  openOffset?: Vector3Tuple;
 
   visible?: boolean;
   visibility?: number;
@@ -56,16 +64,16 @@ export type SceneObjectData = {
   rigidBody?: RigidBodyData;
 };
 
-export const SUPPORTED_OBJECT_TYPES: readonly ObjectType[] = [
-  "primitive",
-  "model",
-  "group",
-];
-
 export const SUPPORTED_SHAPES: readonly ShapeType[] = [
   "box",
   "sphere",
   "plane",
+];
+
+export const SUPPORTED_OBJECT_TYPES: readonly ObjectType[] = [
+  "primitive",
+  "model",
+  "group",
 ];
 
 export const SUPPORTED_RIGID_BODY_TYPES: readonly RigidBodyType[] = [
@@ -77,4 +85,10 @@ export const SUPPORTED_RIGID_BODY_SHAPES: readonly RigidBodyShape[] = [
   "auto",
   "box",
   "sphere",
+];
+
+export const SUPPORTED_DOOR_PARTS: readonly DoorPart[] = [
+  "leaf",
+  "handle",
+  "blocker",
 ];

@@ -9,6 +9,11 @@ import { UpdateManager } from "./update/UpdateManager";
 import { CameraStateSystem } from "./update/systems/CameraStateSystem";
 import { CameraCollisionSystem } from "./update/systems/CameraCollisionSystem";
 
+import { RoleManager } from "./roles/RoleManager";
+import { RoleKind } from "./roles/RoleKind";
+import { DevRole } from "./roles/dev/DevRole";
+import { PlayerRole } from "./roles/player/PlayerRole";
+
 import {
   debugFail,
   debugOk,
@@ -31,12 +36,16 @@ async function main(): Promise<void> {
     }
 
     const meshes = await buildSceneObjects(app.scene, objects);
-
     debugOk("main", `Meshes built: ${meshes.length}`);
 
     const updateManager = new UpdateManager(app);
 
+    const roleManager = new RoleManager(RoleKind.Dev);
+    roleManager.register(new DevRole());
+    roleManager.register(new PlayerRole());
+
     updateManager.add(new CameraStateSystem());
+    updateManager.add(roleManager);
     updateManager.add(new CameraCollisionSystem());
 
     applyRenderSettings(app.engine, app.scene, updateManager);

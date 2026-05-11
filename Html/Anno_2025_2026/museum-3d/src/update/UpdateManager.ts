@@ -2,10 +2,7 @@ import type { BabylonApp } from "../setup/BabylonApp";
 import type { Updatable } from "./Updatable";
 import type { UpdateContext } from "./UpdateContext";
 
-import {
-  debugOk,
-  debugStep,
-} from "../debug/debugLogger";
+import { debugOk, debugStep } from "../debug/debugLogger";
 
 export class UpdateManager {
   private readonly systems: Updatable[] = [];
@@ -14,6 +11,7 @@ export class UpdateManager {
 
   constructor(app: BabylonApp) {
     this.context = {
+      canvas: app.canvas,
       engine: app.engine,
       scene: app.scene,
       camera: app.camera,
