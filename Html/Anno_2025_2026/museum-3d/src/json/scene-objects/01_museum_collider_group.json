@@ -1,0 +1,19 @@
+{
+  "name": "museumColliderGroup",
+  "objectType": "group",
+  "position": [
+    31,
+    0,
+    0
+  ],
+  "rotationDegrees": [
+    -90,
+    0,
+    0
+  ],
+  "scale": [
+    140,
+    140,
+    140
+  ]
+}

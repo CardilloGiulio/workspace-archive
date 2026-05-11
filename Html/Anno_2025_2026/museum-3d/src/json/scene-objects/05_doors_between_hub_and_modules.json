@@ -1,0 +1,848 @@
+[
+  {
+    "name": "WestHubModuleDoorFrameNorthPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.004,
+    "height": 0.004,
+    "depth": 0.052,
+    "position": [
+      -0.148,
+      0.1,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.055,
+      0.06,
+      0.065
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "WestHubModuleDoorFrameSouthPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.004,
+    "height": 0.004,
+    "depth": 0.052,
+    "position": [
+      -0.148,
+      0.07,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.055,
+      0.06,
+      0.065
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "WestHubModuleDoorFrameTopHeader",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.004,
+    "height": 0.034,
+    "depth": 0.004,
+    "position": [
+      -0.148,
+      0.085,
+      0.073
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.055,
+      0.06,
+      0.065
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "WestHubModuleDoorFrameLowThreshold",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.004,
+    "height": 0.034,
+    "depth": 0.003,
+    "position": [
+      -0.148,
+      0.085,
+      0.02
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.12,
+      0.13,
+      0.14
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "WestHubModuleGlassDoorLeafA",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.0025,
+    "height": 0.01,
+    "depth": 0.04,
+    "position": [
+      -0.1465,
+      0.076,
+      0.046
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.68,
+      0.86,
+      1.0
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    },
+    "alpha": 0.35
+  },
+  {
+    "name": "WestHubModuleGlassDoorLeafB",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.0025,
+    "height": 0.01,
+    "depth": 0.04,
+    "position": [
+      -0.1465,
+      0.094,
+      0.046
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.68,
+      0.86,
+      1.0
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    },
+    "alpha": 0.35
+  },
+  {
+    "name": "WestHubModuleDoorHandleA",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.001,
+    "height": 0.001,
+    "depth": 0.014,
+    "position": [
+      -0.1445,
+      0.081,
+      0.047
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.12,
+      0.13,
+      0.14
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "WestHubModuleDoorHandleB",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.001,
+    "height": 0.001,
+    "depth": 0.014,
+    "position": [
+      -0.1445,
+      0.089,
+      0.047
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.12,
+      0.13,
+      0.14
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "EastHubModuleDoorFrameNorthPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.004,
+    "height": 0.004,
+    "depth": 0.052,
+    "position": [
+      -0.074,
+      0.1,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.055,
+      0.06,
+      0.065
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "EastHubModuleDoorFrameSouthPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.004,
+    "height": 0.004,
+    "depth": 0.052,
+    "position": [
+      -0.074,
+      0.07,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.055,
+      0.06,
+      0.065
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "EastHubModuleDoorFrameTopHeader",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.004,
+    "height": 0.034,
+    "depth": 0.004,
+    "position": [
+      -0.074,
+      0.085,
+      0.073
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.055,
+      0.06,
+      0.065
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "EastHubModuleDoorFrameLowThreshold",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.004,
+    "height": 0.034,
+    "depth": 0.003,
+    "position": [
+      -0.074,
+      0.085,
+      0.02
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.12,
+      0.13,
+      0.14
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "EastHubModuleGlassDoorLeafA",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.0025,
+    "height": 0.01,
+    "depth": 0.04,
+    "position": [
+      -0.0725,
+      0.076,
+      0.046
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.68,
+      0.86,
+      1.0
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    },
+    "alpha": 0.35
+  },
+  {
+    "name": "EastHubModuleGlassDoorLeafB",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.0025,
+    "height": 0.01,
+    "depth": 0.04,
+    "position": [
+      -0.0725,
+      0.094,
+      0.046
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.68,
+      0.86,
+      1.0
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    },
+    "alpha": 0.35
+  },
+  {
+    "name": "EastHubModuleDoorHandleA",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.001,
+    "height": 0.001,
+    "depth": 0.014,
+    "position": [
+      -0.0705,
+      0.081,
+      0.047
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.12,
+      0.13,
+      0.14
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "EastHubModuleDoorHandleB",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.001,
+    "height": 0.001,
+    "depth": 0.014,
+    "position": [
+      -0.0705,
+      0.089,
+      0.047
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.12,
+      0.13,
+      0.14
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "SouthHubModuleDoorFrameWestPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.004,
+    "height": 0.004,
+    "depth": 0.052,
+    "position": [
+      -0.128,
+      0.044,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.055,
+      0.06,
+      0.065
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "SouthHubModuleDoorFrameEastPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.004,
+    "height": 0.004,
+    "depth": 0.052,
+    "position": [
+      -0.094,
+      0.044,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.055,
+      0.06,
+      0.065
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "SouthHubModuleDoorFrameTopHeader",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.036,
+    "height": 0.004,
+    "depth": 0.004,
+    "position": [
+      -0.111,
+      0.044,
+      0.073
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.055,
+      0.06,
+      0.065
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "SouthHubModuleDoorFrameLowThreshold",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.036,
+    "height": 0.004,
+    "depth": 0.003,
+    "position": [
+      -0.111,
+      0.044,
+      0.02
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.12,
+      0.13,
+      0.14
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "SouthHubModuleGlassDoorLeafA",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.01,
+    "height": 0.0025,
+    "depth": 0.04,
+    "position": [
+      -0.122,
+      0.0425,
+      0.046
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.68,
+      0.86,
+      1.0
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    },
+    "alpha": 0.35
+  },
+  {
+    "name": "SouthHubModuleGlassDoorLeafB",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.01,
+    "height": 0.0025,
+    "depth": 0.04,
+    "position": [
+      -0.1,
+      0.0425,
+      0.046
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.68,
+      0.86,
+      1.0
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    },
+    "alpha": 0.35
+  },
+  {
+    "name": "SouthHubModuleDoorHandleA",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.001,
+    "height": 0.001,
+    "depth": 0.014,
+    "position": [
+      -0.116,
+      0.0405,
+      0.047
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.12,
+      0.13,
+      0.14
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "SouthHubModuleDoorHandleB",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumDecorationGroup",
+    "width": 0.001,
+    "height": 0.001,
+    "depth": 0.014,
+    "position": [
+      -0.106,
+      0.0405,
+      0.047
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.12,
+      0.13,
+      0.14
+    ],
+    "collision": false,
+    "visible": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": false,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  }
+]

@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     [Tooltip("Turn speed (degrees/sec).")]
     public float rotationSpeed = 120.0f;
 
+    [Tooltip("Jump force.")]
+    public float jumpForce = 5f;
+
     private Rigidbody rb;
 
     private void Start()
@@ -22,7 +25,9 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector3 moveInput = Vector3.zero;
+        if (rb == null || Keyboard.current == null) return;
+
+        Vector2 moveInput = Vector2.zero;
 
         // Forward/backward
         if (Keyboard.current.wKey.isPressed || Keyboard.current.upArrowKey.isPressed) moveInput.y = 1f;
@@ -32,7 +37,7 @@ public class PlayerController : MonoBehaviour
         if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed) moveInput.x = -1f;
         if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed) moveInput.x = 1f;
 
-        // Move in facing direction 
+        // Move in facing direction
         Vector3 movement = transform.forward * moveInput.y * speed * Time.fixedDeltaTime;
         rb.MovePosition(rb.position + movement);
 
@@ -44,5 +49,11 @@ public class PlayerController : MonoBehaviour
         float turn = turnDirection * rotationSpeed * Time.fixedDeltaTime;
         Quaternion turnRotation = Quaternion.Euler(0f, turn, 0f);
         rb.MoveRotation(rb.rotation * turnRotation);
+
+        // Jump
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
+        }
     }
 }

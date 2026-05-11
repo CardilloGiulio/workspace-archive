@@ -1,0 +1,1149 @@
+[
+  {
+    "name": "westOuterNorthWallCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.095,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.208448,
+      0.130026,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "westOuterSouthWallCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.095,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.208448,
+      0.040026,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "westOuterWestWallCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.09,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.255948,
+      0.085026,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "westInnerUpperReturnCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.030026,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.160948,
+      0.115013,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "westInnerLowerReturnCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.029974,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.160948,
+      0.055013,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "eastOuterNorthWallCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.095,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.013448,
+      0.130026,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "eastOuterSouthWallCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.095,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.013448,
+      0.040026,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "eastOuterEastWallCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.09,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      0.034052,
+      0.085026,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "eastInnerUpperReturnCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.030026,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.060948,
+      0.115013,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "eastInnerLowerReturnCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.029974,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.060948,
+      0.055013,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "southOuterSouthWallCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.09,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.110648,
+      -0.059974,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "southOuterWestWallCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.095,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.155648,
+      -0.012474,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "southOuterEastWallCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.095,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.065648,
+      -0.012474,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "southInnerLeftReturnCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.03,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.140648,
+      0.035026,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "southInnerRightReturnCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.03,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.080648,
+      0.035026,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.05,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "hubCircularWall_-145_Collider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.018,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.151906,
+      0.056347,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      -55
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.2,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "hubCircularWall_-120_Collider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.018,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.135948,
+      0.041725,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      -30
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.2,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "hubCircularWall_-60_Collider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.018,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.085948,
+      0.041725,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      30
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.2,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "hubCircularWall_-35_Collider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.018,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.069991,
+      0.056347,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      55
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.2,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "hubCircularWall_+35_Collider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.018,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.069991,
+      0.113705,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      125
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.2,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "hubCircularWall_+60_Collider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.018,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.085948,
+      0.128327,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      150
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.2,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "hubCircularWall_+120_Collider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.018,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.135948,
+      0.128327,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      210
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.2,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "hubCircularWall_+145_Collider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.018,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.151906,
+      0.113705,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      235
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.2,
+      0.05
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "westConnectorNorthSideCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.022,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.16,
+      0.098,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.4,
+      0
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "westConnectorSouthSideCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.022,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.16,
+      0.072,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.4,
+      0
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "eastConnectorNorthSideCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.022,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.062,
+      0.098,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.4,
+      0
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "eastConnectorSouthSideCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.022,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.062,
+      0.072,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.4,
+      0
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "southConnectorWestSideCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.022,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.126,
+      0.034,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.4,
+      0
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "southConnectorEastSideCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.022,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.096,
+      0.034,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      1,
+      0.4,
+      0
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "northEmptyFrameLeftPostCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.016,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.126,
+      0.136,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      0.2,
+      1,
+      0.2
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  },
+  {
+    "name": "northEmptyFrameRightPostCollider",
+    "objectType": "primitive",
+    "shape": "box",
+    "parentGroup": "museumColliderGroup",
+    "width": 0.016,
+    "height": 0.006,
+    "depth": 0.055,
+    "position": [
+      -0.096,
+      0.136,
+      0.046558
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      90
+    ],
+    "collision": true,
+    "visible": false,
+    "visibility": 1,
+    "alpha": 1,
+    "colliderOnly": true,
+    "debugColor": [
+      0.2,
+      1,
+      0.2
+    ],
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.1
+    }
+  }
+]

@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(circle at top, rgba(120, 89, 54, 0.18), transparent 35%),
+    linear-gradient(180deg, #3b2d22 0%, #251b14 100%);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.window {
+  position: relative;
+  width: 900px;
+  max-width: 94vw;
+  height: 600px;
+  background:
+    linear-gradient(180deg, rgba(255, 252, 244, 0.92), rgba(240, 228, 202, 0.96)),
+    repeating-linear-gradient(
+      0deg,
+      rgba(120, 90, 55, 0.05) 0px,
+      rgba(120, 90, 55, 0.05) 1px,
+      transparent 1px,
+      transparent 34px
+    );
+  border: 1px solid #5b4331;
+  box-shadow:
+    0 20px 55px rgba(0, 0, 0, 0.45),
+    inset 0 0 60px rgba(90, 62, 34, 0.16);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.titlebar {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  background: linear-gradient(180deg, #5b4331, #463224);
+  border-bottom: 1px solid #2f2117;
+  color: #eadcc2;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.page-shadow {
+  position: absolute;
+  top: 42px;
+  left: 26px;
+  width: 2px;
+  bottom: 30px;
+  background: linear-gradient(180deg, rgba(113, 72, 39, 0.22), rgba(113, 72, 39, 0.08));
+  box-shadow: 5px 0 14px rgba(113, 72, 39, 0.10);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.paper {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  padding: 22px 28px 22px 46px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-y: auto;
+  font-size: 24px;
+  line-height: 1.45;
+  font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  color: #1d1a17;
+  pointer-events: none;
+  text-shadow: 0 0 0.2px rgba(20, 20, 20, 0.55);
+  z-index: 1;
+}
+
+.paper.replying {
+  color: #17120e;
+  filter: contrast(1.02);
+}
+
+.editor {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 22px 28px 22px 46px;
+  background: transparent;
+  color: transparent;
+  caret-color: #23170f;
+  font-size: 24px;
+  line-height: 1.45;
+  font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  z-index: 2;
+}
+
+.editor::placeholder {
+  color: rgba(62, 39, 23, 0.38);
+}
+
+.statusbar {
+  margin-top: auto;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  background: linear-gradient(180deg, #5b4331, #463224);
+  border-top: 1px solid #2f2117;
+  color: #ddcfb4;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  z-index: 2;
+}
+
+.fade-out {
+  animation: fadeOut 0.6s forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  to {
+    opacity: 0;
+    filter: blur(1.5px);
+  }
+}
+
+.typing::after {
+  content: "|";
+  animation: blink 1.05s step-end infinite;
+  color: #130f0c;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
