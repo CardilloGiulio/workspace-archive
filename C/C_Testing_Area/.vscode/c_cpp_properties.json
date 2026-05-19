@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "name": "MSYS2 UCRT64",
+      "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+      "compilerArgs": [
+        "-I${workspaceFolder}/include"
+      ],
+      "includePath": [
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/**",
+        "C:/msys64/ucrt64/include",
+        "C:/msys64/ucrt64/x86_64-w64-mingw32/include",
+        "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/*/include"
+      ],
+      "defines": [],
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-gcc-x64",
+      "browse": {
+        "path": [
+          "${workspaceFolder}/include",
+          "${workspaceFolder}/src",
+          "${workspaceFolder}/**",
+          "C:/msys64/ucrt64/include",
+          "C:/msys64/ucrt64/x86_64-w64-mingw32/include",
+          "C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/*/include"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,525 @@
+[
+  {
+    "name": "king_statue_low_square_base",
+    "shape": "box",
+    "width": 2.8,
+    "height": 0.35,
+    "depth": 2.8,
+    "position": [
+      0,
+      0.175,
+      0
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "title": "King statue base",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_high_pedestal",
+    "shape": "box",
+    "width": 2.0,
+    "height": 0.85,
+    "depth": 2.0,
+    "position": [
+      0,
+      0.775,
+      0
+    ],
+    "color": [
+      0.63,
+      0.6,
+      0.54
+    ],
+    "title": "King statue pedestal",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_pedestal_front_plaque",
+    "shape": "box",
+    "width": 1.1,
+    "height": 0.35,
+    "depth": 0.06,
+    "position": [
+      0,
+      0.9,
+      1.03
+    ],
+    "color": [
+      0.78,
+      0.72,
+      0.56
+    ],
+    "title": "Placeholder plaque for king statue",
+    "collision": false
+  },
+  {
+    "name": "king_statue_left_boot",
+    "shape": "box",
+    "width": 0.38,
+    "height": 0.25,
+    "depth": 0.55,
+    "position": [
+      -0.33,
+      1.325,
+      0.08
+    ],
+    "color": [
+      0.7,
+      0.47,
+      0.1
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_right_boot",
+    "shape": "box",
+    "width": 0.38,
+    "height": 0.25,
+    "depth": 0.55,
+    "position": [
+      0.33,
+      1.325,
+      0.08
+    ],
+    "color": [
+      0.7,
+      0.47,
+      0.1
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_left_leg",
+    "shape": "box",
+    "width": 0.36,
+    "height": 0.85,
+    "depth": 0.36,
+    "position": [
+      -0.32,
+      1.85,
+      0
+    ],
+    "color": [
+      0.95,
+      0.68,
+      0.18
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_right_leg",
+    "shape": "box",
+    "width": 0.36,
+    "height": 0.85,
+    "depth": 0.36,
+    "position": [
+      0.32,
+      1.85,
+      0
+    ],
+    "color": [
+      0.95,
+      0.68,
+      0.18
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_robe_lower",
+    "shape": "box",
+    "width": 1.05,
+    "height": 1.0,
+    "depth": 0.72,
+    "position": [
+      0,
+      2.05,
+      0
+    ],
+    "color": [
+      0.55,
+      0.05,
+      0.08
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_torso_armor",
+    "shape": "box",
+    "width": 0.9,
+    "height": 0.9,
+    "depth": 0.55,
+    "position": [
+      0,
+      2.85,
+      0
+    ],
+    "color": [
+      0.95,
+      0.68,
+      0.18
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_shoulders",
+    "shape": "box",
+    "width": 1.45,
+    "height": 0.28,
+    "depth": 0.55,
+    "position": [
+      0,
+      3.25,
+      0
+    ],
+    "color": [
+      0.7,
+      0.47,
+      0.1
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_cape_back",
+    "shape": "box",
+    "width": 1.15,
+    "height": 1.65,
+    "depth": 0.12,
+    "position": [
+      0,
+      2.65,
+      -0.39
+    ],
+    "color": [
+      0.55,
+      0.05,
+      0.08
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_head",
+    "shape": "sphere",
+    "diameter": 0.62,
+    "position": [
+      0,
+      3.75,
+      0.02
+    ],
+    "color": [
+      0.95,
+      0.68,
+      0.18
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "sphere",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_crown_band",
+    "shape": "box",
+    "width": 0.75,
+    "height": 0.16,
+    "depth": 0.75,
+    "position": [
+      0,
+      4.1,
+      0.02
+    ],
+    "color": [
+      0.7,
+      0.47,
+      0.1
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_crown_center_spike",
+    "shape": "box",
+    "width": 0.2,
+    "height": 0.38,
+    "depth": 0.2,
+    "position": [
+      0,
+      4.37,
+      0.02
+    ],
+    "color": [
+      0.95,
+      0.68,
+      0.18
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_crown_left_spike",
+    "shape": "box",
+    "width": 0.16,
+    "height": 0.3,
+    "depth": 0.16,
+    "position": [
+      -0.28,
+      4.31,
+      0.02
+    ],
+    "color": [
+      0.95,
+      0.68,
+      0.18
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_crown_right_spike",
+    "shape": "box",
+    "width": 0.16,
+    "height": 0.3,
+    "depth": 0.16,
+    "position": [
+      0.28,
+      4.31,
+      0.02
+    ],
+    "color": [
+      0.95,
+      0.68,
+      0.18
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_left_arm",
+    "shape": "box",
+    "width": 0.28,
+    "height": 1.0,
+    "depth": 0.28,
+    "position": [
+      -0.78,
+      2.75,
+      0
+    ],
+    "color": [
+      0.95,
+      0.68,
+      0.18
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      18
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_right_arm",
+    "shape": "box",
+    "width": 0.28,
+    "height": 1.0,
+    "depth": 0.28,
+    "position": [
+      0.78,
+      2.75,
+      0
+    ],
+    "color": [
+      0.95,
+      0.68,
+      0.18
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      -18
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_scepter_shaft",
+    "shape": "box",
+    "width": 0.11,
+    "height": 1.8,
+    "depth": 0.11,
+    "position": [
+      1.12,
+      2.85,
+      0.04
+    ],
+    "color": [
+      0.7,
+      0.47,
+      0.1
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "king_statue_scepter_crossbar",
+    "shape": "box",
+    "width": 0.55,
+    "height": 0.1,
+    "depth": 0.1,
+    "position": [
+      1.12,
+      3.72,
+      0.04
+    ],
+    "color": [
+      0.7,
+      0.47,
+      0.1
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  }
+]

@@ -1,0 +1,700 @@
+[
+  {
+    "name": "westConnectionDoorFrame_leftVerticalTrim",
+    "shape": "box",
+    "width": 0.1,
+    "height": 2.6,
+    "depth": 0.12,
+    "position": [
+      -5.0,
+      1.3,
+      -1.4
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.2,
+      0.18,
+      0.15
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "westConnectionDoorFrame_rightVerticalTrim",
+    "shape": "box",
+    "width": 0.1,
+    "height": 2.6,
+    "depth": 0.12,
+    "position": [
+      -5.0,
+      1.3,
+      1.4
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.2,
+      0.18,
+      0.15
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "westConnectionDoorFrame_topTrim",
+    "shape": "box",
+    "width": 0.1,
+    "height": 0.12,
+    "depth": 3.0,
+    "position": [
+      -5.0,
+      2.6,
+      0.0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.2,
+      0.18,
+      0.15
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "westConnectionDoorFrame_floorThreshold",
+    "shape": "box",
+    "width": 0.4,
+    "height": 0.04,
+    "depth": 2.8,
+    "position": [
+      -5.0,
+      0.04,
+      0.0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.3,
+      0.28,
+      0.24
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "eastConnectionDoorFrame_leftVerticalTrim",
+    "shape": "box",
+    "width": 0.1,
+    "height": 2.6,
+    "depth": 0.12,
+    "position": [
+      5.0,
+      1.3,
+      -1.4
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.2,
+      0.18,
+      0.15
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "eastConnectionDoorFrame_rightVerticalTrim",
+    "shape": "box",
+    "width": 0.1,
+    "height": 2.6,
+    "depth": 0.12,
+    "position": [
+      5.0,
+      1.3,
+      1.4
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.2,
+      0.18,
+      0.15
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "eastConnectionDoorFrame_topTrim",
+    "shape": "box",
+    "width": 0.1,
+    "height": 0.12,
+    "depth": 3.0,
+    "position": [
+      5.0,
+      2.6,
+      0.0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.2,
+      0.18,
+      0.15
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "eastConnectionDoorFrame_floorThreshold",
+    "shape": "box",
+    "width": 0.4,
+    "height": 0.04,
+    "depth": 2.8,
+    "position": [
+      5.0,
+      0.04,
+      0.0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.3,
+      0.28,
+      0.24
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "southConnectionDoorFrame_leftVerticalTrim",
+    "shape": "box",
+    "width": 0.12,
+    "height": 2.6,
+    "depth": 0.1,
+    "position": [
+      -1.4,
+      1.3,
+      -5.0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.2,
+      0.18,
+      0.15
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "southConnectionDoorFrame_rightVerticalTrim",
+    "shape": "box",
+    "width": 0.12,
+    "height": 2.6,
+    "depth": 0.1,
+    "position": [
+      1.4,
+      1.3,
+      -5.0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.2,
+      0.18,
+      0.15
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "southConnectionDoorFrame_topTrim",
+    "shape": "box",
+    "width": 3.0,
+    "height": 0.12,
+    "depth": 0.1,
+    "position": [
+      0.0,
+      2.6,
+      -5.0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.2,
+      0.18,
+      0.15
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "southConnectionDoorFrame_floorThreshold",
+    "shape": "box",
+    "width": 2.8,
+    "height": 0.04,
+    "depth": 0.4,
+    "position": [
+      0.0,
+      0.04,
+      -5.0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.3,
+      0.28,
+      0.24
+    ],
+    "collision": false,
+    "isPickable": false
+  },
+  {
+    "name": "central_nw_cornerPost",
+    "shape": "box",
+    "width": 0.45,
+    "height": 4.0,
+    "depth": 0.45,
+    "position": [
+      -5.0,
+      2.0,
+      5.0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.45,
+      0.47,
+      0.46
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_ne_cornerPost",
+    "shape": "box",
+    "width": 0.45,
+    "height": 4.0,
+    "depth": 0.45,
+    "position": [
+      5.0,
+      2.0,
+      5.0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.45,
+      0.47,
+      0.46
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "west_outer_nw_cornerPost",
+    "shape": "box",
+    "width": 0.45,
+    "height": 4.0,
+    "depth": 0.45,
+    "position": [
+      -14.5,
+      2.0,
+      4.5
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.45,
+      0.47,
+      0.46
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "west_outer_sw_cornerPost",
+    "shape": "box",
+    "width": 0.45,
+    "height": 4.0,
+    "depth": 0.45,
+    "position": [
+      -14.5,
+      2.0,
+      -4.5
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.45,
+      0.47,
+      0.46
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "east_outer_ne_cornerPost",
+    "shape": "box",
+    "width": 0.45,
+    "height": 4.0,
+    "depth": 0.45,
+    "position": [
+      14.5,
+      2.0,
+      4.5
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.45,
+      0.47,
+      0.46
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "east_outer_se_cornerPost",
+    "shape": "box",
+    "width": 0.45,
+    "height": 4.0,
+    "depth": 0.45,
+    "position": [
+      14.5,
+      2.0,
+      -4.5
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.45,
+      0.47,
+      0.46
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "south_outer_sw_cornerPost",
+    "shape": "box",
+    "width": 0.45,
+    "height": 4.0,
+    "depth": 0.45,
+    "position": [
+      -4.5,
+      2.0,
+      -14.5
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.45,
+      0.47,
+      0.46
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "south_outer_se_cornerPost",
+    "shape": "box",
+    "width": 0.45,
+    "height": 4.0,
+    "depth": 0.45,
+    "position": [
+      4.5,
+      2.0,
+      -14.5
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.45,
+      0.47,
+      0.46
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_lowInformationPlinth",
+    "shape": "box",
+    "width": 1.8,
+    "height": 0.75,
+    "depth": 1.2,
+    "position": [
+      0,
+      0.375,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.38,
+      0.36,
+      0.32
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_plinthDisplayTop",
+    "shape": "box",
+    "width": 1.65,
+    "height": 0.08,
+    "depth": 1.05,
+    "position": [
+      0,
+      0.79,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.72,
+      0.7,
+      0.62
+    ],
+    "collision": false,
+    "isPickable": true,
+    "title": "Museum plan placeholder",
+    "description": "A simple placeholder display surface in the central module."
+  },
+  {
+    "name": "westModule_lowBench",
+    "shape": "box",
+    "width": 0.75,
+    "height": 0.45,
+    "depth": 5.2,
+    "position": [
+      -13.2,
+      0.225,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.32,
+      0.3,
+      0.27
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "eastModule_lowBench",
+    "shape": "box",
+    "width": 0.75,
+    "height": 0.45,
+    "depth": 5.2,
+    "position": [
+      13.2,
+      0.225,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.32,
+      0.3,
+      0.27
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "southModule_lowBench",
+    "shape": "box",
+    "width": 5.2,
+    "height": 0.45,
+    "depth": 0.75,
+    "position": [
+      0,
+      0.225,
+      -13.2
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.32,
+      0.3,
+      0.27
+    ],
+    "collision": true,
+    "isPickable": false,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  }
+]

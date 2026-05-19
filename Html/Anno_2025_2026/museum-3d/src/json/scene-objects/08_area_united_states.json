@@ -1,0 +1,323 @@
+[
+  {
+    "name": "area_united_states_floor",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.3,
+    "position": [
+      7.4,
+      0.03,
+      6.0
+    ],
+    "rotationDegrees": [
+      90,
+      0,
+      0
+    ],
+    "color": [
+      0.72,
+      0.78,
+      0.7
+    ],
+    "area": "united_states",
+    "title": "United States area floor",
+    "description": "Floor placeholder for the United States exhibit area."
+  },
+  {
+    "name": "area_united_states_ceiling",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.3,
+    "position": [
+      7.4,
+      3.2,
+      6.0
+    ],
+    "rotationDegrees": [
+      90,
+      0,
+      0
+    ],
+    "color": [
+      0.82,
+      0.79,
+      0.72
+    ],
+    "area": "united_states"
+  },
+  {
+    "name": "area_united_states_north_wall",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.0,
+    "position": [
+      7.4,
+      1.5,
+      4.35
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.72,
+      0.69,
+      0.62
+    ],
+    "area": "united_states"
+  },
+  {
+    "name": "area_united_states_south_wall",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.0,
+    "position": [
+      7.4,
+      1.5,
+      7.65
+    ],
+    "rotationDegrees": [
+      0,
+      180,
+      0
+    ],
+    "color": [
+      0.72,
+      0.69,
+      0.62
+    ],
+    "area": "united_states"
+  },
+  {
+    "name": "area_united_states_west_wall",
+    "shape": "plane",
+    "width": 3.3,
+    "height": 3.0,
+    "position": [
+      5.2,
+      1.5,
+      6.0
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "area": "united_states"
+  },
+  {
+    "name": "area_united_states_east_wall",
+    "shape": "plane",
+    "width": 3.3,
+    "height": 3.0,
+    "position": [
+      9.600000000000001,
+      1.5,
+      6.0
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "area": "united_states"
+  },
+  {
+    "name": "area_united_states_door_placeholder",
+    "shape": "plane",
+    "width": 1.25,
+    "height": 2.2,
+    "position": [
+      5.22,
+      1.1,
+      6.0
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.23,
+      0.12,
+      0.05
+    ],
+    "area": "united_states",
+    "isPickable": true,
+    "title": "Door of the United States area",
+    "description": "Placeholder inner door surface for the United States exhibit area."
+  },
+  {
+    "name": "united_states_letter_01_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      6.5,
+      1.75,
+      4.38
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "united_states",
+    "exhibitType": "letter",
+    "isPickable": true,
+    "title": "United States: Letter",
+    "description": "Placeholder letter displayed on the wall in the United States area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "united_states_stamp_02_placeholder",
+    "shape": "plane",
+    "width": 0.55,
+    "height": 0.55,
+    "position": [
+      8.3,
+      1.75,
+      4.38
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.72,
+      0.2,
+      0.18
+    ],
+    "area": "united_states",
+    "exhibitType": "stamp",
+    "isPickable": true,
+    "title": "United States: Stamp",
+    "description": "Placeholder stamp displayed on the wall in the United States area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "united_states_postcard_03_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      6.5,
+      1.75,
+      7.62
+    ],
+    "rotationDegrees": [
+      0,
+      180,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "united_states",
+    "exhibitType": "postcard",
+    "isPickable": true,
+    "title": "United States: Postcard",
+    "description": "Placeholder postcard displayed on the wall in the United States area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "united_states_newspaper_clip_04_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      8.3,
+      1.75,
+      7.62
+    ],
+    "rotationDegrees": [
+      0,
+      180,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "united_states",
+    "exhibitType": "newspaper_clip",
+    "isPickable": true,
+    "title": "United States: Newspaper Clip",
+    "description": "Placeholder newspaper clip displayed on the wall in the United States area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "united_states_seal_05_placeholder",
+    "shape": "plane",
+    "width": 0.55,
+    "height": 0.55,
+    "position": [
+      9.57,
+      1.75,
+      5.35
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.72,
+      0.2,
+      0.18
+    ],
+    "area": "united_states",
+    "exhibitType": "seal",
+    "isPickable": true,
+    "title": "United States: Seal",
+    "description": "Placeholder seal displayed on the wall in the United States area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "united_states_archive_card_06_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      9.57,
+      1.75,
+      6.65
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "united_states",
+    "exhibitType": "archive_card",
+    "isPickable": true,
+    "title": "United States: Archive Card",
+    "description": "Placeholder archive card displayed on the wall in the United States area.",
+    "externalUrl": ""
+  }
+]

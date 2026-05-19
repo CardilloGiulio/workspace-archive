@@ -1,0 +1,1520 @@
+[
+  {
+    "name": "central_circular_wall_segment_015",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      5.8921,
+      1.9,
+      1.5788
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -15.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_022",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      5.6357,
+      1.9,
+      2.3344
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -22.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_030",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      5.2828,
+      1.9,
+      3.05
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -30.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_060",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      3.05,
+      1.9,
+      5.2828
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -60.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_067",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      2.3344,
+      1.9,
+      5.6357
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -67.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_075",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      1.5788,
+      1.9,
+      5.8921
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -75.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_082",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      0.7962,
+      1.9,
+      6.0478
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -82.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_090",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      0.0,
+      1.9,
+      6.1
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -90.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_097",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -0.7962,
+      1.9,
+      6.0478
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -97.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_105",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -1.5788,
+      1.9,
+      5.8921
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -105.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_112",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -2.3344,
+      1.9,
+      5.6357
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -112.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_120",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -3.05,
+      1.9,
+      5.2828
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -120.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_150",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -5.2828,
+      1.9,
+      3.05
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -150.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_157",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -5.6357,
+      1.9,
+      2.3344
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -157.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_165",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -5.8921,
+      1.9,
+      1.5788
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -165.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_195",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -5.8921,
+      1.9,
+      -1.5788
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -195.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_202",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -5.6357,
+      1.9,
+      -2.3344
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -202.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_210",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -5.2828,
+      1.9,
+      -3.05
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -210.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_240",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -3.05,
+      1.9,
+      -5.2828
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -240.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_247",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -2.3344,
+      1.9,
+      -5.6357
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -247.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_255",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -1.5788,
+      1.9,
+      -5.8921
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -255.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_262",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -0.7962,
+      1.9,
+      -6.0478
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -262.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_270",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      -0.0,
+      1.9,
+      -6.1
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -270.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_277",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      0.7962,
+      1.9,
+      -6.0478
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -277.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_285",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      1.5788,
+      1.9,
+      -5.8921
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -285.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_292",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      2.3344,
+      1.9,
+      -5.6357
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -292.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_300",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      3.05,
+      1.9,
+      -5.2828
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -300.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_330",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      5.2828,
+      1.9,
+      -3.05
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -330.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_337",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      5.6357,
+      1.9,
+      -2.3344
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -337.5,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_circular_wall_segment_345",
+    "shape": "box",
+    "width": 0.85,
+    "height": 3.8,
+    "depth": 0.28,
+    "position": [
+      5.8921,
+      1.9,
+      -1.5788
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "rotationDegrees": [
+      0,
+      -345.0,
+      0
+    ],
+    "title": "Central circular wall segment",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_315_left_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      3.4551,
+      1.9,
+      -5.0272
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -304.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_315_right_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      5.0272,
+      1.9,
+      -3.4551
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -325.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_000_left_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      5.9979,
+      1.9,
+      -1.1116
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      10.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_000_right_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      5.9979,
+      1.9,
+      1.1116
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -10.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_045_left_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      5.0272,
+      1.9,
+      3.4551
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -34.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_045_right_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      3.4551,
+      1.9,
+      5.0272
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -55.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_135_left_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      -3.4551,
+      1.9,
+      5.0272
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -124.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_135_right_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      -5.0272,
+      1.9,
+      3.4551
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -145.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_180_left_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      -5.9979,
+      1.9,
+      1.1116
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -169.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_180_right_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      -5.9979,
+      1.9,
+      -1.1116
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -190.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_225_left_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      -5.0272,
+      1.9,
+      -3.4551
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -214.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_225_right_pillar",
+    "shape": "box",
+    "width": 0.28,
+    "height": 3.8,
+    "depth": 0.42,
+    "position": [
+      -3.4551,
+      1.9,
+      -5.0272
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -235.5,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_315_top_lintel",
+    "shape": "box",
+    "width": 1.75,
+    "height": 0.35,
+    "depth": 0.42,
+    "position": [
+      4.3134,
+      3.2,
+      -4.3134
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -315,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_000_top_lintel",
+    "shape": "box",
+    "width": 1.75,
+    "height": 0.35,
+    "depth": 0.42,
+    "position": [
+      6.1,
+      3.2,
+      0.0
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_045_top_lintel",
+    "shape": "box",
+    "width": 1.75,
+    "height": 0.35,
+    "depth": 0.42,
+    "position": [
+      4.3134,
+      3.2,
+      4.3134
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_135_top_lintel",
+    "shape": "box",
+    "width": 1.75,
+    "height": 0.35,
+    "depth": 0.42,
+    "position": [
+      -4.3134,
+      3.2,
+      4.3134
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -135,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_180_top_lintel",
+    "shape": "box",
+    "width": 1.75,
+    "height": 0.35,
+    "depth": 0.42,
+    "position": [
+      -6.1,
+      3.2,
+      0.0
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -180,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_door_225_top_lintel",
+    "shape": "box",
+    "width": 1.75,
+    "height": 0.35,
+    "depth": 0.42,
+    "position": [
+      -4.3134,
+      3.2,
+      -4.3134
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -225,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  }
+]

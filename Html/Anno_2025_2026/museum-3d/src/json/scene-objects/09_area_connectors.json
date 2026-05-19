@@ -1,0 +1,158 @@
+[
+  {
+    "name": "connector_floor_to_sardegna",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.06,
+    "depth": 2.899,
+    "position": [
+      -6.086,
+      0.05,
+      -5.386
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "color": [
+      0.36,
+      0.33,
+      0.29
+    ],
+    "area": "connector",
+    "targetArea": "sardegna",
+    "title": "Connector to Sardegna",
+    "description": "Placeholder walkway/floor connector from the central hall door to the Sardegna area."
+  },
+  {
+    "name": "connector_floor_to_colonies",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.06,
+    "depth": 3.85,
+    "position": [
+      -8.675,
+      0.05,
+      -0.0
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.36,
+      0.33,
+      0.29
+    ],
+    "area": "connector",
+    "targetArea": "colonies",
+    "title": "Connector to Colonies",
+    "description": "Placeholder walkway/floor connector from the central hall door to the Colonies area."
+  },
+  {
+    "name": "connector_floor_to_kingdom_italy",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.06,
+    "depth": 2.899,
+    "position": [
+      -6.086,
+      0.05,
+      5.386
+    ],
+    "rotationDegrees": [
+      0,
+      -135,
+      0
+    ],
+    "color": [
+      0.36,
+      0.33,
+      0.29
+    ],
+    "area": "connector",
+    "targetArea": "kingdom_italy",
+    "title": "Connector to Kingdom of Italy",
+    "description": "Placeholder walkway/floor connector from the central hall door to the Kingdom of Italy area."
+  },
+  {
+    "name": "connector_floor_to_france",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.06,
+    "depth": 2.899,
+    "position": [
+      6.086,
+      0.05,
+      -5.386
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "color": [
+      0.36,
+      0.33,
+      0.29
+    ],
+    "area": "connector",
+    "targetArea": "france",
+    "title": "Connector to France",
+    "description": "Placeholder walkway/floor connector from the central hall door to the France area."
+  },
+  {
+    "name": "connector_floor_to_croatia",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.06,
+    "depth": 3.85,
+    "position": [
+      8.675,
+      0.05,
+      0.0
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.36,
+      0.33,
+      0.29
+    ],
+    "area": "connector",
+    "targetArea": "croatia",
+    "title": "Connector to Croatia",
+    "description": "Placeholder walkway/floor connector from the central hall door to the Croatia area."
+  },
+  {
+    "name": "connector_floor_to_united_states",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.06,
+    "depth": 2.899,
+    "position": [
+      6.086,
+      0.05,
+      5.386
+    ],
+    "rotationDegrees": [
+      0,
+      -225,
+      0
+    ],
+    "color": [
+      0.36,
+      0.33,
+      0.29
+    ],
+    "area": "connector",
+    "targetArea": "united_states",
+    "title": "Connector to United States",
+    "description": "Placeholder walkway/floor connector from the central hall door to the United States area."
+  }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "name": "westDoorFrameLeftPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.18,
+    "height": 2.6,
+    "depth": 0.18,
+    "position": [
+      -3.9,
+      1.3,
+      -0.85
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "westDoorFrameRightPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.18,
+    "height": 2.6,
+    "depth": 0.18,
+    "position": [
+      -3.9,
+      1.3,
+      0.85
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "westDoorFrameTopBeam",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.18,
+    "height": 0.18,
+    "depth": 1.9,
+    "position": [
+      -3.9,
+      2.55,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "westOpenDoorPanelA",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.08,
+    "height": 2.1,
+    "depth": 0.72,
+    "position": [
+      -3.9,
+      1.2,
+      -0.55
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "color": [
+      0.55,
+      0.32,
+      0.16
+    ],
+    "collision": false
+  },
+  {
+    "name": "westOpenDoorPanelB",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.08,
+    "height": 2.1,
+    "depth": 0.72,
+    "position": [
+      -3.9,
+      1.2,
+      0.55
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "color": [
+      0.55,
+      0.32,
+      0.16
+    ],
+    "collision": false
+  },
+  {
+    "name": "westDoorThreshold",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.22,
+    "height": 0.08,
+    "depth": 1.9,
+    "position": [
+      -3.9,
+      0.04,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "eastDoorFrameLeftPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.18,
+    "height": 2.6,
+    "depth": 0.18,
+    "position": [
+      3.9,
+      1.3,
+      -0.85
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "eastDoorFrameRightPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.18,
+    "height": 2.6,
+    "depth": 0.18,
+    "position": [
+      3.9,
+      1.3,
+      0.85
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "eastDoorFrameTopBeam",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.18,
+    "height": 0.18,
+    "depth": 1.9,
+    "position": [
+      3.9,
+      2.55,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "eastOpenDoorPanelA",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.08,
+    "height": 2.1,
+    "depth": 0.72,
+    "position": [
+      3.9,
+      1.2,
+      -0.55
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "color": [
+      0.55,
+      0.32,
+      0.16
+    ],
+    "collision": false
+  },
+  {
+    "name": "eastOpenDoorPanelB",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.08,
+    "height": 2.1,
+    "depth": 0.72,
+    "position": [
+      3.9,
+      1.2,
+      0.55
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "color": [
+      0.55,
+      0.32,
+      0.16
+    ],
+    "collision": false
+  },
+  {
+    "name": "eastDoorThreshold",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.22,
+    "height": 0.08,
+    "depth": 1.9,
+    "position": [
+      3.9,
+      0.04,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "southDoorFrameLeftPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.18,
+    "height": 2.6,
+    "depth": 0.18,
+    "position": [
+      -0.85,
+      1.3,
+      3.9
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "southDoorFrameRightPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.18,
+    "height": 2.6,
+    "depth": 0.18,
+    "position": [
+      0.85,
+      1.3,
+      3.9
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "southDoorFrameTopBeam",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 1.9,
+    "height": 0.18,
+    "depth": 0.18,
+    "position": [
+      0,
+      2.55,
+      3.9
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "southOpenDoorPanelA",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.72,
+    "height": 2.1,
+    "depth": 0.08,
+    "position": [
+      -0.55,
+      1.2,
+      3.9
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "color": [
+      0.55,
+      0.32,
+      0.16
+    ],
+    "collision": false
+  },
+  {
+    "name": "southOpenDoorPanelB",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.72,
+    "height": 2.1,
+    "depth": 0.08,
+    "position": [
+      0.55,
+      1.2,
+      3.9
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "color": [
+      0.55,
+      0.32,
+      0.16
+    ],
+    "collision": false
+  },
+  {
+    "name": "southDoorThreshold",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 1.9,
+    "height": 0.08,
+    "depth": 0.22,
+    "position": [
+      0,
+      0.04,
+      3.9
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "northEmptyAttachmentLeftPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.18,
+    "height": 2.6,
+    "depth": 0.18,
+    "position": [
+      -0.85,
+      1.3,
+      -3.9
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "northEmptyAttachmentRightPost",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.18,
+    "height": 2.6,
+    "depth": 0.18,
+    "position": [
+      0.85,
+      1.3,
+      -3.9
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "northEmptyAttachmentTopBeam",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 1.9,
+    "height": 0.18,
+    "depth": 0.18,
+    "position": [
+      0,
+      2.55,
+      -3.9
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  },
+  {
+    "name": "northEmptyAttachmentThreshold",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 1.9,
+    "height": 0.08,
+    "depth": 0.22,
+    "position": [
+      0,
+      0.04,
+      -3.9
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.32,
+      0.18,
+      0.08
+    ],
+    "collision": false
+  }
+]

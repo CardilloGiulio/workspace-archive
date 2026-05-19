@@ -1,0 +1,10 @@
+{  
+  "name": "firstBox",
+  "shape": "box",
+  "width": 2,
+  "height": 2,
+  "depth": 2,
+  "position": [0, 1, 0],
+  "rotation": [0, 0, 0],
+  "color": [0.2, 0.6, 1]
+}

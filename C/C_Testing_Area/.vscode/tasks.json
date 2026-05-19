@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C app",
+      "type": "shell",
+      "command": "C:/msys64/ucrt64/bin/gcc.exe",
+      "args": [
+        "src/main.c",
+        "src/greeter.c",
+        "-Iinclude",
+        "-o",
+        "app.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Builds the C project using MSYS2 UCRT64 GCC"
+    },
+    {
+      "label": "Run C app",
+      "type": "shell",
+      "command": "${workspaceFolder}/app.exe",
+      "dependsOn": "Build C app",
+      "problemMatcher": [],
+      "detail": "Runs the compiled app.exe"
+    }
+  ]
+}

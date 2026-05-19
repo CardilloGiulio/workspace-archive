@@ -1,0 +1,296 @@
+[
+  {
+    "name": "central_to_france_door_dark_panel_placeholder",
+    "shape": "box",
+    "width": 1.25,
+    "height": 2.25,
+    "depth": 0.08,
+    "position": [
+      4.3346,
+      1.25,
+      -4.3346
+    ],
+    "color": [
+      0.25,
+      0.17,
+      0.1
+    ],
+    "rotationDegrees": [
+      0,
+      -315,
+      0
+    ],
+    "title": "Door to France",
+    "isPickable": true,
+    "collision": false
+  },
+  {
+    "name": "central_to_france_door_name_plaque",
+    "shape": "box",
+    "width": 1.1,
+    "height": 0.24,
+    "depth": 0.05,
+    "position": [
+      4.2851,
+      2.62,
+      -4.2851
+    ],
+    "color": [
+      0.78,
+      0.72,
+      0.56
+    ],
+    "rotationDegrees": [
+      0,
+      -315,
+      0
+    ],
+    "title": "Label plaque: France",
+    "collision": false
+  },
+  {
+    "name": "central_to_croatia_door_dark_panel_placeholder",
+    "shape": "box",
+    "width": 1.25,
+    "height": 2.25,
+    "depth": 0.08,
+    "position": [
+      6.13,
+      1.25,
+      0.0
+    ],
+    "color": [
+      0.25,
+      0.17,
+      0.1
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "title": "Door to Croatia",
+    "isPickable": true,
+    "collision": false
+  },
+  {
+    "name": "central_to_croatia_door_name_plaque",
+    "shape": "box",
+    "width": 1.1,
+    "height": 0.24,
+    "depth": 0.05,
+    "position": [
+      6.06,
+      2.62,
+      0.0
+    ],
+    "color": [
+      0.78,
+      0.72,
+      0.56
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "title": "Label plaque: Croatia",
+    "collision": false
+  },
+  {
+    "name": "central_to_united_states_door_dark_panel_placeholder",
+    "shape": "box",
+    "width": 1.25,
+    "height": 2.25,
+    "depth": 0.08,
+    "position": [
+      4.3346,
+      1.25,
+      4.3346
+    ],
+    "color": [
+      0.25,
+      0.17,
+      0.1
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "title": "Door to United States",
+    "isPickable": true,
+    "collision": false
+  },
+  {
+    "name": "central_to_united_states_door_name_plaque",
+    "shape": "box",
+    "width": 1.1,
+    "height": 0.24,
+    "depth": 0.05,
+    "position": [
+      4.2851,
+      2.62,
+      4.2851
+    ],
+    "color": [
+      0.78,
+      0.72,
+      0.56
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "title": "Label plaque: United States",
+    "collision": false
+  },
+  {
+    "name": "central_to_kingdom_italy_door_dark_panel_placeholder",
+    "shape": "box",
+    "width": 1.25,
+    "height": 2.25,
+    "depth": 0.08,
+    "position": [
+      -4.3346,
+      1.25,
+      4.3346
+    ],
+    "color": [
+      0.25,
+      0.17,
+      0.1
+    ],
+    "rotationDegrees": [
+      0,
+      -135,
+      0
+    ],
+    "title": "Door to Kingdom Italy",
+    "isPickable": true,
+    "collision": false
+  },
+  {
+    "name": "central_to_kingdom_italy_door_name_plaque",
+    "shape": "box",
+    "width": 1.1,
+    "height": 0.24,
+    "depth": 0.05,
+    "position": [
+      -4.2851,
+      2.62,
+      4.2851
+    ],
+    "color": [
+      0.78,
+      0.72,
+      0.56
+    ],
+    "rotationDegrees": [
+      0,
+      -135,
+      0
+    ],
+    "title": "Label plaque: Kingdom Italy",
+    "collision": false
+  },
+  {
+    "name": "central_to_colonies_door_dark_panel_placeholder",
+    "shape": "box",
+    "width": 1.25,
+    "height": 2.25,
+    "depth": 0.08,
+    "position": [
+      -6.13,
+      1.25,
+      0.0
+    ],
+    "color": [
+      0.25,
+      0.17,
+      0.1
+    ],
+    "rotationDegrees": [
+      0,
+      -180,
+      0
+    ],
+    "title": "Door to Colonies",
+    "isPickable": true,
+    "collision": false
+  },
+  {
+    "name": "central_to_colonies_door_name_plaque",
+    "shape": "box",
+    "width": 1.1,
+    "height": 0.24,
+    "depth": 0.05,
+    "position": [
+      -6.06,
+      2.62,
+      0.0
+    ],
+    "color": [
+      0.78,
+      0.72,
+      0.56
+    ],
+    "rotationDegrees": [
+      0,
+      -180,
+      0
+    ],
+    "title": "Label plaque: Colonies",
+    "collision": false
+  },
+  {
+    "name": "central_to_sardegna_door_dark_panel_placeholder",
+    "shape": "box",
+    "width": 1.25,
+    "height": 2.25,
+    "depth": 0.08,
+    "position": [
+      -4.3346,
+      1.25,
+      -4.3346
+    ],
+    "color": [
+      0.25,
+      0.17,
+      0.1
+    ],
+    "rotationDegrees": [
+      0,
+      -225,
+      0
+    ],
+    "title": "Door to Sardegna",
+    "isPickable": true,
+    "collision": false
+  },
+  {
+    "name": "central_to_sardegna_door_name_plaque",
+    "shape": "box",
+    "width": 1.1,
+    "height": 0.24,
+    "depth": 0.05,
+    "position": [
+      -4.2851,
+      2.62,
+      -4.2851
+    ],
+    "color": [
+      0.78,
+      0.72,
+      0.56
+    ],
+    "rotationDegrees": [
+      0,
+      -225,
+      0
+    ],
+    "title": "Label plaque: Sardegna",
+    "collision": false
+  }
+]

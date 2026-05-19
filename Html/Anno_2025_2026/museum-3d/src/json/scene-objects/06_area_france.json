@@ -1,0 +1,323 @@
+[
+  {
+    "name": "area_france_floor",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.3,
+    "position": [
+      7.4,
+      0.03,
+      -6.0
+    ],
+    "rotationDegrees": [
+      90,
+      0,
+      0
+    ],
+    "color": [
+      0.7,
+      0.76,
+      0.82
+    ],
+    "area": "france",
+    "title": "France area floor",
+    "description": "Floor placeholder for the France exhibit area."
+  },
+  {
+    "name": "area_france_ceiling",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.3,
+    "position": [
+      7.4,
+      3.2,
+      -6.0
+    ],
+    "rotationDegrees": [
+      90,
+      0,
+      0
+    ],
+    "color": [
+      0.82,
+      0.79,
+      0.72
+    ],
+    "area": "france"
+  },
+  {
+    "name": "area_france_north_wall",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.0,
+    "position": [
+      7.4,
+      1.5,
+      -7.65
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.72,
+      0.69,
+      0.62
+    ],
+    "area": "france"
+  },
+  {
+    "name": "area_france_south_wall",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.0,
+    "position": [
+      7.4,
+      1.5,
+      -4.35
+    ],
+    "rotationDegrees": [
+      0,
+      180,
+      0
+    ],
+    "color": [
+      0.72,
+      0.69,
+      0.62
+    ],
+    "area": "france"
+  },
+  {
+    "name": "area_france_west_wall",
+    "shape": "plane",
+    "width": 3.3,
+    "height": 3.0,
+    "position": [
+      5.2,
+      1.5,
+      -6.0
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "area": "france"
+  },
+  {
+    "name": "area_france_east_wall",
+    "shape": "plane",
+    "width": 3.3,
+    "height": 3.0,
+    "position": [
+      9.600000000000001,
+      1.5,
+      -6.0
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "area": "france"
+  },
+  {
+    "name": "area_france_door_placeholder",
+    "shape": "plane",
+    "width": 1.25,
+    "height": 2.2,
+    "position": [
+      5.22,
+      1.1,
+      -6.0
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.23,
+      0.12,
+      0.05
+    ],
+    "area": "france",
+    "isPickable": true,
+    "title": "Door of the France area",
+    "description": "Placeholder inner door surface for the France exhibit area."
+  },
+  {
+    "name": "france_letter_01_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      6.5,
+      1.75,
+      -7.62
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "france",
+    "exhibitType": "letter",
+    "isPickable": true,
+    "title": "France: Letter",
+    "description": "Placeholder letter displayed on the wall in the France area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "france_stamp_02_placeholder",
+    "shape": "plane",
+    "width": 0.55,
+    "height": 0.55,
+    "position": [
+      8.3,
+      1.75,
+      -7.62
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.72,
+      0.2,
+      0.18
+    ],
+    "area": "france",
+    "exhibitType": "stamp",
+    "isPickable": true,
+    "title": "France: Stamp",
+    "description": "Placeholder stamp displayed on the wall in the France area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "france_postcard_03_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      6.5,
+      1.75,
+      -4.38
+    ],
+    "rotationDegrees": [
+      0,
+      180,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "france",
+    "exhibitType": "postcard",
+    "isPickable": true,
+    "title": "France: Postcard",
+    "description": "Placeholder postcard displayed on the wall in the France area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "france_exhibition_card_04_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      8.3,
+      1.75,
+      -4.38
+    ],
+    "rotationDegrees": [
+      0,
+      180,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "france",
+    "exhibitType": "exhibition_card",
+    "isPickable": true,
+    "title": "France: Exhibition Card",
+    "description": "Placeholder exhibition card displayed on the wall in the France area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "france_seal_05_placeholder",
+    "shape": "plane",
+    "width": 0.55,
+    "height": 0.55,
+    "position": [
+      9.57,
+      1.75,
+      -6.65
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.72,
+      0.2,
+      0.18
+    ],
+    "area": "france",
+    "exhibitType": "seal",
+    "isPickable": true,
+    "title": "France: Seal",
+    "description": "Placeholder seal displayed on the wall in the France area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "france_map_fragment_06_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      9.57,
+      1.75,
+      -5.35
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "france",
+    "exhibitType": "map_fragment",
+    "isPickable": true,
+    "title": "France: Map Fragment",
+    "description": "Placeholder map fragment displayed on the wall in the France area.",
+    "externalUrl": ""
+  }
+]

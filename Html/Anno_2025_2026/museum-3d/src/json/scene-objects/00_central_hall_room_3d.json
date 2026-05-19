@@ -1,0 +1,444 @@
+[
+  {
+    "name": "central_hall_floor_solid_slab",
+    "shape": "box",
+    "width": 13.0,
+    "height": 0.18,
+    "depth": 13.0,
+    "position": [
+      0,
+      -0.09,
+      0
+    ],
+    "color": [
+      0.39,
+      0.37,
+      0.32
+    ],
+    "title": "Central circular hall floor",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_hall_ceiling_solid_slab",
+    "shape": "box",
+    "width": 13.0,
+    "height": 0.16,
+    "depth": 13.0,
+    "position": [
+      0,
+      4.05,
+      0
+    ],
+    "color": [
+      0.77,
+      0.74,
+      0.68
+    ],
+    "title": "Central hall ceiling",
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "central_radial_floor_tile_01",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      3.2,
+      0.015,
+      0.0
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -0.0,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_02",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      2.9564,
+      0.015,
+      1.2246
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -22.5,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_03",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      2.2627,
+      0.015,
+      2.2627
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -45.0,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_04",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      1.2246,
+      0.015,
+      2.9564
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -67.5,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_05",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      0.0,
+      0.015,
+      3.2
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -90.0,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_06",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      -1.2246,
+      0.015,
+      2.9564
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -112.5,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_07",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      -2.2627,
+      0.015,
+      2.2627
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -135.0,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_08",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      -2.9564,
+      0.015,
+      1.2246
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -157.5,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_09",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      -3.2,
+      0.015,
+      0.0
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -180.0,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_10",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      -2.9564,
+      0.015,
+      -1.2246
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -202.5,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_11",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      -2.2627,
+      0.015,
+      -2.2627
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -225.0,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_12",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      -1.2246,
+      0.015,
+      -2.9564
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -247.5,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_13",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      -0.0,
+      0.015,
+      -3.2
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -270.0,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_14",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      1.2246,
+      0.015,
+      -2.9564
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -292.5,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_15",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      2.2627,
+      0.015,
+      -2.2627
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -315.0,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_radial_floor_tile_16",
+    "shape": "box",
+    "width": 1.2,
+    "height": 0.025,
+    "depth": 0.35,
+    "position": [
+      2.9564,
+      0.015,
+      -1.2246
+    ],
+    "color": [
+      0.48,
+      0.45,
+      0.38
+    ],
+    "rotationDegrees": [
+      0,
+      -337.5,
+      0
+    ],
+    "collision": false
+  },
+  {
+    "name": "central_camera_spawn_floor_marker_flat_not_orb",
+    "shape": "box",
+    "width": 0.65,
+    "height": 0.025,
+    "depth": 0.65,
+    "position": [
+      0,
+      0.02,
+      2.4
+    ],
+    "color": [
+      0.18,
+      0.18,
+      0.18
+    ],
+    "title": "Camera spawn marker",
+    "description": "Flat dark floor marker only, not a blue orb",
+    "collision": false
+  }
+]

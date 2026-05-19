@@ -1,0 +1,746 @@
+[
+  {
+    "name": "connector_to_croatia_floor_solid",
+    "shape": "box",
+    "width": 4.5,
+    "height": 0.12,
+    "depth": 1.45,
+    "position": [
+      8.4,
+      -0.06,
+      0
+    ],
+    "color": [
+      0.39,
+      0.37,
+      0.32
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_croatia_left_low_wall",
+    "shape": "box",
+    "width": 4.5,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      8.4,
+      0.575,
+      -0.82
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_croatia_right_low_wall",
+    "shape": "box",
+    "width": 4.5,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      8.4,
+      0.575,
+      0.82
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_croatia_ceiling_lintel",
+    "shape": "box",
+    "width": 4.5,
+    "height": 0.22,
+    "depth": 1.45,
+    "position": [
+      8.4,
+      3.35,
+      0
+    ],
+    "color": [
+      0.77,
+      0.74,
+      0.68
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_colonies_floor_solid",
+    "shape": "box",
+    "width": 4.5,
+    "height": 0.12,
+    "depth": 1.45,
+    "position": [
+      -8.4,
+      -0.06,
+      0
+    ],
+    "color": [
+      0.39,
+      0.37,
+      0.32
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_colonies_left_low_wall",
+    "shape": "box",
+    "width": 4.5,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      -8.4,
+      0.575,
+      -0.82
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_colonies_right_low_wall",
+    "shape": "box",
+    "width": 4.5,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      -8.4,
+      0.575,
+      0.82
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_colonies_ceiling_lintel",
+    "shape": "box",
+    "width": 4.5,
+    "height": 0.22,
+    "depth": 1.45,
+    "position": [
+      -8.4,
+      3.35,
+      0
+    ],
+    "color": [
+      0.77,
+      0.74,
+      0.68
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_france_floor_solid",
+    "shape": "box",
+    "width": 4.0,
+    "height": 0.12,
+    "depth": 1.45,
+    "position": [
+      6.25,
+      -0.06,
+      -6.25
+    ],
+    "color": [
+      0.39,
+      0.37,
+      0.32
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_france_left_low_wall",
+    "shape": "box",
+    "width": 4.0,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      6.25,
+      0.575,
+      -7.07
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_france_right_low_wall",
+    "shape": "box",
+    "width": 4.0,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      6.25,
+      0.575,
+      -5.43
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_france_ceiling_lintel",
+    "shape": "box",
+    "width": 4.0,
+    "height": 0.22,
+    "depth": 1.45,
+    "position": [
+      6.25,
+      3.35,
+      -6.25
+    ],
+    "color": [
+      0.77,
+      0.74,
+      0.68
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_sardegna_floor_solid",
+    "shape": "box",
+    "width": 4.0,
+    "height": 0.12,
+    "depth": 1.45,
+    "position": [
+      -6.25,
+      -0.06,
+      -6.25
+    ],
+    "color": [
+      0.39,
+      0.37,
+      0.32
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_sardegna_left_low_wall",
+    "shape": "box",
+    "width": 4.0,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      -6.25,
+      0.575,
+      -7.07
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_sardegna_right_low_wall",
+    "shape": "box",
+    "width": 4.0,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      -6.25,
+      0.575,
+      -5.43
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_sardegna_ceiling_lintel",
+    "shape": "box",
+    "width": 4.0,
+    "height": 0.22,
+    "depth": 1.45,
+    "position": [
+      -6.25,
+      3.35,
+      -6.25
+    ],
+    "color": [
+      0.77,
+      0.74,
+      0.68
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_united_states_floor_solid",
+    "shape": "box",
+    "width": 4.0,
+    "height": 0.12,
+    "depth": 1.45,
+    "position": [
+      6.25,
+      -0.06,
+      6.25
+    ],
+    "color": [
+      0.39,
+      0.37,
+      0.32
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_united_states_left_low_wall",
+    "shape": "box",
+    "width": 4.0,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      6.25,
+      0.575,
+      5.43
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_united_states_right_low_wall",
+    "shape": "box",
+    "width": 4.0,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      6.25,
+      0.575,
+      7.07
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_united_states_ceiling_lintel",
+    "shape": "box",
+    "width": 4.0,
+    "height": 0.22,
+    "depth": 1.45,
+    "position": [
+      6.25,
+      3.35,
+      6.25
+    ],
+    "color": [
+      0.77,
+      0.74,
+      0.68
+    ],
+    "rotationDegrees": [
+      0,
+      45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_kingdom_italy_floor_solid",
+    "shape": "box",
+    "width": 4.0,
+    "height": 0.12,
+    "depth": 1.45,
+    "position": [
+      -6.25,
+      -0.06,
+      6.25
+    ],
+    "color": [
+      0.39,
+      0.37,
+      0.32
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_kingdom_italy_left_low_wall",
+    "shape": "box",
+    "width": 4.0,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      -6.25,
+      0.575,
+      5.43
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_kingdom_italy_right_low_wall",
+    "shape": "box",
+    "width": 4.0,
+    "height": 1.15,
+    "depth": 0.18,
+    "position": [
+      -6.25,
+      0.575,
+      7.07
+    ],
+    "color": [
+      0.46,
+      0.44,
+      0.4
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "connector_to_kingdom_italy_ceiling_lintel",
+    "shape": "box",
+    "width": 4.0,
+    "height": 0.22,
+    "depth": 1.45,
+    "position": [
+      -6.25,
+      3.35,
+      6.25
+    ],
+    "color": [
+      0.77,
+      0.74,
+      0.68
+    ],
+    "rotationDegrees": [
+      0,
+      -45,
+      0
+    ],
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.85,
+      "restitution": 0.05
+    }
+  }
+]

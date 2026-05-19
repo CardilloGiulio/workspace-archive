@@ -1,0 +1,785 @@
+[
+  {
+    "name": "collider_west_module_floor",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 12.6,
+    "height": 0.2,
+    "depth": 12.6,
+    "position": [
+      -14,
+      -0.1,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    },
+    "notes": "west square module floor collider."
+  },
+  {
+    "name": "collider_west_module_ceiling",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 12.6,
+    "height": 0.2,
+    "depth": 12.6,
+    "position": [
+      -14,
+      7.05,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    },
+    "notes": "west square module ceiling collider."
+  },
+  {
+    "name": "collider_west_module_outer_west_wall",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.35,
+    "height": 6.8,
+    "depth": 12.6,
+    "position": [
+      -20.3,
+      3.4,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_west_module_north_wall",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 12.6,
+    "height": 6.8,
+    "depth": 0.35,
+    "position": [
+      -14,
+      3.4,
+      6.3
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_west_module_south_wall",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 12.6,
+    "height": 6.8,
+    "depth": 0.35,
+    "position": [
+      -14,
+      3.4,
+      -6.3
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_west_module_east_wall_upper_frame",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.35,
+    "height": 6.8,
+    "depth": 4.5,
+    "position": [
+      -7.7,
+      3.4,
+      4.05
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_west_module_east_wall_lower_frame",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.35,
+    "height": 6.8,
+    "depth": 4.5,
+    "position": [
+      -7.7,
+      3.4,
+      -4.05
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_east_module_floor",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 12.6,
+    "height": 0.2,
+    "depth": 12.6,
+    "position": [
+      14,
+      -0.1,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    },
+    "notes": "east square module floor collider."
+  },
+  {
+    "name": "collider_east_module_ceiling",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 12.6,
+    "height": 0.2,
+    "depth": 12.6,
+    "position": [
+      14,
+      7.05,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    },
+    "notes": "east square module ceiling collider."
+  },
+  {
+    "name": "collider_east_module_outer_east_wall",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.35,
+    "height": 6.8,
+    "depth": 12.6,
+    "position": [
+      20.3,
+      3.4,
+      0
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_east_module_north_wall",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 12.6,
+    "height": 6.8,
+    "depth": 0.35,
+    "position": [
+      14,
+      3.4,
+      6.3
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_east_module_south_wall",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 12.6,
+    "height": 6.8,
+    "depth": 0.35,
+    "position": [
+      14,
+      3.4,
+      -6.3
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_east_module_west_wall_upper_frame",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.35,
+    "height": 6.8,
+    "depth": 4.5,
+    "position": [
+      7.7,
+      3.4,
+      4.05
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_east_module_west_wall_lower_frame",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.35,
+    "height": 6.8,
+    "depth": 4.5,
+    "position": [
+      7.7,
+      3.4,
+      -4.05
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_south_module_floor",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 12.6,
+    "height": 0.2,
+    "depth": 12.6,
+    "position": [
+      0,
+      -0.1,
+      -14
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    },
+    "notes": "south square module floor collider."
+  },
+  {
+    "name": "collider_south_module_ceiling",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 12.6,
+    "height": 0.2,
+    "depth": 12.6,
+    "position": [
+      0,
+      7.05,
+      -14
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    },
+    "notes": "south square module ceiling collider."
+  },
+  {
+    "name": "collider_south_module_outer_south_wall",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 12.6,
+    "height": 6.8,
+    "depth": 0.35,
+    "position": [
+      0,
+      3.4,
+      -20.3
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_south_module_west_wall",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.35,
+    "height": 6.8,
+    "depth": 12.6,
+    "position": [
+      -6.3,
+      3.4,
+      -14
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_south_module_east_wall",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 0.35,
+    "height": 6.8,
+    "depth": 12.6,
+    "position": [
+      6.3,
+      3.4,
+      -14
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_south_module_north_wall_left_frame",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 4.5,
+    "height": 6.8,
+    "depth": 0.35,
+    "position": [
+      -4.05,
+      3.4,
+      -7.7
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  },
+  {
+    "name": "collider_south_module_north_wall_right_frame",
+    "objectType": "primitive",
+    "shape": "box",
+    "width": 4.5,
+    "height": 6.8,
+    "depth": 0.35,
+    "position": [
+      4.05,
+      3.4,
+      -7.7
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      1,
+      0,
+      0
+    ],
+    "alpha": 0,
+    "visible": false,
+    "visibility": 0,
+    "colliderOnly": true,
+    "isPickable": false,
+    "collision": true,
+    "rigidBody": {
+      "enabled": true,
+      "type": "static",
+      "shape": "box",
+      "mass": 0,
+      "friction": 0.8,
+      "restitution": 0.05
+    }
+  }
+]

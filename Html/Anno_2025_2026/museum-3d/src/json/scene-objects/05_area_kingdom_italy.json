@@ -1,0 +1,323 @@
+[
+  {
+    "name": "area_kingdom_italy_floor",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.3,
+    "position": [
+      -7.4,
+      0.03,
+      6.0
+    ],
+    "rotationDegrees": [
+      90,
+      0,
+      0
+    ],
+    "color": [
+      0.74,
+      0.76,
+      0.65
+    ],
+    "area": "kingdom_italy",
+    "title": "Kingdom of Italy area floor",
+    "description": "Floor placeholder for the Kingdom of Italy exhibit area."
+  },
+  {
+    "name": "area_kingdom_italy_ceiling",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.3,
+    "position": [
+      -7.4,
+      3.2,
+      6.0
+    ],
+    "rotationDegrees": [
+      90,
+      0,
+      0
+    ],
+    "color": [
+      0.82,
+      0.79,
+      0.72
+    ],
+    "area": "kingdom_italy"
+  },
+  {
+    "name": "area_kingdom_italy_north_wall",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.0,
+    "position": [
+      -7.4,
+      1.5,
+      4.35
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.72,
+      0.69,
+      0.62
+    ],
+    "area": "kingdom_italy"
+  },
+  {
+    "name": "area_kingdom_italy_south_wall",
+    "shape": "plane",
+    "width": 4.4,
+    "height": 3.0,
+    "position": [
+      -7.4,
+      1.5,
+      7.65
+    ],
+    "rotationDegrees": [
+      0,
+      180,
+      0
+    ],
+    "color": [
+      0.72,
+      0.69,
+      0.62
+    ],
+    "area": "kingdom_italy"
+  },
+  {
+    "name": "area_kingdom_italy_west_wall",
+    "shape": "plane",
+    "width": 3.3,
+    "height": 3.0,
+    "position": [
+      -9.600000000000001,
+      1.5,
+      6.0
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "area": "kingdom_italy"
+  },
+  {
+    "name": "area_kingdom_italy_east_wall",
+    "shape": "plane",
+    "width": 3.3,
+    "height": 3.0,
+    "position": [
+      -5.2,
+      1.5,
+      6.0
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.68,
+      0.65,
+      0.58
+    ],
+    "area": "kingdom_italy"
+  },
+  {
+    "name": "area_kingdom_italy_door_placeholder",
+    "shape": "plane",
+    "width": 1.25,
+    "height": 2.2,
+    "position": [
+      -5.22,
+      1.1,
+      6.0
+    ],
+    "rotationDegrees": [
+      0,
+      -90,
+      0
+    ],
+    "color": [
+      0.23,
+      0.12,
+      0.05
+    ],
+    "area": "kingdom_italy",
+    "isPickable": true,
+    "title": "Door of the Kingdom of Italy area",
+    "description": "Placeholder inner door surface for the Kingdom of Italy exhibit area."
+  },
+  {
+    "name": "kingdom_italy_letter_01_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      -8.3,
+      1.75,
+      4.38
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "kingdom_italy",
+    "exhibitType": "letter",
+    "isPickable": true,
+    "title": "Kingdom of Italy: Letter",
+    "description": "Placeholder letter displayed on the wall in the Kingdom of Italy area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "kingdom_italy_stamp_02_placeholder",
+    "shape": "plane",
+    "width": 0.55,
+    "height": 0.55,
+    "position": [
+      -6.5,
+      1.75,
+      4.38
+    ],
+    "rotationDegrees": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.72,
+      0.2,
+      0.18
+    ],
+    "area": "kingdom_italy",
+    "exhibitType": "stamp",
+    "isPickable": true,
+    "title": "Kingdom of Italy: Stamp",
+    "description": "Placeholder stamp displayed on the wall in the Kingdom of Italy area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "kingdom_italy_royal_note_03_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      -8.3,
+      1.75,
+      7.62
+    ],
+    "rotationDegrees": [
+      0,
+      180,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "kingdom_italy",
+    "exhibitType": "royal_note",
+    "isPickable": true,
+    "title": "Kingdom of Italy: Royal Note",
+    "description": "Placeholder royal note displayed on the wall in the Kingdom of Italy area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "kingdom_italy_postcard_04_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      -6.5,
+      1.75,
+      7.62
+    ],
+    "rotationDegrees": [
+      0,
+      180,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "kingdom_italy",
+    "exhibitType": "postcard",
+    "isPickable": true,
+    "title": "Kingdom of Italy: Postcard",
+    "description": "Placeholder postcard displayed on the wall in the Kingdom of Italy area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "kingdom_italy_seal_05_placeholder",
+    "shape": "plane",
+    "width": 0.55,
+    "height": 0.55,
+    "position": [
+      -9.57,
+      1.75,
+      5.35
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.72,
+      0.2,
+      0.18
+    ],
+    "area": "kingdom_italy",
+    "exhibitType": "seal",
+    "isPickable": true,
+    "title": "Kingdom of Italy: Seal",
+    "description": "Placeholder seal displayed on the wall in the Kingdom of Italy area.",
+    "externalUrl": ""
+  },
+  {
+    "name": "kingdom_italy_registry_06_placeholder",
+    "shape": "plane",
+    "width": 0.9,
+    "height": 0.62,
+    "position": [
+      -9.57,
+      1.75,
+      6.65
+    ],
+    "rotationDegrees": [
+      0,
+      90,
+      0
+    ],
+    "color": [
+      0.92,
+      0.86,
+      0.72
+    ],
+    "area": "kingdom_italy",
+    "exhibitType": "registry",
+    "isPickable": true,
+    "title": "Kingdom of Italy: Registry",
+    "description": "Placeholder registry displayed on the wall in the Kingdom of Italy area.",
+    "externalUrl": ""
+  }
+]
