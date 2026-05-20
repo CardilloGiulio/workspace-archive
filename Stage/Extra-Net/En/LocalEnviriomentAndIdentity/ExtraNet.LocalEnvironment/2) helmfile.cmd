@@ -1,1 +1,0 @@
-helmfile sync --file helmfile.yaml

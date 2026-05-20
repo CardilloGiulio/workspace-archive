@@ -50,6 +50,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+**/node_modules/
+**/.next/
+**/dist/
+**/out/
+**/coverage/
+
 # =========================
 # Unity
 # =========================
@@ -144,3 +150,16 @@ sysinfo.txt
 *.db
 *.sqlite
 *.sqlite3
+
+# =========================
+# Stage contents
+# =========================
+
+# Hide real Stage contents
+Stage/**
+
+# Keep only architecture placeholders
+!Stage/
+!Stage/**/
+!Stage/**/.gitkeep
+!Stage/**/README.md
