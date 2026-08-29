@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#d71920">
+  <meta name="description" content="Dashboard locale e archivio dei consigli di Giulio.">
+  <title>Giulio Advice Archive</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/src/styles/global.css">
+  <link rel="stylesheet" href="/src/styles/components/settings.css">
+  <link rel="stylesheet" href="/src/styles/dashboard.css">
+</head>
+<body data-page="dashboard">
+  <a class="skip-link" href="#main-content">Vai al contenuto</a>
+  <main id="main-content" class="dashboard-shell">
+    <section class="hero-slice" aria-labelledby="dashboard-title">
+      <div class="hero-slice__ink"></div>
+      <div class="hero-slice__copy">
+        <p class="eyebrow">LOCAL EVENT ARCHIVE</p>
+        <h1 id="dashboard-title">Giulio Advice<br><span>Control Room</span></h1>
+        <p class="hero-slice__description">Controlla visite, interazioni, errori di caricamento e stato delle otto scene.</p>
+        <button class="hero-settings-button" type="button" data-open-settings>⚙ Impostazioni</button>
+      </div>
+      <img class="hero-slice__giulio" src="/assets-optimized/sprites/shared/giulio-fourth-wall.webp" alt="Giulio guarda verso l'utente">
+    </section>
+
+    <section class="status-grid" aria-label="Riepilogo attività">
+      <article class="status-card"><span>Eventi</span><strong id="stat-total">0</strong></article>
+      <article class="status-card"><span>Visite</span><strong id="stat-visits">0</strong></article>
+      <article class="status-card"><span>Interazioni</span><strong id="stat-interactions">0</strong></article>
+      <article class="status-card status-card--alert"><span>Errori asset</span><strong id="stat-errors">0</strong></article>
+    </section>
+
+    <section class="scene-grid" aria-labelledby="scene-title">
+      <div class="section-heading">
+        <p class="eyebrow">QR DESTINATIONS</p>
+        <h2 id="scene-title">Le otto scene</h2>
+      </div>
+      <a class="scene-card scene-card--beach" href="/advice1/">
+        <span class="scene-card__number">01</span>
+        <span class="scene-card__title">Spiaggia</span>
+        <span class="scene-card__detail">Secchio d'acqua</span>
+      </a>
+      <a class="scene-card scene-card--tree" href="/advice2/">
+        <span class="scene-card__number">02</span>
+        <span class="scene-card__title">Sotto l'albero</span>
+        <span class="scene-card__detail">Mela e gravità</span>
+      </a>
+      <a class="scene-card scene-card--computer" href="/advice3/">
+        <span class="scene-card__number">03</span>
+        <span class="scene-card__title">Al computer</span>
+        <span class="scene-card__detail">Caricatore scollegato</span>
+      </a>
+      <a class="scene-card scene-card--garden" href="/advice4/">
+        <span class="scene-card__number">04</span>
+        <span class="scene-card__title">Giardino — Allenamento</span>
+        <span class="scene-card__detail">Allenamento interrotto</span>
+      </a>
+      <a class="scene-card scene-card--training" href="/advice5/">
+        <span class="scene-card__number">05</span>
+        <span class="scene-card__title">Training Area</span>
+        <span class="scene-card__detail">Giornata gambe</span>
+      </a>
+      <a class="scene-card scene-card--vr" href="/advice6/">
+        <span class="scene-card__number">06</span>
+        <span class="scene-card__title">Camera — VR</span>
+        <span class="scene-card__detail">Confini reali</span>
+      </a>
+      <a class="scene-card scene-card--bar" href="/advice7/">
+        <span class="scene-card__number">07</span>
+        <span class="scene-card__title">Bar — Colazione</span>
+        <span class="scene-card__detail">Colazione sacrificata</span>
+      </a>
+      <a class="scene-card scene-card--oven" href="/advice8/">
+        <span class="scene-card__number">08</span>
+        <span class="scene-card__title">Forno a legna</span>
+        <span class="scene-card__detail">Troppo caldo</span>
+      </a>
+    </section>
+
+    <section class="log-panel" aria-labelledby="log-title">
+      <div class="log-toolbar">
+        <div>
+          <p class="eyebrow">LIVE LOCAL LOG</p>
+          <h2 id="log-title">Registro eventi</h2>
+        </div>
+        <div class="log-actions">
+          <label class="field-label">Pagina
+            <select id="filter-page">
+              <option value="">Tutte</option>
+              <option value="/">Dashboard</option>
+              <option value="/advice1/">Advice 1</option>
+              <option value="/advice2/">Advice 2</option>
+              <option value="/advice3/">Advice 3</option>
+              <option value="/advice4/">Advice 4</option>
+              <option value="/advice5/">Advice 5</option>
+              <option value="/advice6/">Advice 6</option>
+              <option value="/advice7/">Advice 7</option>
+              <option value="/advice8/">Advice 8</option>
+            </select>
+          </label>
+          <label class="field-label">Cerca
+            <input id="filter-search" type="search" placeholder="evento, oggetto…">
+          </label>
+          <button id="export-logs" class="ui-button" type="button">Esporta JSON</button>
+          <button id="clear-logs" class="ui-button ui-button--danger" type="button">Svuota</button>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="log-table">
+          <thead><tr><th>Ora</th><th>Pagina</th><th>Evento</th><th>Dettagli</th></tr></thead>
+          <tbody id="log-body"></tbody>
+        </table>
+        <p id="log-empty" class="empty-message">Nessun evento registrato.</p>
+      </div>
+    </section>
+  </main>
+  <div id="settings-root"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

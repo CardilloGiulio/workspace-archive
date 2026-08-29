@@ -1,0 +1,19 @@
+/* Advice 6 — Bedroom / VR */
+.scene--bedroom .scene-background-fallback {
+  background:
+    linear-gradient(90deg,transparent 0 70%,rgba(255,255,255,.1) 70% 71%,transparent 71%),
+    linear-gradient(#667792 0 11%,#c8b9a7 11% 73%,#a98669 73% 76%,#6e503c 76%);
+}
+.scene--bedroom .scene-background-fallback::before {
+  content:""; position:absolute; left:17%; top:18%; width:17%; height:25%; border:10px solid #eee5d7;
+  background:linear-gradient(135deg,#9bc2d9,#f6e7b6); box-shadow:12px 12px 0 rgba(0,0,0,.16);
+}
+.scene--bedroom .scene-background-fallback::after {
+  content:""; position:absolute; left:0; right:0; bottom:0; height:24%;
+  background:repeating-linear-gradient(90deg,#7b5a42 0 88px,#6b4b36 88px 92px); border-top:5px solid #4c3529;
+}
+.scene--bedroom .scene-accent--top { background:#5f73cf; box-shadow:0 6px 0 #51d8e7; }
+.scene--bedroom .scene-accent--bottom { box-shadow:0 -5px 0 #5f73cf; }
+.scene--bedroom .scene-object--vrGrid { mix-blend-mode:screen; filter:drop-shadow(0 0 14px rgba(85,216,232,.6)); }
+.scene--bedroom .scene-trigger--bed { filter:drop-shadow(0 15px 8px rgba(0,0,0,.26)); }
+.scene--bedroom .scene-object--lamp:hover { filter:drop-shadow(0 0 18px rgba(255,229,141,.8)); }

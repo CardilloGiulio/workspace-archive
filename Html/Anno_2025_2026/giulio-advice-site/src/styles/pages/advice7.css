@@ -1,0 +1,25 @@
+/* Advice 7 — Morning bar */
+.scene--bar .scene-background-fallback {
+  background:
+    radial-gradient(circle at 18% 28%,rgba(255,238,180,.8),transparent 16%),
+    linear-gradient(#8b5c3b 0 12%,#e8d0ad 12% 67%,#68412e 67% 72%,#3a2720 72%);
+}
+.scene--bar .scene-background-fallback::before {
+  content:"BAR"; position:absolute; left:6%; top:18%; padding:8px 24px; border:7px solid #312018;
+  background:#f7e2b5; color:#a32b26; box-shadow:8px 8px 0 rgba(0,0,0,.17); font:1000 clamp(2rem,5vw,5rem)/1 Impact,sans-serif; transform:rotate(-3deg);
+}
+.scene--bar .scene-background-fallback::after {
+  content:""; position:absolute; right:24%; top:15%; width:24%; height:26%; border:10px solid #6b4630;
+  background:linear-gradient(135deg,#d9eff5,#fff8d5 62%,#cab78d); box-shadow:0 14px 24px rgba(0,0,0,.16);
+}
+
+.scene--bar .scene-layer--morningLight .scene-element__visual {
+  mix-blend-mode: screen;
+  opacity: .9;
+}
+
+.scene--bar .scene-accent--top { background:#8e2b25; box-shadow:0 6px 0 #f3d49c; }
+.scene--bar .scene-accent--bottom { background:#3c271f; box-shadow:0 -5px 0 #8e2b25; }
+.scene--bar .scene-object--steam { mix-blend-mode:screen; animation:coffee-steam 2.8s ease-in-out infinite alternate; }
+.scene--bar .scene-effect--stain { mix-blend-mode:multiply; opacity:.75; }
+@keyframes coffee-steam { to { transform:translateY(-8px) scale(1.04); opacity:.42; } }

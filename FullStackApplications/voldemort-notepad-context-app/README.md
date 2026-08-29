@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ### PowerShell
 ```powershell
-$env:OPENROUTER_API_KEY="your_key_here"
+
 ```
 
 ## Run

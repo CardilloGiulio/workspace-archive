@@ -1,0 +1,1809 @@
+{
+  "createdAt": "2026-07-26T11:53:46Z",
+  "files": 120,
+  "sourceBytes": 161777764,
+  "optimizedBytes": 9785194,
+  "reductionPercent": 93.95,
+  "records": [
+    {
+      "source": "backgrounds/advice1/background-advice1-beach.jpg",
+      "optimized": "backgrounds/advice1/background-advice1-beach.webp",
+      "sourceBytes": 36266,
+      "optimizedBytes": 40746,
+      "sourceSize": [
+        739,
+        415
+      ],
+      "optimizedSize": [
+        739,
+        415
+      ],
+      "alpha": false
+    },
+    {
+      "source": "backgrounds/advice1/foreground-advice1-sand.png",
+      "optimized": "backgrounds/advice1/foreground-advice1-sand.webp",
+      "sourceBytes": 5851266,
+      "optimizedBytes": 485948,
+      "sourceSize": [
+        2800,
+        1591
+      ],
+      "optimizedSize": [
+        1901,
+        1080
+      ],
+      "alpha": true
+    },
+    {
+      "source": "backgrounds/advice1/waves-advice1.png",
+      "optimized": "backgrounds/advice1/waves-advice1.webp",
+      "sourceBytes": 599442,
+      "optimizedBytes": 56478,
+      "sourceSize": [
+        640,
+        581
+      ],
+      "optimizedSize": [
+        640,
+        581
+      ],
+      "alpha": true
+    },
+    {
+      "source": "backgrounds/advice2/background-advice2-tree.jpg",
+      "optimized": "backgrounds/advice2/background-advice2-tree.webp",
+      "sourceBytes": 1088590,
+      "optimizedBytes": 486102,
+      "sourceSize": [
+        1411,
+        1059
+      ],
+      "optimizedSize": [
+        1411,
+        1059
+      ],
+      "alpha": false
+    },
+    {
+      "source": "backgrounds/advice2/foreground-advice2-grass.png",
+      "optimized": "backgrounds/advice2/foreground-advice2-grass.webp",
+      "sourceBytes": 158427,
+      "optimizedBytes": 38510,
+      "sourceSize": [
+        892,
+        288
+      ],
+      "optimizedSize": [
+        892,
+        288
+      ],
+      "alpha": true
+    },
+    {
+      "source": "backgrounds/advice2/leaves-advice2.png",
+      "optimized": "backgrounds/advice2/leaves-advice2.webp",
+      "sourceBytes": 2373995,
+      "optimizedBytes": 366292,
+      "sourceSize": [
+        2252,
+        1067
+      ],
+      "optimizedSize": [
+        1920,
+        910
+      ],
+      "alpha": true
+    },
+    {
+      "source": "backgrounds/advice3/background-advice3-computer-room.jpg",
+      "optimized": "backgrounds/advice3/background-advice3-computer-room.webp",
+      "sourceBytes": 915380,
+      "optimizedBytes": 129222,
+      "sourceSize": [
+        1841,
+        1381
+      ],
+      "optimizedSize": [
+        1440,
+        1080
+      ],
+      "alpha": false
+    },
+    {
+      "source": "backgrounds/advice3/overlay-advice3-dark-room.png",
+      "optimized": "backgrounds/advice3/overlay-advice3-dark-room.webp",
+      "sourceBytes": 1002177,
+      "optimizedBytes": 666,
+      "sourceSize": [
+        500,
+        500
+      ],
+      "optimizedSize": [
+        500,
+        500
+      ],
+      "alpha": true
+    },
+    {
+      "source": "backgrounds/advice3/overlay-advice3-monitor-glow.webp",
+      "optimized": "backgrounds/advice3/overlay-advice3-monitor-glow.webp",
+      "sourceBytes": 13796,
+      "optimizedBytes": 12136,
+      "sourceSize": [
+        480,
+        250
+      ],
+      "optimizedSize": [
+        480,
+        250
+      ],
+      "alpha": false
+    },
+    {
+      "source": "objects/advice1/beach-ball-advice1.png",
+      "optimized": "objects/advice1/beach-ball-advice1.webp",
+      "sourceBytes": 557518,
+      "optimizedBytes": 27670,
+      "sourceSize": [
+        700,
+        700
+      ],
+      "optimizedSize": [
+        700,
+        700
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/bucket-advice1.png",
+      "optimized": "objects/advice1/bucket-advice1.webp",
+      "sourceBytes": 407503,
+      "optimizedBytes": 57268,
+      "sourceSize": [
+        748,
+        1000
+      ],
+      "optimizedSize": [
+        748,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/cooler-closed-advice1.png",
+      "optimized": "objects/advice1/cooler-closed-advice1.webp",
+      "sourceBytes": 24783,
+      "optimizedBytes": 28082,
+      "sourceSize": [
+        1920,
+        1373
+      ],
+      "optimizedSize": [
+        1200,
+        858
+      ],
+      "alpha": false
+    },
+    {
+      "source": "objects/advice1/cooler-open-advice1.png",
+      "optimized": "objects/advice1/cooler-open-advice1.webp",
+      "sourceBytes": 149731,
+      "optimizedBytes": 31416,
+      "sourceSize": [
+        721,
+        800
+      ],
+      "optimizedSize": [
+        721,
+        800
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/crab-angry-advice1.png",
+      "optimized": "objects/advice1/crab-angry-advice1.webp",
+      "sourceBytes": 738208,
+      "optimizedBytes": 48182,
+      "sourceSize": [
+        4440,
+        3048
+      ],
+      "optimizedSize": [
+        1200,
+        824
+      ],
+      "alpha": false
+    },
+    {
+      "source": "objects/advice1/crab-idle-advice1.png",
+      "optimized": "objects/advice1/crab-idle-advice1.webp",
+      "sourceBytes": 260356,
+      "optimizedBytes": 34054,
+      "sourceSize": [
+        1000,
+        1000
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/flip-flops-advice1.png",
+      "optimized": "objects/advice1/flip-flops-advice1.webp",
+      "sourceBytes": 6055532,
+      "optimizedBytes": 97936,
+      "sourceSize": [
+        3648,
+        2280
+      ],
+      "optimizedSize": [
+        1200,
+        750
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/ice-cube-advice1.png",
+      "optimized": "objects/advice1/ice-cube-advice1.webp",
+      "sourceBytes": 513021,
+      "optimizedBytes": 52672,
+      "sourceSize": [
+        800,
+        800
+      ],
+      "optimizedSize": [
+        800,
+        800
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/radio-advice1.png",
+      "optimized": "objects/advice1/radio-advice1.webp",
+      "sourceBytes": 6315724,
+      "optimizedBytes": 243268,
+      "sourceSize": [
+        2500,
+        2500
+      ],
+      "optimizedSize": [
+        1200,
+        1200
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/sand-cloud-advice1.png",
+      "optimized": "objects/advice1/sand-cloud-advice1.webp",
+      "sourceBytes": 760538,
+      "optimizedBytes": 165880,
+      "sourceSize": [
+        658,
+        861
+      ],
+      "optimizedSize": [
+        658,
+        861
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/sandwich-advice1.png",
+      "optimized": "objects/advice1/sandwich-advice1.webp",
+      "sourceBytes": 803466,
+      "optimizedBytes": 108924,
+      "sourceSize": [
+        940,
+        566
+      ],
+      "optimizedSize": [
+        940,
+        566
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/seagull-advice1.png",
+      "optimized": "objects/advice1/seagull-advice1.webp",
+      "sourceBytes": 387594,
+      "optimizedBytes": 32432,
+      "sourceSize": [
+        580,
+        594
+      ],
+      "optimizedSize": [
+        580,
+        594
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/sunglasses-advice1.png",
+      "optimized": "objects/advice1/sunglasses-advice1.webp",
+      "sourceBytes": 264252,
+      "optimizedBytes": 30950,
+      "sourceSize": [
+        1024,
+        768
+      ],
+      "optimizedSize": [
+        1024,
+        768
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/towel-advice1.png",
+      "optimized": "objects/advice1/towel-advice1.webp",
+      "sourceBytes": 36214,
+      "optimizedBytes": 32426,
+      "sourceSize": [
+        1520,
+        960
+      ],
+      "optimizedSize": [
+        1200,
+        758
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/umbrella-advice1.png",
+      "optimized": "objects/advice1/umbrella-advice1.webp",
+      "sourceBytes": 2077733,
+      "optimizedBytes": 91810,
+      "sourceSize": [
+        1700,
+        2473
+      ],
+      "optimizedSize": [
+        825,
+        1200
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/water-dripping-advice1.png",
+      "optimized": "objects/advice1/water-dripping-advice1.webp",
+      "sourceBytes": 169594,
+      "optimizedBytes": 58498,
+      "sourceSize": [
+        989,
+        989
+      ],
+      "optimizedSize": [
+        989,
+        989
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/water-droplets-advice1.png",
+      "optimized": "objects/advice1/water-droplets-advice1.webp",
+      "sourceBytes": 1110522,
+      "optimizedBytes": 166306,
+      "sourceSize": [
+        1535,
+        2244
+      ],
+      "optimizedSize": [
+        821,
+        1200
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice1/water-splash-advice1.png",
+      "optimized": "objects/advice1/water-splash-advice1.webp",
+      "sourceBytes": 487455,
+      "optimizedBytes": 85146,
+      "sourceSize": [
+        743,
+        1000
+      ],
+      "optimizedSize": [
+        743,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/apple-basket-advice2.png",
+      "optimized": "objects/advice2/apple-basket-advice2.webp",
+      "sourceBytes": 501143,
+      "optimizedBytes": 62516,
+      "sourceSize": [
+        713,
+        638
+      ],
+      "optimizedSize": [
+        713,
+        638
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/apple-falling-advice2.png",
+      "optimized": "objects/advice2/apple-falling-advice2.webp",
+      "sourceBytes": 1457114,
+      "optimizedBytes": 98954,
+      "sourceSize": [
+        3568,
+        3584
+      ],
+      "optimizedSize": [
+        1195,
+        1200
+      ],
+      "alpha": false
+    },
+    {
+      "source": "objects/advice2/apple-hanging-advice2.png",
+      "optimized": "objects/advice2/apple-hanging-advice2.webp",
+      "sourceBytes": 420754,
+      "optimizedBytes": 56234,
+      "sourceSize": [
+        1920,
+        1920
+      ],
+      "optimizedSize": [
+        1200,
+        1200
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/apple-impact-advice2.png",
+      "optimized": "objects/advice2/apple-impact-advice2.webp",
+      "sourceBytes": 296559,
+      "optimizedBytes": 88664,
+      "sourceSize": [
+        1614,
+        1335
+      ],
+      "optimizedSize": [
+        1200,
+        993
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/bird-flying-advice2.png",
+      "optimized": "objects/advice2/bird-flying-advice2.webp",
+      "sourceBytes": 390455,
+      "optimizedBytes": 45464,
+      "sourceSize": [
+        1000,
+        800
+      ],
+      "optimizedSize": [
+        1000,
+        800
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/bird-idle-advice2.png",
+      "optimized": "objects/advice2/bird-idle-advice2.webp",
+      "sourceBytes": 511934,
+      "optimizedBytes": 75912,
+      "sourceSize": [
+        719,
+        800
+      ],
+      "optimizedSize": [
+        719,
+        800
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/book-closed-advice2.png",
+      "optimized": "objects/advice2/book-closed-advice2.webp",
+      "sourceBytes": 627111,
+      "optimizedBytes": 99432,
+      "sourceSize": [
+        2409,
+        1606
+      ],
+      "optimizedSize": [
+        1200,
+        800
+      ],
+      "alpha": false
+    },
+    {
+      "source": "objects/advice2/book-open-advice2.png",
+      "optimized": "objects/advice2/book-open-advice2.webp",
+      "sourceBytes": 1145152,
+      "optimizedBytes": 33514,
+      "sourceSize": [
+        1280,
+        853
+      ],
+      "optimizedSize": [
+        1200,
+        800
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/exit-dust-advice2.png",
+      "optimized": "objects/advice2/exit-dust-advice2.webp",
+      "sourceBytes": 772206,
+      "optimizedBytes": 248570,
+      "sourceSize": [
+        758,
+        613
+      ],
+      "optimizedSize": [
+        758,
+        613
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/falling-leaves-advice2.png",
+      "optimized": "objects/advice2/falling-leaves-advice2.webp",
+      "sourceBytes": 36334,
+      "optimizedBytes": 11088,
+      "sourceSize": [
+        658,
+        377
+      ],
+      "optimizedSize": [
+        658,
+        377
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/flowers-advice2.png",
+      "optimized": "objects/advice2/flowers-advice2.webp",
+      "sourceBytes": 12112178,
+      "optimizedBytes": 345536,
+      "sourceSize": [
+        3508,
+        2480
+      ],
+      "optimizedSize": [
+        1200,
+        848
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/gravity-diagram-advice2.png",
+      "optimized": "objects/advice2/gravity-diagram-advice2.webp",
+      "sourceBytes": 39181,
+      "optimizedBytes": 28916,
+      "sourceSize": [
+        583,
+        438
+      ],
+      "optimizedSize": [
+        583,
+        438
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/impact-stars-advice2.png",
+      "optimized": "objects/advice2/impact-stars-advice2.webp",
+      "sourceBytes": 437810,
+      "optimizedBytes": 73850,
+      "sourceSize": [
+        600,
+        600
+      ],
+      "optimizedSize": [
+        600,
+        600
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/leaf-advice2.png",
+      "optimized": "objects/advice2/leaf-advice2.webp",
+      "sourceBytes": 377198,
+      "optimizedBytes": 107158,
+      "sourceSize": [
+        346,
+        883
+      ],
+      "optimizedSize": [
+        346,
+        883
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/notebook-advice2.png",
+      "optimized": "objects/advice2/notebook-advice2.webp",
+      "sourceBytes": 1865290,
+      "optimizedBytes": 61240,
+      "sourceSize": [
+        5080,
+        2938
+      ],
+      "optimizedSize": [
+        1200,
+        694
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/pencil-advice2.png",
+      "optimized": "objects/advice2/pencil-advice2.webp",
+      "sourceBytes": 2359529,
+      "optimizedBytes": 47620,
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "optimizedSize": [
+        1200,
+        1200
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/picnic-cloth-advice2.png",
+      "optimized": "objects/advice2/picnic-cloth-advice2.webp",
+      "sourceBytes": 662702,
+      "optimizedBytes": 99886,
+      "sourceSize": [
+        640,
+        640
+      ],
+      "optimizedSize": [
+        640,
+        640
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice2/squirrel-advice2.png",
+      "optimized": "objects/advice2/squirrel-advice2.webp",
+      "sourceBytes": 1025234,
+      "optimizedBytes": 173778,
+      "sourceSize": [
+        853,
+        855
+      ],
+      "optimizedSize": [
+        853,
+        855
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/chair-advice3.png",
+      "optimized": "objects/advice3/chair-advice3.webp",
+      "sourceBytes": 2561648,
+      "optimizedBytes": 26860,
+      "sourceSize": [
+        800,
+        800
+      ],
+      "optimizedSize": [
+        800,
+        800
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/charger-connected-advice3.png",
+      "optimized": "objects/advice3/charger-connected-advice3.webp",
+      "sourceBytes": 740970,
+      "optimizedBytes": 20688,
+      "sourceSize": [
+        4096,
+        3072
+      ],
+      "optimizedSize": [
+        1200,
+        900
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/charger-disconnected-advice3.png",
+      "optimized": "objects/advice3/charger-disconnected-advice3.webp",
+      "sourceBytes": 1043207,
+      "optimizedBytes": 23068,
+      "sourceSize": [
+        4096,
+        3072
+      ],
+      "optimizedSize": [
+        1200,
+        900
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/electric-pop-advice3.png",
+      "optimized": "objects/advice3/electric-pop-advice3.webp",
+      "sourceBytes": 329708,
+      "optimizedBytes": 79484,
+      "sourceSize": [
+        630,
+        630
+      ],
+      "optimizedSize": [
+        630,
+        630
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/fan-off-advice3.png",
+      "optimized": "objects/advice3/fan-off-advice3.webp",
+      "sourceBytes": 359789,
+      "optimizedBytes": 32556,
+      "sourceSize": [
+        500,
+        708
+      ],
+      "optimizedSize": [
+        500,
+        708
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/fan-on-advice3.png",
+      "optimized": "objects/advice3/fan-on-advice3.webp",
+      "sourceBytes": 359789,
+      "optimizedBytes": 32556,
+      "sourceSize": [
+        500,
+        708
+      ],
+      "optimizedSize": [
+        500,
+        708
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/generated/laptop-off-trimmed.png",
+      "optimized": "objects/advice3/generated/laptop-off-trimmed.webp",
+      "sourceBytes": 4894392,
+      "optimizedBytes": 76614,
+      "sourceSize": [
+        2886,
+        2726
+      ],
+      "optimizedSize": [
+        1200,
+        1133
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/generated/laptop-on-trimmed.png",
+      "optimized": "objects/advice3/generated/laptop-on-trimmed.webp",
+      "sourceBytes": 6411494,
+      "optimizedBytes": 111754,
+      "sourceSize": [
+        2786,
+        2942
+      ],
+      "optimizedSize": [
+        1136,
+        1200
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/headphones-advice3.png",
+      "optimized": "objects/advice3/headphones-advice3.webp",
+      "sourceBytes": 287888,
+      "optimizedBytes": 46262,
+      "sourceSize": [
+        800,
+        800
+      ],
+      "optimizedSize": [
+        800,
+        800
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/lamp-off-advice3.png",
+      "optimized": "objects/advice3/lamp-off-advice3.webp",
+      "sourceBytes": 3051,
+      "optimizedBytes": 1588,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "optimizedSize": [
+        512,
+        512
+      ],
+      "alpha": false
+    },
+    {
+      "source": "objects/advice3/lamp-on-advice3.png",
+      "optimized": "objects/advice3/lamp-on-advice3.webp",
+      "sourceBytes": 4501,
+      "optimizedBytes": 2194,
+      "sourceSize": [
+        512,
+        512
+      ],
+      "optimizedSize": [
+        512,
+        512
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/monitor-off-advice3.png",
+      "optimized": "objects/advice3/monitor-off-advice3.webp",
+      "sourceBytes": 5481262,
+      "optimizedBytes": 49200,
+      "sourceSize": [
+        4096,
+        3072
+      ],
+      "optimizedSize": [
+        1200,
+        900
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/monitor-on-advice3.png",
+      "optimized": "objects/advice3/monitor-on-advice3.webp",
+      "sourceBytes": 7215429,
+      "optimizedBytes": 70234,
+      "sourceSize": [
+        4096,
+        3072
+      ],
+      "optimizedSize": [
+        1200,
+        900
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/mug-advice3.png",
+      "optimized": "objects/advice3/mug-advice3.webp",
+      "sourceBytes": 93618,
+      "optimizedBytes": 13734,
+      "sourceSize": [
+        520,
+        519
+      ],
+      "optimizedSize": [
+        520,
+        519
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/notebooks-advice3.png",
+      "optimized": "objects/advice3/notebooks-advice3.webp",
+      "sourceBytes": 481718,
+      "optimizedBytes": 43858,
+      "sourceSize": [
+        1200,
+        900
+      ],
+      "optimizedSize": [
+        1200,
+        900
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/pen-holder-advice3.png",
+      "optimized": "objects/advice3/pen-holder-advice3.webp",
+      "sourceBytes": 290567,
+      "optimizedBytes": 32634,
+      "sourceSize": [
+        683,
+        1024
+      ],
+      "optimizedSize": [
+        683,
+        1024
+      ],
+      "alpha": true
+    },
+    {
+      "source": "objects/advice3/power-strip-advice3.png",
+      "optimized": "objects/advice3/power-strip-advice3.webp",
+      "sourceBytes": 608411,
+      "optimizedBytes": 25632,
+      "sourceSize": [
+        1796,
+        1688
+      ],
+      "optimizedSize": [
+        1200,
+        1128
+      ],
+      "alpha": false
+    },
+    {
+      "source": "objects/advice3/sticky-note-advice3.png",
+      "optimized": "objects/advice3/sticky-note-advice3.webp",
+      "sourceBytes": 245438,
+      "optimizedBytes": 45158,
+      "sourceSize": [
+        1573,
+        1920
+      ],
+      "optimizedSize": [
+        983,
+        1200
+      ],
+      "alpha": false
+    },
+    {
+      "source": "sprites/advice1/giulio-advice1-exit.png",
+      "optimized": "sprites/advice1/giulio-advice1-exit.webp",
+      "sourceBytes": 1379472,
+      "optimizedBytes": 77004,
+      "sourceSize": [
+        2075,
+        1551
+      ],
+      "optimizedSize": [
+        1600,
+        1196
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice1/giulio-advice1-eye-open.png",
+      "optimized": "sprites/advice1/giulio-advice1-eye-open.webp",
+      "sourceBytes": 1217668,
+      "optimizedBytes": 70984,
+      "sourceSize": [
+        2051,
+        1522
+      ],
+      "optimizedSize": [
+        1600,
+        1187
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice1/giulio-advice1-finish.png",
+      "optimized": "sprites/advice1/giulio-advice1-finish.webp",
+      "sourceBytes": 2150624,
+      "optimizedBytes": 142846,
+      "sourceSize": [
+        1558,
+        2065
+      ],
+      "optimizedSize": [
+        1207,
+        1600
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice1/giulio-advice1-pointing.png",
+      "optimized": "sprites/advice1/giulio-advice1-pointing.webp",
+      "sourceBytes": 1332830,
+      "optimizedBytes": 87796,
+      "sourceSize": [
+        1550,
+        2056
+      ],
+      "optimizedSize": [
+        1206,
+        1600
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice1/giulio-advice1-realisation.png",
+      "optimized": "sprites/advice1/giulio-advice1-realisation.webp",
+      "sourceBytes": 1509143,
+      "optimizedBytes": 108968,
+      "sourceSize": [
+        1544,
+        2047
+      ],
+      "optimizedSize": [
+        1207,
+        1600
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice1/giulio-advice1-sitting-annoyed.png",
+      "optimized": "sprites/advice1/giulio-advice1-sitting-annoyed.webp",
+      "sourceBytes": 1105877,
+      "optimizedBytes": 71594,
+      "sourceSize": [
+        2036,
+        1561
+      ],
+      "optimizedSize": [
+        1600,
+        1227
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice1/giulio-advice1-sleeping.png",
+      "optimized": "sprites/advice1/giulio-advice1-sleeping.webp",
+      "sourceBytes": 1300044,
+      "optimizedBytes": 71928,
+      "sourceSize": [
+        2090,
+        1501
+      ],
+      "optimizedSize": [
+        1600,
+        1149
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice1/giulio-advice1-splashed.png",
+      "optimized": "sprites/advice1/giulio-advice1-splashed.webp",
+      "sourceBytes": 1842599,
+      "optimizedBytes": 145802,
+      "sourceSize": [
+        2089,
+        1596
+      ],
+      "optimizedSize": [
+        1600,
+        1222
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice1/giulio-advice1-theatrical.png",
+      "optimized": "sprites/advice1/giulio-advice1-theatrical.webp",
+      "sourceBytes": 1618168,
+      "optimizedBytes": 127220,
+      "sourceSize": [
+        1582,
+        2031
+      ],
+      "optimizedSize": [
+        1246,
+        1600
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice1/giulio-advice1-wet-stare.png",
+      "optimized": "sprites/advice1/giulio-advice1-wet-stare.webp",
+      "sourceBytes": 1651107,
+      "optimizedBytes": 113418,
+      "sourceSize": [
+        2096,
+        1564
+      ],
+      "optimizedSize": [
+        1600,
+        1194
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice2/giulio-advice2-apple-pointing.png",
+      "optimized": "sprites/advice2/giulio-advice2-apple-pointing.webp",
+      "sourceBytes": 1559410,
+      "optimizedBytes": 106630,
+      "sourceSize": [
+        2033,
+        1570
+      ],
+      "optimizedSize": [
+        1600,
+        1236
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice2/giulio-advice2-apple-stare.png",
+      "optimized": "sprites/advice2/giulio-advice2-apple-stare.webp",
+      "sourceBytes": 1717069,
+      "optimizedBytes": 115846,
+      "sourceSize": [
+        2059,
+        1597
+      ],
+      "optimizedSize": [
+        1600,
+        1241
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice2/giulio-advice2-apple-throw.png",
+      "optimized": "sprites/advice2/giulio-advice2-apple-throw.webp",
+      "sourceBytes": 1078043,
+      "optimizedBytes": 70606,
+      "sourceSize": [
+        2098,
+        1518
+      ],
+      "optimizedSize": [
+        1600,
+        1158
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice2/giulio-advice2-exit.png",
+      "optimized": "sprites/advice2/giulio-advice2-exit.webp",
+      "sourceBytes": 1721944,
+      "optimizedBytes": 110522,
+      "sourceSize": [
+        2079,
+        1550
+      ],
+      "optimizedSize": [
+        1600,
+        1193
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice2/giulio-advice2-finish.png",
+      "optimized": "sprites/advice2/giulio-advice2-finish.webp",
+      "sourceBytes": 1927833,
+      "optimizedBytes": 113534,
+      "sourceSize": [
+        1524,
+        2162
+      ],
+      "optimizedSize": [
+        1128,
+        1600
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice2/giulio-advice2-holding-head.png",
+      "optimized": "sprites/advice2/giulio-advice2-holding-head.webp",
+      "sourceBytes": 1744008,
+      "optimizedBytes": 124792,
+      "sourceSize": [
+        1634,
+        2034
+      ],
+      "optimizedSize": [
+        1285,
+        1600
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice2/giulio-advice2-impact.png",
+      "optimized": "sprites/advice2/giulio-advice2-impact.webp",
+      "sourceBytes": 1424122,
+      "optimizedBytes": 84014,
+      "sourceSize": [
+        2017,
+        1541
+      ],
+      "optimizedSize": [
+        1600,
+        1222
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice2/giulio-advice2-realisation.png",
+      "optimized": "sprites/advice2/giulio-advice2-realisation.webp",
+      "sourceBytes": 1512137,
+      "optimizedBytes": 98476,
+      "sourceSize": [
+        2141,
+        1575
+      ],
+      "optimizedSize": [
+        1600,
+        1177
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice2/giulio-advice2-sleeping.png",
+      "optimized": "sprites/advice2/giulio-advice2-sleeping.webp",
+      "sourceBytes": 1538255,
+      "optimizedBytes": 92676,
+      "sourceSize": [
+        2039,
+        1569
+      ],
+      "optimizedSize": [
+        1600,
+        1231
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice2/giulio-advice2-theatrical.png",
+      "optimized": "sprites/advice2/giulio-advice2-theatrical.webp",
+      "sourceBytes": 2176491,
+      "optimizedBytes": 114654,
+      "sourceSize": [
+        1487,
+        2193
+      ],
+      "optimizedSize": [
+        1085,
+        1600
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice3/giulio-advice3-chair-exit.png",
+      "optimized": "sprites/advice3/giulio-advice3-chair-exit.webp",
+      "sourceBytes": 1491004,
+      "optimizedBytes": 68564,
+      "sourceSize": [
+        2448,
+        1555
+      ],
+      "optimizedSize": [
+        1600,
+        1016
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice3/giulio-advice3-chair-turn.png",
+      "optimized": "sprites/advice3/giulio-advice3-chair-turn.webp",
+      "sourceBytes": 1416222,
+      "optimizedBytes": 84154,
+      "sourceSize": [
+        2038,
+        1509
+      ],
+      "optimizedSize": [
+        1600,
+        1185
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice3/giulio-advice3-exhausted.png",
+      "optimized": "sprites/advice3/giulio-advice3-exhausted.webp",
+      "sourceBytes": 1152558,
+      "optimizedBytes": 67038,
+      "sourceSize": [
+        2071,
+        1569
+      ],
+      "optimizedSize": [
+        1600,
+        1212
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice3/giulio-advice3-finish.png",
+      "optimized": "sprites/advice3/giulio-advice3-finish.webp",
+      "sourceBytes": 1234674,
+      "optimizedBytes": 73572,
+      "sourceSize": [
+        2044,
+        1512
+      ],
+      "optimizedSize": [
+        1600,
+        1184
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice3/giulio-advice3-frozen.png",
+      "optimized": "sprites/advice3/giulio-advice3-frozen.webp",
+      "sourceBytes": 1196989,
+      "optimizedBytes": 87734,
+      "sourceSize": [
+        2078,
+        1546
+      ],
+      "optimizedSize": [
+        1600,
+        1190
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice3/giulio-advice3-pointing.png",
+      "optimized": "sprites/advice3/giulio-advice3-pointing.webp",
+      "sourceBytes": 978683,
+      "optimizedBytes": 75942,
+      "sourceSize": [
+        2076,
+        1594
+      ],
+      "optimizedSize": [
+        1600,
+        1229
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice3/giulio-advice3-realisation.png",
+      "optimized": "sprites/advice3/giulio-advice3-realisation.webp",
+      "sourceBytes": 1645477,
+      "optimizedBytes": 104872,
+      "sourceSize": [
+        2062,
+        1569
+      ],
+      "optimizedSize": [
+        1600,
+        1217
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice3/giulio-advice3-silent-stare.png",
+      "optimized": "sprites/advice3/giulio-advice3-silent-stare.webp",
+      "sourceBytes": 864661,
+      "optimizedBytes": 56240,
+      "sourceSize": [
+        2094,
+        1577
+      ],
+      "optimizedSize": [
+        1600,
+        1205
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice3/giulio-advice3-theatrical.png",
+      "optimized": "sprites/advice3/giulio-advice3-theatrical.webp",
+      "sourceBytes": 1370464,
+      "optimizedBytes": 91556,
+      "sourceSize": [
+        2048,
+        1598
+      ],
+      "optimizedSize": [
+        1600,
+        1248
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice3/giulio-advice3-typing.png",
+      "optimized": "sprites/advice3/giulio-advice3-typing.webp",
+      "sourceBytes": 1517452,
+      "optimizedBytes": 98826,
+      "sourceSize": [
+        2085,
+        1505
+      ],
+      "optimizedSize": [
+        1600,
+        1155
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/advice3/giulio-advice3-working.png",
+      "optimized": "sprites/advice3/giulio-advice3-working.webp",
+      "sourceBytes": 1182688,
+      "optimizedBytes": 77406,
+      "sourceSize": [
+        2080,
+        1504
+      ],
+      "optimizedSize": [
+        1600,
+        1157
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-angry.png",
+      "optimized": "sprites/shared/giulio-angry.webp",
+      "sourceBytes": 793837,
+      "optimizedBytes": 54800,
+      "sourceSize": [
+        1214,
+        1214
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-annoyed.png",
+      "optimized": "sprites/shared/giulio-annoyed.webp",
+      "sourceBytes": 715784,
+      "optimizedBytes": 51598,
+      "sourceSize": [
+        1200,
+        1200
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-embarrassed.png",
+      "optimized": "sprites/shared/giulio-embarrassed.webp",
+      "sourceBytes": 611548,
+      "optimizedBytes": 47474,
+      "sourceSize": [
+        1194,
+        1194
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-excited.png",
+      "optimized": "sprites/shared/giulio-excited.webp",
+      "sourceBytes": 636952,
+      "optimizedBytes": 48556,
+      "sourceSize": [
+        1190,
+        1190
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-exhausted.png",
+      "optimized": "sprites/shared/giulio-exhausted.webp",
+      "sourceBytes": 773556,
+      "optimizedBytes": 57548,
+      "sourceSize": [
+        1194,
+        1194
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-exit-grin.png",
+      "optimized": "sprites/shared/giulio-exit-grin.webp",
+      "sourceBytes": 657072,
+      "optimizedBytes": 46390,
+      "sourceSize": [
+        1204,
+        1204
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-facepalm.png",
+      "optimized": "sprites/shared/giulio-facepalm.webp",
+      "sourceBytes": 1744882,
+      "optimizedBytes": 48294,
+      "sourceSize": [
+        1567,
+        2433
+      ],
+      "optimizedSize": [
+        644,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-fourth-wall.png",
+      "optimized": "sprites/shared/giulio-fourth-wall.webp",
+      "sourceBytes": 1203557,
+      "optimizedBytes": 62308,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-groaning.png",
+      "optimized": "sprites/shared/giulio-groaning.webp",
+      "sourceBytes": 2228720,
+      "optimizedBytes": 56014,
+      "sourceSize": [
+        1562,
+        2484
+      ],
+      "optimizedSize": [
+        629,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-happy.png",
+      "optimized": "sprites/shared/giulio-happy.webp",
+      "sourceBytes": 770606,
+      "optimizedBytes": 55040,
+      "sourceSize": [
+        1204,
+        1204
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-jumping-exit.png",
+      "optimized": "sprites/shared/giulio-jumping-exit.webp",
+      "sourceBytes": 1432144,
+      "optimizedBytes": 42914,
+      "sourceSize": [
+        2072,
+        1549
+      ],
+      "optimizedSize": [
+        1000,
+        748
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-laughing.png",
+      "optimized": "sprites/shared/giulio-laughing.webp",
+      "sourceBytes": 831332,
+      "optimizedBytes": 51764,
+      "sourceSize": [
+        1210,
+        1210
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-neutral.png",
+      "optimized": "sprites/shared/giulio-neutral.webp",
+      "sourceBytes": 730559,
+      "optimizedBytes": 51158,
+      "sourceSize": [
+        1197,
+        1197
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-offended.png",
+      "optimized": "sprites/shared/giulio-offended.webp",
+      "sourceBytes": 547652,
+      "optimizedBytes": 38612,
+      "sourceSize": [
+        1211,
+        1211
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-pointing-full.png",
+      "optimized": "sprites/shared/giulio-pointing-full.webp",
+      "sourceBytes": 1226235,
+      "optimizedBytes": 31814,
+      "sourceSize": [
+        1550,
+        2511
+      ],
+      "optimizedSize": [
+        617,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-pointing.png",
+      "optimized": "sprites/shared/giulio-pointing.webp",
+      "sourceBytes": 656630,
+      "optimizedBytes": 45294,
+      "sourceSize": [
+        1199,
+        1199
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-presenting.png",
+      "optimized": "sprites/shared/giulio-presenting.webp",
+      "sourceBytes": 1407410,
+      "optimizedBytes": 38618,
+      "sourceSize": [
+        1469,
+        2433
+      ],
+      "optimizedSize": [
+        604,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-proud.png",
+      "optimized": "sprites/shared/giulio-proud.webp",
+      "sourceBytes": 691390,
+      "optimizedBytes": 48426,
+      "sourceSize": [
+        1217,
+        1217
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-realisation.png",
+      "optimized": "sprites/shared/giulio-realisation.webp",
+      "sourceBytes": 885943,
+      "optimizedBytes": 66936,
+      "sourceSize": [
+        1207,
+        1207
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-running-left.png",
+      "optimized": "sprites/shared/giulio-running-left.webp",
+      "sourceBytes": 2196782,
+      "optimizedBytes": 78888,
+      "sourceSize": [
+        2060,
+        1528
+      ],
+      "optimizedSize": [
+        1000,
+        742
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-running-right.png",
+      "optimized": "sprites/shared/giulio-running-right.webp",
+      "sourceBytes": 1426743,
+      "optimizedBytes": 64796,
+      "sourceSize": [
+        1548,
+        1548
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-silent-stare.png",
+      "optimized": "sprites/shared/giulio-silent-stare.webp",
+      "sourceBytes": 769690,
+      "optimizedBytes": 52710,
+      "sourceSize": [
+        1194,
+        1194
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-smug.png",
+      "optimized": "sprites/shared/giulio-smug.webp",
+      "sourceBytes": 730878,
+      "optimizedBytes": 61220,
+      "sourceSize": [
+        1194,
+        1194
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-standing.png",
+      "optimized": "sprites/shared/giulio-standing.webp",
+      "sourceBytes": 1396165,
+      "optimizedBytes": 36598,
+      "sourceSize": [
+        1509,
+        2444
+      ],
+      "optimizedSize": [
+        617,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-suspicious.png",
+      "optimized": "sprites/shared/giulio-suspicious.webp",
+      "sourceBytes": 850995,
+      "optimizedBytes": 62608,
+      "sourceSize": [
+        1200,
+        1200
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    },
+    {
+      "source": "sprites/shared/giulio-theatrical.png",
+      "optimized": "sprites/shared/giulio-theatrical.webp",
+      "sourceBytes": 693139,
+      "optimizedBytes": 48176,
+      "sourceSize": [
+        1214,
+        1214
+      ],
+      "optimizedSize": [
+        1000,
+        1000
+      ],
+      "alpha": true
+    }
+  ]
+}

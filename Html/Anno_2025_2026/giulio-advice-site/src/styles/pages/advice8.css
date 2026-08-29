@@ -1,0 +1,22 @@
+/* Advice 8 — Wood-fired oven */
+.scene--oven .scene-background-fallback {
+  background:
+    linear-gradient(90deg,rgba(0,0,0,.08) 1px,transparent 1px) 0 0/92px 92px,
+    linear-gradient(#5a4034 0 12%,#b88d64 12% 70%,#725039 70% 74%,#3f3028 74%);
+}
+.scene--oven .scene-background-fallback::before {
+  content:""; position:absolute; inset:9% 3% 23% 3%; opacity:.32;
+  background:repeating-linear-gradient(0deg,transparent 0 52px,#5a3c2b 52px 56px),repeating-linear-gradient(90deg,transparent 0 104px,#5a3c2b 104px 108px);
+}
+.scene--oven .scene-background-fallback::after {
+  content:""; position:absolute; right:2%; top:12%; width:30%; height:13%; border:6px solid #3f2a20;
+  background:#e4d1b0; box-shadow:8px 8px 0 rgba(0,0,0,.16); transform:rotate(1deg);
+}
+.scene--oven .scene-accent--top { background:#cb5827; box-shadow:0 6px 0 #ffb33d; }
+.scene--oven .scene-accent--bottom { background:#2c211c; box-shadow:0 -5px 0 #cb5827; }
+.scene--oven .scene-effect--fire,
+.scene--oven .scene-effect--burst,
+.scene--oven .scene-effect--sparks { mix-blend-mode:screen; }
+.scene--oven .scene-effect--fire { filter:drop-shadow(0 0 22px rgba(255,130,38,.82)); }
+.scene--oven .scene-effect--smoke { mix-blend-mode:multiply; opacity:.72; }
+.scene--oven.is-sequence-active .scene-background-fallback { filter:brightness(.96) saturate(1.08); }

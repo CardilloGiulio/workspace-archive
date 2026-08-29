@@ -1,32 +1,20 @@
 #include <stdio.h>
 #include "greeter.h"
 
-void insert_value_student(int* arr, int size) {
-    for (int i = 0; i < size; i++) {
-        printf("Inserisci un numero: ");
-        scanf("%d", &arr[i]);
-    }
+void display_menu() {
+    printf("Welcome to the Greeter Program!\n");
+    printf("1. Calculate Sum numbers\n");
+    printf("2. Exit\n");
 }
 
-bool check_condition(int num) {
-    return num > 0;
-}
-
-void menu() {
-    printf("1. Inserisci dati studente\n");
-    printf("2. Visualizza tutti i dati\n");
-    printf("3. Calcola e visualizza i punteggi totali\n");
-    printf("4. Visualizza media dei punteggi per ogni prova\n");
-    printf("5. Modifica il punteggio di uno studente\n");
-}
-
-int decision() {
+int get_user_choice() {
     int choice;
-    printf("Scegli un'opzione: ");
+    printf("Enter your choice: ");
     scanf("%d", &choice);
     return choice;
 }
 
-bool exit_program() {
-    return true;
+int exit_program() {
+    printf("Exiting the program. Goodbye!\n");
+    return 1;
 }

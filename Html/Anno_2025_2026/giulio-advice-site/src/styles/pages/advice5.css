@@ -1,0 +1,28 @@
+/* Advice 5 — Basement gym */
+.scene--basement .scene-background-fallback {
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px) 0 0/78px 78px,
+    linear-gradient(#5f6266 0 12%, #303439 12% 76%, #22262a 76%);
+}
+.scene--basement .scene-background-fallback::before {
+  content:""; position:absolute; left:0; right:0; top:10%; height:7%;
+  background:linear-gradient(90deg,transparent 0 24%,#d7d4c8 24% 49%,transparent 49% 55%,#d7d4c8 55% 78%,transparent 78%);
+  box-shadow:0 12px 24px rgba(255,244,199,.2); opacity:.8;
+}
+.scene--basement .scene-background-fallback::after {
+  content:""; position:absolute; inset:auto 0 0; height:25%;
+  background:repeating-linear-gradient(90deg,#15181b 0 70px,#1d2125 70px 72px),linear-gradient(#202429,#111315);
+  border-top:7px solid #090a0c;
+}
+.scene--basement .scene-accent--top { background:#454a50; box-shadow:0 6px 0 #89c63f; }
+.scene--basement .scene-accent--bottom { box-shadow:0 -5px 0 #89c63f; }
+.scene--basement .comic-halftone { opacity:.12; }
+.scene--basement .scene-trigger--weight .trigger-art { transition:filter .2s ease; }
+.scene--basement .scene-object--mirror { filter:drop-shadow(0 9px 7px rgba(0,0,0,.4)); }
+.scene--basement .scene-object--pullup { filter:drop-shadow(0 6px 5px rgba(0,0,0,.35)); }
+.scene--basement .scene-effect--painStars { filter:drop-shadow(5px 6px 0 rgba(0,0,0,.25)); }
+/* Keep the approved Scene 5 bench orientation without affecting asset resolution. */
+.scene--basement .scene-object--bench > .scene-object__visual {
+  transform: scaleX(-1);
+}
+

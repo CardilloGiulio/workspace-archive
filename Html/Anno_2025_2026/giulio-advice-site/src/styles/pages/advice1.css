@@ -1,0 +1,9 @@
+.scene--beach .scene-layer--waves .scene-element__visual {
+  mix-blend-mode: screen;
+  mask-image: linear-gradient(to bottom, transparent 0, #000 32%, #000 100%);
+  animation: waves-drift 8s ease-in-out infinite alternate;
+}
+
+@keyframes waves-drift {
+  to { transform: translateX(2.5%) translateY(1%); }
+}

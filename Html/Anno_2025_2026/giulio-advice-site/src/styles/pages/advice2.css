@@ -1,0 +1,35 @@
+.scene--tree .scene-layer--leaves .scene-element__visual {
+  transform-origin: 25% 0;
+  animation: leaf-sway 6s ease-in-out infinite alternate;
+}
+
+.scene--tree .scene-trigger--apple .trigger-art { overflow: hidden; }
+.scene--tree .scene-trigger--apple .trigger-art > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 470%;
+  max-width: none;
+  object-fit: contain;
+  transform: translateY(-36.5%);
+}
+
+.scene--tree .scene-object--tree {
+  border: 0;
+  background: transparent;
+  filter: none;
+}
+.scene--tree .scene-object--tree:hover,
+.scene--tree .scene-object--tree:focus-visible {
+  background: radial-gradient(ellipse, rgba(255, 217, 40, .22), transparent 65%);
+}
+
+.scene--tree .scene-effect--gravity {
+  mix-blend-mode: screen;
+  filter: drop-shadow(6px 8px 0 rgba(0, 0, 0, .5));
+}
+
+@keyframes leaf-sway {
+  to { transform: rotate(1.5deg) translateX(1%); }
+}

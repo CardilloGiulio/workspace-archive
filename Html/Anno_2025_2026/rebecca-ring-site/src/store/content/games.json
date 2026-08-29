@@ -1,0 +1,50 @@
+{
+  "title": "Insegui Rebecca",
+  "subtitle": "Stage 1: runner verticale tra Piazza Statuto, mercato e Porta Susa.",
+  "stages": [
+    "Piazza Statuto",
+    "Mercato",
+    "Porta Susa"
+  ],
+  "wrongBuses": [
+    "62",
+    "52",
+    "60",
+    "75",
+    "3",
+    "10N",
+    "4",
+    "9",
+    "2048"
+  ],
+  "correctBus": "CP1",
+  "backgrounds": {
+    "piazzaStatuto": "https://commons.wikimedia.org/wiki/Special:FilePath/Piazza_Statuto_Torino.jpg?width=1280",
+    "market": "https://commons.wikimedia.org/wiki/Special:FilePath/Porta_Palazzo_market.jpg?width=1280",
+    "portaSusa": "https://commons.wikimedia.org/wiki/Special:FilePath/Voies-1-2-torino-porta-susa.jpg?width=1280",
+    "metro": "https://commons.wikimedia.org/wiki/Special:FilePath/Metropolitana%20di%20Torino%20stazione%20di%20Porta%20Nuova%20-%20Porta%20Nuova%20station%20(Turin%20metro).JPG?width=1280",
+    "bus": "https://commons.wikimedia.org/wiki/Special:FilePath/GTT%20irisbus.jpg?width=1280",
+    "turin": "https://commons.wikimedia.org/wiki/Special:FilePath/Piazza_Statuto_Torino.jpg?width=1280"
+  },
+  "turinPlaces": [
+    {
+      "key": "piazzaStatuto",
+      "name": "Piazza Statuto",
+      "subtitle": "Manifestazione: Gesù salva dalla droga."
+    },
+    {
+      "key": "market",
+      "name": "Il mercato",
+      "subtitle": "Patate in cambio di oggetti utili al viaggio."
+    },
+    {
+      "key": "portaSusa",
+      "name": "Porta Susa",
+      "subtitle": "McDonald’s visto. Metro quasi raggiunta."
+    }
+  ],
+  "religiousImages": {
+    "christIcon": "https://commons.wikimedia.org/wiki/Special:FilePath/Christ_Icon_Sinai_6th_century.jpg?width=320",
+    "pantocrator": "https://commons.wikimedia.org/wiki/Special:FilePath/Cefal%C3%B9_Pantocrator_retouched.jpg?width=320"
+  }
+}

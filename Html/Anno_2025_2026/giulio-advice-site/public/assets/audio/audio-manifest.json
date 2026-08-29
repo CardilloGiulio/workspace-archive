@@ -1,0 +1,898 @@
+[
+  {
+    "path": "/assets/audio/effects/advice1/bucket-shake-advice1.mp3",
+    "role": "effect",
+    "scene": "advice1",
+    "purpose": "bucketShake",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice1/bucket-tip-advice1.mp3",
+    "role": "effect",
+    "scene": "advice1",
+    "purpose": "bucketTip",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice1/sand-running-advice1.mp3",
+    "role": "effect",
+    "scene": "advice1",
+    "purpose": "exit",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice1/water-dripping-advice1.mp3",
+    "role": "effect",
+    "scene": "advice1",
+    "purpose": "dripping",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice1/water-splash-advice1.mp3",
+    "role": "effect",
+    "scene": "advice1",
+    "purpose": "splash",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice2/apple-fall-advice2.mp3",
+    "role": "effect",
+    "scene": "advice2",
+    "purpose": "appleFall",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice2/apple-impact-advice2.mp3",
+    "role": "effect",
+    "scene": "advice2",
+    "purpose": "impact",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice2/apple-release-advice2.mp3",
+    "role": "effect",
+    "scene": "advice2",
+    "purpose": "appleRelease",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice2/grass-running-advice2.mp3",
+    "role": "effect",
+    "scene": "advice2",
+    "purpose": "exit",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice2/tree-shake-advice2.mp3",
+    "role": "effect",
+    "scene": "advice2",
+    "purpose": "treeShake",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice3/chair-roll-advice3.mp3",
+    "role": "effect",
+    "scene": "advice3",
+    "purpose": "chairExit",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice3/chair-turn-advice3.mp3",
+    "role": "effect",
+    "scene": "advice3",
+    "purpose": "chairTurn",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice3/charger-unplug-advice3.mp3",
+    "role": "effect",
+    "scene": "advice3",
+    "purpose": "unplug",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/advice3/computer-shutdown-advice3.mp3",
+    "role": "effect",
+    "scene": "advice3",
+    "purpose": "shutdown",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/dialogue-next.mp3",
+    "role": "effect",
+    "scene": "shared",
+    "purpose": "Dialogue advances",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/effects/dialogue-open.mp3",
+    "role": "effect",
+    "scene": "shared",
+    "purpose": "Dialogue panel opens",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/music/music-advice1-beach.mp3",
+    "role": "music",
+    "scene": "advice1",
+    "purpose": "Looping scene music",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/music/music-advice2-tree.mp3",
+    "role": "music",
+    "scene": "advice2",
+    "purpose": "Looping scene music",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/music/music-advice3-computer.mp3",
+    "role": "music",
+    "scene": "advice3",
+    "purpose": "Looping scene music",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-ball-01.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Pallone da spiaggia: Siamo a una cattiva decisione di distanza dallo sport.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-ball-02.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Pallone da spiaggia: Non calciarla verso di me.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-ball-03.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Pallone da spiaggia: Hai sentito la frase e l'hai interpretata come una sfida.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-cooler-01.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Frigo portatile: Aspetta. C'è qualcosa di utile lì dentro?",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-cooler-02.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Frigo portatile: Un cubetto di ghiaccio. Un banchetto.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-cooler-03.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Frigo portatile: Non si è riprodotto dalla tua ultima ispezione.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-crab-01.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Granchio: Attenzione. È stato promosso alla sicurezza.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-crab-02.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Granchio: A differenza mia, lui è legalmente autorizzato a pizzicarti.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-crab-03.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Granchio: Sta iniziando a rispettare la tua perseveranza.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-flipflops-01.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Infradito: Sono calzature, non un enigma interattivo.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-flipflops-02.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Infradito: Eppure continui. Ammirevole, in un modo molto specifico.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-01.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Avevi un intero mare a disposizione.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-02.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "E hai deciso di portare l'acqua più vicino.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-03.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Ma tu sei proprio un—",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-04.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Ah.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-05.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Giusto. La pagina dei consigli.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-06.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "BENVENUTA, ANIMA ERRANTE!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-07.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Hai risvegliato il custode di una saggezza inestimabile!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-08.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "E probabilmente gli hai anche procurato un raffreddore.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-09.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Ora ascolta attentamente!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-10.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Ed ecco fatto! L'illuminazione è stata raggiunta!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-11.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Me ne vado prima che tu scopra anche quell'altro secchio.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-main-12.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "IL MIO LAVORO QUI È FINITO!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-radio-01.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Radio: Naturalmente dovevi spegnerla.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-radio-02.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Radio: Ecco. Atmosfera migliorata. Soltanto tu, io e le conseguenze delle tue decisioni.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-radio-03.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Radio: Oh! Hai riconosciuto il tuo errore. Sviluppo del personaggio!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-radio-04.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Radio: Stai remixando il concetto di silenzio?",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-radio-05.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Radio: Questo non è un rhythm game.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-sandwich-01.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Panino: Quello era il mio pranzo.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-sandwich-02.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Panino: A quanto pare, la saggezza richiede sacrifici.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-sandwich-03.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Panino: Il panino è scomparso. Lascia che il dolore faccia il suo corso.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-sunglasses-01.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Occhiali da sole: Ah, certo. Anche la mia capacità di vedere era un lusso.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-sunglasses-02.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Occhiali da sole: Rimettili dove li hai trovati. La luce qui ha intenzioni ostili.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-umbrella-01.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Ombrellone: Eccellente. Hai sconfitto l'ombrellone.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-umbrella-02.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Ombrellone: Il sole può riprendere il suo assalto.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice1/voice-advice1-umbrella-03.mp3",
+    "role": "voice",
+    "scene": "advice1",
+    "purpose": "Ombrellone: Stai cercando di ruotare il clima?",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-basket-01.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Cesto di mele: No.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-basket-02.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Cesto di mele: Hai già condotto l'esperimento.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-basket-03.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Cesto di mele: Le mele rimanenti sono sotto la mia protezione.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-bird-01.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Uccellino: Non coinvolgerlo.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-bird-02.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Uccellino: Pensa già che questa pagina manchi di direzione.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-bird-03.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Uccellino: Ha richiesto condizioni di lavoro migliori.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-book-01.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Libro: Oh, adesso siamo interessati alla lettura?",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-book-02.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Libro: Un momento fa il tuo metodo d'insegnamento preferito era il trauma cranico.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-book-03.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Libro: Voltare pagina non ti rende innocente.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-flowers-01.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Fiori: Delicati, tranquilli, incapaci di colpirmi alla testa.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-flowers-02.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Fiori: Per ora sono il mio elemento preferito della pagina.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-01.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Che cosa credevi sarebbe successo?",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-02.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Che avrei improvvisamente calcolato la rotazione della Terra?",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-03.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Potresti abituarti a parlare invece di colpirmi.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-04.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Sono una persona, non una dimostrazione interattiva di fisica.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-05.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Aspetta.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-06.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Il consiglio.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-07.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "ALLORA FORSE QUESTO FRUTTO NON È CADUTO INVANO!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-08.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Poiché, così come la gravità attira questa mela verso la Terra, allo stesso modo—",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-09.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "No. Questa metafora è terribile.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-10.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Ricominciamo!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-11.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "E così, la conoscenza fiorisce!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-12.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Assolutamente no.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-main-13.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "SCOPERTA COMPLETATA! ADDIO!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-notebook-01.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Quaderno: Apprezzo l'illusione di studio.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-notebook-02.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Quaderno: Scrivi che lanciare frutta contro le persone è sconsigliato.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-pencil-01.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Matita: Una matita. Finalmente uno strumento che non cade dall'alto.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-pencil-02.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Matita: Non trasformare anche questa in un esperimento balistico.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-squirrel-01.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Scoiattolo: Ha visto tutto.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-squirrel-02.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Scoiattolo: Eppure, in qualche modo, sono io quello che viene giudicato.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-tree-01.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Tronco dell'albero: ...",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-tree-02.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Tronco dell'albero: Adesso il tuo conflitto è con la natura?",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice2/voice-advice2-tree-03.mp3",
+    "role": "voice",
+    "scene": "advice2",
+    "purpose": "Tronco dell'albero: L'albero non possiede altri dialoghi. Smettila di interrogarlo.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-chair-01.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Sedia da ufficio: Quella è la mia via di fuga ufficiale.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-chair-02.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Sedia da ufficio: Non regolare il sedile. Ho calibrato la drammaticità.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-fan-01.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Ventilatore: Finalmente. Qualcuno comprende il concetto di comodità.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-fan-02.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Ventilatore: E immediatamente decide di portarmela via.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-fan-03.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Ventilatore: Il ventilatore non è una decisione filosofica.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-headphones-01.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Cuffie: Non erano decorazioni.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-headphones-02.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Cuffie: Adesso riesco a sentire il sito.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-headphones-03.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Cuffie: Rimettili prima che l'interfaccia inizi a parlare.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-lamp-01.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Interruttore della luce: Sì. Eliminiamo anche la luce rimasta.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-lamp-02.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Interruttore della luce: Completiamo l'atmosfera.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-lamp-03.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Interruttore della luce: Ah! La civiltà ritorna.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-lamp-04.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Interruttore della luce: Stai cercando di inviare un segnale?",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-laptop-01.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Computer portatile: Straordinario.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-laptop-02.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Computer portatile: È ancora scollegato.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-laptop-03.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Computer portatile: Premere più forte non genererà elettricità.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-01.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Vaffan—",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-02.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Oh.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-03.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Questa è la pagina dei consigli.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-04.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Naturalmente.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-05.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Ugh... questo lavoro sta diventando faticoso.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-06.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Tre pagine. Tre incidenti sul lavoro.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-07.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "MA NON IMPORTA!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-08.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Anche senza tecnologia, la saggezza non ha bisogno di un caricatore!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-09.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Suonava meglio nella mia testa.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-10.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Ma lo spettacolo deve continuare!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-11.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Ecco fatto! Consiglio consegnato nonostante il sabotaggio tecnologico!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-12.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Porterò questa sedia in un posto dove esiste l'elettricità.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-main-13.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "PROBLEMA RISOLTO! PIÙ O MENO!",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-mug-01.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Tazza: No.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-mug-02.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Tazza: Il computer è caduto. Il caffè sopravvive.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-mug-03.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Tazza: È l'ultimo sistema ancora funzionante nella stanza.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-note-01.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Post-it: Quello era un importantissimo promemoria finto.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-note-02.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Post-it: Dice: non scollegare il computer.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-note-03.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Post-it: Interessante che tu l'abbia scoperto soltanto adesso.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-notebooks-01.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Libri: Documentazione. Il nemico naturale di chi preferisce premere pulsanti a caso.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-notebooks-02.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Libri: No, non contiene il manuale per riaccendere un computer scollegato.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-pens-01.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Portapenne: Almeno quelle penne non richiedono un caricatore.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-pens-02.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Portapenne: Non prendere le forbici. Questa pagina ha già abbastanza incidenti.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-power-01.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Ciabatta elettrica: Ecco la fonte del potere. Guardala. Non toccarla.",
+    "status": "not supplied"
+  },
+  {
+    "path": "/assets/audio/voices/giulio/advice3/voice-advice3-power-02.mp3",
+    "role": "voice",
+    "scene": "advice3",
+    "purpose": "Ciabatta elettrica: Ho pronunciato le parole nell'ordine sbagliato, vero?",
+    "status": "not supplied"
+  }
+]

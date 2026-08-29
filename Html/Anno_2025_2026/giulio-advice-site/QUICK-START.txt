@@ -1,0 +1,29 @@
+GIULIO ADVICE SITE - QUICK START
+
+VITE DEVELOPMENT
+1. Install Node.js 20.19 or newer.
+2. Open a terminal in this folder.
+3. Run:
+   npm install
+   npm run dev
+
+QUICK STATIC PREVIEW
+Run:
+   npm run serve:static
+
+Then open:
+   http://127.0.0.1:8080/
+
+PAGES
+/           Dashboard and logs
+/advice1/   Beach
+/advice2/   Tree and apple
+/advice3/   Laptop and charger
+
+SCENE VALUES
+Edit only:
+src/config/scenes/advice1.js
+src/config/scenes/advice2.js
+src/config/scenes/advice3.js
+
+Audio is not included yet. Missing audio is logged and the scenes continue silently.

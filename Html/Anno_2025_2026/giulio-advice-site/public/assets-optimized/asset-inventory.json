@@ -1,0 +1,2122 @@
+[
+  {
+    "file": "/assets-optimized/backgrounds/advice1/background-advice1-beach.webp",
+    "sourceFile": "/assets/backgrounds/advice1/background-advice1-beach.jpg",
+    "width": 739,
+    "height": 415,
+    "sourceBytes": 36266,
+    "bytes": 40746
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice1/foreground-advice1-sand.webp",
+    "sourceFile": "/assets/backgrounds/advice1/foreground-advice1-sand.png",
+    "width": 1901,
+    "height": 1080,
+    "sourceBytes": 5851266,
+    "bytes": 485948
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice1/waves-advice1.webp",
+    "sourceFile": "/assets/backgrounds/advice1/waves-advice1.png",
+    "width": 640,
+    "height": 581,
+    "sourceBytes": 599442,
+    "bytes": 56478
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice2/background-advice2-tree.webp",
+    "sourceFile": "/assets/backgrounds/advice2/background-advice2-tree.jpg",
+    "width": 1411,
+    "height": 1059,
+    "sourceBytes": 1088590,
+    "bytes": 486102
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice2/foreground-advice2-grass.webp",
+    "sourceFile": "/assets/backgrounds/advice2/foreground-advice2-grass.png",
+    "width": 892,
+    "height": 288,
+    "sourceBytes": 158427,
+    "bytes": 38510
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice2/leaves-advice2.webp",
+    "sourceFile": "/assets/backgrounds/advice2/leaves-advice2.png",
+    "width": 1920,
+    "height": 910,
+    "sourceBytes": 2373995,
+    "bytes": 366292
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice3/background-advice3-computer-room.webp",
+    "sourceFile": "/assets/backgrounds/advice3/background-advice3-computer-room.jpg",
+    "width": 1440,
+    "height": 1080,
+    "sourceBytes": 915380,
+    "bytes": 129222
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice3/overlay-advice3-dark-room.webp",
+    "sourceFile": "/assets/backgrounds/advice3/overlay-advice3-dark-room.png",
+    "width": 500,
+    "height": 500,
+    "sourceBytes": 1002177,
+    "bytes": 666
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice3/overlay-advice3-monitor-glow.webp",
+    "sourceFile": "/assets/backgrounds/advice3/overlay-advice3-monitor-glow.webp",
+    "width": 480,
+    "height": 250,
+    "sourceBytes": 13796,
+    "bytes": 12136
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice4/background-advice4-garden-duel.webp",
+    "sourceFile": "/assets/backgrounds/advice4/background-advice4-garden-duel.webp",
+    "width": 3000,
+    "height": 1601,
+    "sourceBytes": 1072596,
+    "bytes": 1466110
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice4/overlay-advice4-fight-atmosphere.webp",
+    "sourceFile": "/assets/backgrounds/advice4/overlay-advice4-fight-atmosphere.png",
+    "width": 600,
+    "height": 600,
+    "sourceBytes": 388348,
+    "bytes": 124290
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice4/overlay-advice4-garden-motion.webp",
+    "sourceFile": "/assets/backgrounds/advice4/overlay-advice4-garden-motion.png",
+    "width": 3416,
+    "height": 1038,
+    "sourceBytes": 4763852,
+    "bytes": 1062630
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice5/background-advice5-basement-gym.webp",
+    "sourceFile": "/assets/backgrounds/advice5/background-advice5-basement-gym.jpg",
+    "width": 4096,
+    "height": 3072,
+    "sourceBytes": 3129264,
+    "bytes": 1019322
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice5/background-advice5-training-area.webp",
+    "sourceFile": "/assets/backgrounds/advice5/background-advice5-training-area.webp",
+    "width": 2048,
+    "height": 1536,
+    "sourceBytes": 647514,
+    "bytes": 647514
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice6/background-advice6-bedroom-vr.webp",
+    "sourceFile": "/assets/backgrounds/advice6/background-advice6-bedroom-vr.webp",
+    "width": 4096,
+    "height": 3072,
+    "sourceBytes": 3396184,
+    "bytes": 1296378
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice7/background-advice7-bar-breakfast.webp",
+    "sourceFile": "/assets/backgrounds/advice7/background-advice7-bar-breakfast.webp",
+    "width": 2048,
+    "height": 1365,
+    "sourceBytes": 141024,
+    "bytes": 141024
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice7/background-advice7-bar-interior.webp",
+    "sourceFile": "/assets/backgrounds/advice7/background-advice7-bar-interior.webp",
+    "width": 2048,
+    "height": 1365,
+    "sourceBytes": 141024,
+    "bytes": 141024
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice7/overlay-advice7-morning-light.webp",
+    "sourceFile": "/assets/backgrounds/advice7/overlay-advice7-morning-light.png",
+    "width": 600,
+    "height": 600,
+    "sourceBytes": 335399,
+    "bytes": 76824
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice8/background-advice8-home-courtyard.webp",
+    "sourceFile": "/assets/backgrounds/advice8/background-advice8-home-courtyard.webp",
+    "width": 2048,
+    "height": 1536,
+    "sourceBytes": 647514,
+    "bytes": 647514
+  },
+  {
+    "file": "/assets-optimized/backgrounds/advice8/background-advice8-wood-fired-oven.webp",
+    "sourceFile": "/assets/backgrounds/advice8/background-advice8-wood-fired-oven.jpg",
+    "width": 4096,
+    "height": 3072,
+    "sourceBytes": 2157488,
+    "bytes": 439994
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/beach-ball-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/beach-ball-advice1.png",
+    "width": 700,
+    "height": 700,
+    "sourceBytes": 557518,
+    "bytes": 27670
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/bucket-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/bucket-advice1.png",
+    "width": 748,
+    "height": 1000,
+    "sourceBytes": 407503,
+    "bytes": 57268
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/cooler-closed-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/cooler-closed-advice1.png",
+    "width": 1200,
+    "height": 858,
+    "sourceBytes": 24783,
+    "bytes": 28082
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/cooler-open-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/cooler-open-advice1.png",
+    "width": 721,
+    "height": 800,
+    "sourceBytes": 149731,
+    "bytes": 31416
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/crab-angry-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/crab-angry-advice1.png",
+    "width": 1200,
+    "height": 824,
+    "sourceBytes": 738208,
+    "bytes": 48182
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/crab-idle-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/crab-idle-advice1.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 260356,
+    "bytes": 34054
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/flip-flops-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/flip-flops-advice1.png",
+    "width": 1200,
+    "height": 750,
+    "sourceBytes": 6055532,
+    "bytes": 97936
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/ice-cube-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/ice-cube-advice1.png",
+    "width": 800,
+    "height": 800,
+    "sourceBytes": 513021,
+    "bytes": 52672
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/radio-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/radio-advice1.png",
+    "width": 1200,
+    "height": 1200,
+    "sourceBytes": 6315724,
+    "bytes": 243268
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/sand-cloud-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/sand-cloud-advice1.png",
+    "width": 658,
+    "height": 861,
+    "sourceBytes": 760538,
+    "bytes": 165880
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/sandwich-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/sandwich-advice1.png",
+    "width": 940,
+    "height": 566,
+    "sourceBytes": 803466,
+    "bytes": 108924
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/seagull-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/seagull-advice1.png",
+    "width": 580,
+    "height": 594,
+    "sourceBytes": 387594,
+    "bytes": 32432
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/sunglasses-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/sunglasses-advice1.png",
+    "width": 1024,
+    "height": 768,
+    "sourceBytes": 264252,
+    "bytes": 30950
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/towel-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/towel-advice1.png",
+    "width": 1200,
+    "height": 758,
+    "sourceBytes": 36214,
+    "bytes": 32426
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/umbrella-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/umbrella-advice1.png",
+    "width": 825,
+    "height": 1200,
+    "sourceBytes": 2077733,
+    "bytes": 91810
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/water-dripping-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/water-dripping-advice1.png",
+    "width": 989,
+    "height": 989,
+    "sourceBytes": 169594,
+    "bytes": 58498
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/water-droplets-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/water-droplets-advice1.png",
+    "width": 821,
+    "height": 1200,
+    "sourceBytes": 1110522,
+    "bytes": 166306
+  },
+  {
+    "file": "/assets-optimized/objects/advice1/water-splash-advice1.webp",
+    "sourceFile": "/assets/objects/advice1/water-splash-advice1.png",
+    "width": 743,
+    "height": 1000,
+    "sourceBytes": 487455,
+    "bytes": 85146
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/apple-basket-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/apple-basket-advice2.png",
+    "width": 713,
+    "height": 638,
+    "sourceBytes": 501143,
+    "bytes": 62516
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/apple-falling-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/apple-falling-advice2.png",
+    "width": 1195,
+    "height": 1200,
+    "sourceBytes": 1457114,
+    "bytes": 98954
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/apple-hanging-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/apple-hanging-advice2.png",
+    "width": 1200,
+    "height": 1200,
+    "sourceBytes": 420754,
+    "bytes": 56234
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/apple-impact-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/apple-impact-advice2.png",
+    "width": 1200,
+    "height": 993,
+    "sourceBytes": 296559,
+    "bytes": 88664
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/bird-flying-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/bird-flying-advice2.png",
+    "width": 1000,
+    "height": 800,
+    "sourceBytes": 390455,
+    "bytes": 45464
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/bird-idle-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/bird-idle-advice2.png",
+    "width": 719,
+    "height": 800,
+    "sourceBytes": 511934,
+    "bytes": 75912
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/book-closed-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/book-closed-advice2.png",
+    "width": 1200,
+    "height": 800,
+    "sourceBytes": 627111,
+    "bytes": 99432
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/book-open-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/book-open-advice2.png",
+    "width": 1200,
+    "height": 800,
+    "sourceBytes": 1145152,
+    "bytes": 33514
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/exit-dust-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/exit-dust-advice2.png",
+    "width": 758,
+    "height": 613,
+    "sourceBytes": 772206,
+    "bytes": 248570
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/falling-leaves-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/falling-leaves-advice2.png",
+    "width": 658,
+    "height": 377,
+    "sourceBytes": 36334,
+    "bytes": 11088
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/flowers-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/flowers-advice2.png",
+    "width": 1200,
+    "height": 848,
+    "sourceBytes": 12112178,
+    "bytes": 345536
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/gravity-diagram-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/gravity-diagram-advice2.png",
+    "width": 583,
+    "height": 438,
+    "sourceBytes": 39181,
+    "bytes": 28916
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/impact-stars-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/impact-stars-advice2.png",
+    "width": 600,
+    "height": 600,
+    "sourceBytes": 437810,
+    "bytes": 73850
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/leaf-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/leaf-advice2.png",
+    "width": 346,
+    "height": 883,
+    "sourceBytes": 377198,
+    "bytes": 107158
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/notebook-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/notebook-advice2.png",
+    "width": 1200,
+    "height": 694,
+    "sourceBytes": 1865290,
+    "bytes": 61240
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/pencil-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/pencil-advice2.png",
+    "width": 1200,
+    "height": 1200,
+    "sourceBytes": 2359529,
+    "bytes": 47620
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/picnic-cloth-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/picnic-cloth-advice2.png",
+    "width": 640,
+    "height": 640,
+    "sourceBytes": 662702,
+    "bytes": 99886
+  },
+  {
+    "file": "/assets-optimized/objects/advice2/squirrel-advice2.webp",
+    "sourceFile": "/assets/objects/advice2/squirrel-advice2.png",
+    "width": 853,
+    "height": 855,
+    "sourceBytes": 1025234,
+    "bytes": 173778
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/chair-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/chair-advice3.png",
+    "width": 800,
+    "height": 800,
+    "sourceBytes": 2561648,
+    "bytes": 26860
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/charger-connected-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/charger-connected-advice3.png",
+    "width": 1200,
+    "height": 900,
+    "sourceBytes": 740970,
+    "bytes": 20688
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/charger-disconnected-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/charger-disconnected-advice3.png",
+    "width": 1200,
+    "height": 900,
+    "sourceBytes": 1043207,
+    "bytes": 23068
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/electric-pop-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/electric-pop-advice3.png",
+    "width": 630,
+    "height": 630,
+    "sourceBytes": 329708,
+    "bytes": 79484
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/fan-off-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/fan-off-advice3.png",
+    "width": 500,
+    "height": 708,
+    "sourceBytes": 359789,
+    "bytes": 32556
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/fan-on-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/fan-on-advice3.png",
+    "width": 500,
+    "height": 708,
+    "sourceBytes": 359789,
+    "bytes": 32556
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/generated/laptop-off-trimmed.webp",
+    "sourceFile": "/assets/objects/advice3/generated/laptop-off-trimmed.png",
+    "width": 1200,
+    "height": 1133,
+    "sourceBytes": 4894392,
+    "bytes": 76614
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/generated/laptop-on-trimmed.webp",
+    "sourceFile": "/assets/objects/advice3/generated/laptop-on-trimmed.png",
+    "width": 1136,
+    "height": 1200,
+    "sourceBytes": 6411494,
+    "bytes": 111754
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/headphones-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/headphones-advice3.png",
+    "width": 800,
+    "height": 800,
+    "sourceBytes": 287888,
+    "bytes": 46262
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/lamp-off-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/lamp-off-advice3.png",
+    "width": 512,
+    "height": 512,
+    "sourceBytes": 3051,
+    "bytes": 1588
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/lamp-on-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/lamp-on-advice3.png",
+    "width": 512,
+    "height": 512,
+    "sourceBytes": 4501,
+    "bytes": 2194
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/monitor-off-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/monitor-off-advice3.png",
+    "width": 1200,
+    "height": 900,
+    "sourceBytes": 5481262,
+    "bytes": 49200
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/monitor-on-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/monitor-on-advice3.png",
+    "width": 1200,
+    "height": 900,
+    "sourceBytes": 7215429,
+    "bytes": 70234
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/mug-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/mug-advice3.png",
+    "width": 520,
+    "height": 519,
+    "sourceBytes": 93618,
+    "bytes": 13734
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/notebooks-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/notebooks-advice3.png",
+    "width": 1200,
+    "height": 900,
+    "sourceBytes": 481718,
+    "bytes": 43858
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/pen-holder-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/pen-holder-advice3.png",
+    "width": 683,
+    "height": 1024,
+    "sourceBytes": 290567,
+    "bytes": 32634
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/power-strip-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/power-strip-advice3.png",
+    "width": 1200,
+    "height": 1128,
+    "sourceBytes": 608411,
+    "bytes": 25632
+  },
+  {
+    "file": "/assets-optimized/objects/advice3/sticky-note-advice3.webp",
+    "sourceFile": "/assets/objects/advice3/sticky-note-advice3.png",
+    "width": 983,
+    "height": 1200,
+    "sourceBytes": 245438,
+    "bytes": 45158
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/boulder-urokodaki-advice4.webp",
+    "sourceFile": "/uploaded/boulder-urokodaki-advice4.png",
+    "width": 1254,
+    "height": 1254,
+    "sourceBytes": null,
+    "bytes": 345548
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/dash-dust-advice4.webp",
+    "sourceFile": "/uploaded/dash-dust-advice4.png",
+    "width": 600,
+    "height": 600,
+    "sourceBytes": null,
+    "bytes": 126460
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/katana-clash-advice4.webp",
+    "sourceFile": "/uploaded/katana-clash-advice4.png",
+    "width": 1501,
+    "height": 1487,
+    "sourceBytes": null,
+    "bytes": 155716
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/ko-zero-advice4.webp",
+    "sourceFile": "/uploaded/ko-zero-advice4.png",
+    "width": 820,
+    "height": 347,
+    "sourceBytes": null,
+    "bytes": 38968
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/makomo-hidden-advice4.webp",
+    "sourceFile": "/uploaded/makomo-hidden-advice4.png",
+    "width": 252,
+    "height": 360,
+    "sourceBytes": null,
+    "bytes": 12728
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/rock-falling-advice4.webp",
+    "sourceFile": "/uploaded/rock-falling-advice4.png",
+    "width": 1280,
+    "height": 1268,
+    "sourceBytes": null,
+    "bytes": 638392
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/rock-impact-dust-advice4.webp",
+    "sourceFile": "/uploaded/rock-impact-dust-advice4.png",
+    "width": 1905,
+    "height": 1704,
+    "sourceBytes": null,
+    "bytes": 775866
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/sabito-hidden-advice4.webp",
+    "sourceFile": "/uploaded/sabito-hidden-advice4.png",
+    "width": 891,
+    "height": 1230,
+    "sourceBytes": null,
+    "bytes": 77600
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/sword-arc-advice4.webp",
+    "sourceFile": "/uploaded/sword-arc-advice4.png",
+    "width": 1024,
+    "height": 640,
+    "sourceBytes": null,
+    "bytes": 23802
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/tanjiro-advice4-dash.webp",
+    "sourceFile": "/uploaded/tanjiro-advice4-dash.png",
+    "width": 1086,
+    "height": 1448,
+    "sourceBytes": null,
+    "bytes": 136338
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/tanjiro-advice4-dialogue.webp",
+    "sourceFile": "/uploaded/tanjiro-advice4-dialogue.png",
+    "width": 1024,
+    "height": 1536,
+    "sourceBytes": null,
+    "bytes": 207534
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/tanjiro-advice4-guard.webp",
+    "sourceFile": "/uploaded/tanjiro-advice4-guard.png",
+    "width": 1086,
+    "height": 1448,
+    "sourceBytes": null,
+    "bytes": 126230
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/tanjiro-advice4-idle.webp",
+    "sourceFile": "/uploaded/tanjiro-advice4-idle.png",
+    "width": 1086,
+    "height": 1448,
+    "sourceBytes": null,
+    "bytes": 121408
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/tanjiro-advice4-pause.webp",
+    "sourceFile": "/uploaded/tanjiro-advice4-pause.png",
+    "width": 1086,
+    "height": 1448,
+    "sourceBytes": null,
+    "bytes": 106692
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/tanjiro-advice4-recover.webp",
+    "sourceFile": "/uploaded/tanjiro-advice4-recover.png",
+    "width": 1086,
+    "height": 1448,
+    "sourceBytes": null,
+    "bytes": 101858
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/tanjiro-advice4-slash.webp",
+    "sourceFile": "/uploaded/tanjiro-advice4-slash.png",
+    "width": 1086,
+    "height": 1448,
+    "sourceBytes": null,
+    "bytes": 107888
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/ui-hp-giulio-advice4.webp",
+    "sourceFile": "/uploaded/ui-hp-giulio-advice4.png",
+    "width": 900,
+    "height": 356,
+    "sourceBytes": null,
+    "bytes": 27408
+  },
+  {
+    "file": "/assets-optimized/objects/advice4/ui-hp-tanjiro-advice4.webp",
+    "sourceFile": "/uploaded/ui-hp-tanjiro-advice4.png",
+    "width": 900,
+    "height": 356,
+    "sourceBytes": null,
+    "bytes": 26094
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/barbell-advice5.webp",
+    "sourceFile": "/uploaded/barbell-advice5.png",
+    "width": 2048,
+    "height": 964,
+    "sourceBytes": null,
+    "bytes": 129790
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/exercise-mat-advice5.webp",
+    "sourceFile": "/uploaded/exercise-mat-advice5.png",
+    "width": 300,
+    "height": 256,
+    "sourceBytes": null,
+    "bytes": 9768
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/floor-vibration-advice5.webp",
+    "sourceFile": "/uploaded/floor-vibration-advice5.png",
+    "width": 894,
+    "height": 894,
+    "sourceBytes": null,
+    "bytes": 61518
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/mirror-advice5-basement.webp",
+    "sourceFile": "/uploaded/mirror-advice5-basement.png",
+    "width": 936,
+    "height": 990,
+    "sourceBytes": null,
+    "bytes": 42778
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/pain-stars-advice5.webp",
+    "sourceFile": "/uploaded/pain-stars-advice5.png",
+    "width": 3300,
+    "height": 3300,
+    "sourceBytes": null,
+    "bytes": 355174
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/protein-shaker-advice5.webp",
+    "sourceFile": "/uploaded/protein-shaker-advice5.png",
+    "width": 600,
+    "height": 643,
+    "sourceBytes": null,
+    "bytes": 23440
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/pullup-bar-advice5.webp",
+    "sourceFile": "/uploaded/pullup-bar-advice5.png",
+    "width": 1024,
+    "height": 351,
+    "sourceBytes": null,
+    "bytes": 19940
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/resistance-band-advice5.webp",
+    "sourceFile": "/uploaded/resistance-band-advice5.png",
+    "width": 750,
+    "height": 750,
+    "sourceBytes": null,
+    "bytes": 19372
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/toe-impact-advice5.webp",
+    "sourceFile": "/uploaded/toe-impact-advice5.png",
+    "width": 800,
+    "height": 800,
+    "sourceBytes": null,
+    "bytes": 47862
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/water-bottle-advice5.webp",
+    "sourceFile": "/uploaded/water-bottle-advice5.png",
+    "width": 650,
+    "height": 1336,
+    "sourceBytes": null,
+    "bytes": 31284
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/weight-plate-advice5.webp",
+    "sourceFile": "/uploaded/weight-plate-advice5.png",
+    "width": 600,
+    "height": 600,
+    "sourceBytes": null,
+    "bytes": 85548
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/weight-plate-falling-advice5.webp",
+    "sourceFile": "/uploaded/weight-plate-falling-advice5.png",
+    "width": 1337,
+    "height": 1336,
+    "sourceBytes": null,
+    "bytes": 146610
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/weight-rack-advice5.webp",
+    "sourceFile": "/uploaded/weight-rack-advice5.png",
+    "width": 600,
+    "height": 600,
+    "sourceBytes": null,
+    "bytes": 44698
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/workout-bench-advice5.webp",
+    "sourceFile": "/uploaded/workout-bench-advice5.png",
+    "width": 1200,
+    "height": 903,
+    "sourceBytes": null,
+    "bytes": 69438
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/workout-timer-advice5.webp",
+    "sourceFile": "/uploaded/workout-timer-advice5.png",
+    "width": 1200,
+    "height": 1200,
+    "sourceBytes": null,
+    "bytes": 78060
+  },
+  {
+    "file": "/assets-optimized/objects/advice5/workout-towel-advice5.webp",
+    "sourceFile": "/uploaded/workout-towel-advice5.png",
+    "width": 1417,
+    "height": 1716,
+    "sourceBytes": null,
+    "bytes": 142120
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/alarm-clock-advice6.webp",
+    "sourceFile": "/uploaded/alarm-clock-advice6.png",
+    "width": 512,
+    "height": 512,
+    "sourceBytes": null,
+    "bytes": 47502
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/bed-original-advice6.webp",
+    "sourceFile": "/uploaded/bed-original-advice6.png",
+    "width": 1918,
+    "height": 1445,
+    "sourceBytes": null,
+    "bytes": 424316
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/bedroom-lamp-advice6.webp",
+    "sourceFile": "/uploaded/bedroom-lamp-advice6.png",
+    "width": 600,
+    "height": 600,
+    "sourceBytes": null,
+    "bytes": 18978
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/bedside-table-advice6.webp",
+    "sourceFile": "/uploaded/bedside-table-advice6.png",
+    "width": 1200,
+    "height": 1200,
+    "sourceBytes": null,
+    "bytes": 41522
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/blanket-advice6.webp",
+    "sourceFile": "/uploaded/blanket-advice6.png",
+    "width": 900,
+    "height": 900,
+    "sourceBytes": null,
+    "bytes": 74230
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/pillow-advice6.webp",
+    "sourceFile": "/uploaded/pillow-advice6.png",
+    "width": 3160,
+    "height": 1776,
+    "sourceBytes": null,
+    "bytes": 105144
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/plush-toy-advice6.webp",
+    "sourceFile": "/uploaded/plush-toy-advice6.png",
+    "width": 1300,
+    "height": 1300,
+    "sourceBytes": null,
+    "bytes": 150236
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/poster-advice6.webp",
+    "sourceFile": "/uploaded/poster-advice6.png",
+    "width": 386,
+    "height": 518,
+    "sourceBytes": null,
+    "bytes": 47482
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/rug-advice6.webp",
+    "sourceFile": "/uploaded/rug-advice6.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": null,
+    "bytes": 46910
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/slippers-advice6.webp",
+    "sourceFile": "/uploaded/slippers-advice6.png",
+    "width": 800,
+    "height": 800,
+    "sourceBytes": null,
+    "bytes": 91724
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/vr-boundary-grid-advice6.webp",
+    "sourceFile": "/uploaded/vr-boundary-grid-advice6.png",
+    "width": 900,
+    "height": 902,
+    "sourceBytes": null,
+    "bytes": 253998
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/vr-controllers-advice6.webp",
+    "sourceFile": "/uploaded/vr-controllers-advice6.png",
+    "width": 2400,
+    "height": 1254,
+    "sourceBytes": null,
+    "bytes": 69190
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/vr-headset-advice6.webp",
+    "sourceFile": "/uploaded/vr-headset-advice6.png",
+    "width": 554,
+    "height": 554,
+    "sourceBytes": null,
+    "bytes": 18764
+  },
+  {
+    "file": "/assets-optimized/objects/advice6/wardrobe-advice6.webp",
+    "sourceFile": "/uploaded/wardrobe-advice6.png",
+    "width": 1876,
+    "height": 2048,
+    "sourceBytes": null,
+    "bytes": 553578
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/bar-table-advice7.webp",
+    "sourceFile": "/uploaded/bar-table-advice7.png",
+    "width": 550,
+    "height": 839,
+    "sourceBytes": null,
+    "bytes": 23466
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/breakfast-plate-advice7.webp",
+    "sourceFile": "/uploaded/breakfast-plate-advice7.png",
+    "width": 2155,
+    "height": 1241,
+    "sourceBytes": null,
+    "bytes": 35146
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/cash-register-advice7.webp",
+    "sourceFile": "/uploaded/cash-register-advice7.png",
+    "width": 1200,
+    "height": 1200,
+    "sourceBytes": null,
+    "bytes": 79100
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/coffee-droplets-advice7.webp",
+    "sourceFile": "/uploaded/coffee-droplets-advice7.png",
+    "width": 1739,
+    "height": 1664,
+    "sourceBytes": null,
+    "bytes": 182738
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/coffee-empty-advice7.webp",
+    "sourceFile": "/uploaded/coffee-empty-advice7.png",
+    "width": 2048,
+    "height": 2048,
+    "sourceBytes": null,
+    "bytes": 243930
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/coffee-full-advice7.webp",
+    "sourceFile": "/uploaded/coffee-full-advice7.png",
+    "width": 1200,
+    "height": 965,
+    "sourceBytes": null,
+    "bytes": 120706
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/coffee-splash-advice7.webp",
+    "sourceFile": "/uploaded/coffee-splash-advice7.png",
+    "width": 1052,
+    "height": 618,
+    "sourceBytes": null,
+    "bytes": 46530
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/coffee-spoon-advice7.webp",
+    "sourceFile": "/uploaded/coffee-spoon-advice7.png",
+    "width": 990,
+    "height": 437,
+    "sourceBytes": null,
+    "bytes": 25574
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/coffee-stain-advice7.webp",
+    "sourceFile": "/uploaded/coffee-stain-advice7.png",
+    "width": 428,
+    "height": 297,
+    "sourceBytes": null,
+    "bytes": 18554
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/coffee-steam-advice7.webp",
+    "sourceFile": "/uploaded/coffee-steam-advice7.png",
+    "width": 2953,
+    "height": 2953,
+    "sourceBytes": null,
+    "bytes": 1406930
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/coffee-tipping-advice7.webp",
+    "sourceFile": "/uploaded/coffee-tipping-advice7.png",
+    "width": 784,
+    "height": 1000,
+    "sourceBytes": null,
+    "bytes": 57560
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/croissant-advice7.webp",
+    "sourceFile": "/uploaded/croissant-advice7.png",
+    "width": 800,
+    "height": 800,
+    "sourceBytes": null,
+    "bytes": 56820
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/napkin-dispenser-advice7.webp",
+    "sourceFile": "/uploaded/napkin-dispenser-advice7.png",
+    "width": 1291,
+    "height": 852,
+    "sourceBytes": null,
+    "bytes": 107898
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/newspaper-menu-advice7.webp",
+    "sourceFile": "/uploaded/newspaper-menu-advice7.png",
+    "width": 2050,
+    "height": 1500,
+    "sourceBytes": null,
+    "bytes": 332872
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/orange-juice-advice7.webp",
+    "sourceFile": "/uploaded/orange-juice-advice7.png",
+    "width": 580,
+    "height": 580,
+    "sourceBytes": null,
+    "bytes": 32986
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/pastry-display-advice7.webp",
+    "sourceFile": "/uploaded/pastry-display-advice7.png",
+    "width": 800,
+    "height": 800,
+    "sourceBytes": null,
+    "bytes": 99356
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/service-bell-advice7.webp",
+    "sourceFile": "/uploaded/service-bell-advice7.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": null,
+    "bytes": 28010
+  },
+  {
+    "file": "/assets-optimized/objects/advice7/sugar-bowl-advice7.webp",
+    "sourceFile": "/uploaded/sugar-bowl-advice7.png",
+    "width": 637,
+    "height": 500,
+    "sourceBytes": null,
+    "bytes": 34528
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/ash-pan-advice8.webp",
+    "sourceFile": "/uploaded/ash-pan-advice8.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": null,
+    "bytes": 119196
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/cleaning-bucket-advice8.webp",
+    "sourceFile": "/uploaded/cleaning-bucket-advice8.png",
+    "width": 900,
+    "height": 857,
+    "sourceBytes": null,
+    "bytes": 62800
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/fire-in-oven-lit-advice8.webp",
+    "sourceFile": "/uploaded/fire-in-oven-lit-advice8.png",
+    "width": 936,
+    "height": 319,
+    "sourceBytes": null,
+    "bytes": 100706
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/flame-burst-advice8.webp",
+    "sourceFile": "/uploaded/flame-burst-advice8.png",
+    "width": 1024,
+    "height": 926,
+    "sourceBytes": null,
+    "bytes": 224190
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/flour-sack-advice8.webp",
+    "sourceFile": "/uploaded/flour-sack-advice8.png",
+    "width": 800,
+    "height": 1062,
+    "sourceBytes": null,
+    "bytes": 244102
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/oven-brush-advice8.webp",
+    "sourceFile": "/uploaded/oven-brush-advice8.png",
+    "width": 520,
+    "height": 520,
+    "sourceBytes": null,
+    "bytes": 13816
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/oven-cold-advice8.webp",
+    "sourceFile": "/uploaded/oven-cold-advice8.png",
+    "width": 3072,
+    "height": 4096,
+    "sourceBytes": null,
+    "bytes": 177832
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/oven-ignition-advice8.webp",
+    "sourceFile": "/uploaded/oven-ignition-advice8.png",
+    "width": 900,
+    "height": 709,
+    "sourceBytes": null,
+    "bytes": 133272
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/oven-logs-burning-advice8.webp",
+    "sourceFile": "/uploaded/oven-logs-burning-advice8.png",
+    "width": 558,
+    "height": 669,
+    "sourceBytes": null,
+    "bytes": 57404
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/oven-logs-unlit-advice8.webp",
+    "sourceFile": "/uploaded/oven-logs-unlit-advice8.png",
+    "width": 560,
+    "height": 494,
+    "sourceBytes": null,
+    "bytes": 57644
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/smoke-ash-advice8.webp",
+    "sourceFile": "/uploaded/smoke-ash-advice8.png",
+    "width": 512,
+    "height": 512,
+    "sourceBytes": null,
+    "bytes": 82578
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/sparks-embers-advice8.webp",
+    "sourceFile": "/uploaded/sparks-embers-advice8.png",
+    "width": 515,
+    "height": 316,
+    "sourceBytes": null,
+    "bytes": 56272
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/thermometer-advice8.webp",
+    "sourceFile": "/uploaded/thermometer-advice8.png",
+    "width": 1500,
+    "height": 1500,
+    "sourceBytes": null,
+    "bytes": 103896
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/vent-lever-advice8.webp",
+    "sourceFile": "/uploaded/vent-lever-advice8.png",
+    "width": 1100,
+    "height": 1100,
+    "sourceBytes": null,
+    "bytes": 123856
+  },
+  {
+    "file": "/assets-optimized/objects/advice8/wood-stack-advice8.webp",
+    "sourceFile": "/uploaded/wood-stack-advice8.png",
+    "width": 1759,
+    "height": 916,
+    "sourceBytes": null,
+    "bytes": 326542
+  },
+  {
+    "file": "/assets-optimized/sprites/advice1/giulio-advice1-exit.webp",
+    "sourceFile": "/assets/sprites/advice1/giulio-advice1-exit.png",
+    "width": 1600,
+    "height": 1196,
+    "sourceBytes": 1379472,
+    "bytes": 77004
+  },
+  {
+    "file": "/assets-optimized/sprites/advice1/giulio-advice1-eye-open.webp",
+    "sourceFile": "/assets/sprites/advice1/giulio-advice1-eye-open.png",
+    "width": 1600,
+    "height": 1187,
+    "sourceBytes": 1217668,
+    "bytes": 70984
+  },
+  {
+    "file": "/assets-optimized/sprites/advice1/giulio-advice1-finish.webp",
+    "sourceFile": "/assets/sprites/advice1/giulio-advice1-finish.png",
+    "width": 1207,
+    "height": 1600,
+    "sourceBytes": 2150624,
+    "bytes": 142846
+  },
+  {
+    "file": "/assets-optimized/sprites/advice1/giulio-advice1-pointing.webp",
+    "sourceFile": "/assets/sprites/advice1/giulio-advice1-pointing.png",
+    "width": 1206,
+    "height": 1600,
+    "sourceBytes": 1332830,
+    "bytes": 87796
+  },
+  {
+    "file": "/assets-optimized/sprites/advice1/giulio-advice1-realisation.webp",
+    "sourceFile": "/assets/sprites/advice1/giulio-advice1-realisation.png",
+    "width": 1207,
+    "height": 1600,
+    "sourceBytes": 1509143,
+    "bytes": 108968
+  },
+  {
+    "file": "/assets-optimized/sprites/advice1/giulio-advice1-sitting-annoyed.webp",
+    "sourceFile": "/assets/sprites/advice1/giulio-advice1-sitting-annoyed.png",
+    "width": 1600,
+    "height": 1227,
+    "sourceBytes": 1105877,
+    "bytes": 71594
+  },
+  {
+    "file": "/assets-optimized/sprites/advice1/giulio-advice1-sleeping.webp",
+    "sourceFile": "/assets/sprites/advice1/giulio-advice1-sleeping.png",
+    "width": 1600,
+    "height": 1149,
+    "sourceBytes": 1300044,
+    "bytes": 71928
+  },
+  {
+    "file": "/assets-optimized/sprites/advice1/giulio-advice1-splashed.webp",
+    "sourceFile": "/assets/sprites/advice1/giulio-advice1-splashed.png",
+    "width": 1600,
+    "height": 1222,
+    "sourceBytes": 1842599,
+    "bytes": 145802
+  },
+  {
+    "file": "/assets-optimized/sprites/advice1/giulio-advice1-theatrical.webp",
+    "sourceFile": "/assets/sprites/advice1/giulio-advice1-theatrical.png",
+    "width": 1246,
+    "height": 1600,
+    "sourceBytes": 1618168,
+    "bytes": 127220
+  },
+  {
+    "file": "/assets-optimized/sprites/advice1/giulio-advice1-wet-stare.webp",
+    "sourceFile": "/assets/sprites/advice1/giulio-advice1-wet-stare.png",
+    "width": 1600,
+    "height": 1194,
+    "sourceBytes": 1651107,
+    "bytes": 113418
+  },
+  {
+    "file": "/assets-optimized/sprites/advice2/giulio-advice2-apple-pointing.webp",
+    "sourceFile": "/assets/sprites/advice2/giulio-advice2-apple-pointing.png",
+    "width": 1600,
+    "height": 1236,
+    "sourceBytes": 1559410,
+    "bytes": 106630
+  },
+  {
+    "file": "/assets-optimized/sprites/advice2/giulio-advice2-apple-stare.webp",
+    "sourceFile": "/assets/sprites/advice2/giulio-advice2-apple-stare.png",
+    "width": 1600,
+    "height": 1241,
+    "sourceBytes": 1717069,
+    "bytes": 115846
+  },
+  {
+    "file": "/assets-optimized/sprites/advice2/giulio-advice2-apple-throw.webp",
+    "sourceFile": "/assets/sprites/advice2/giulio-advice2-apple-throw.png",
+    "width": 1600,
+    "height": 1158,
+    "sourceBytes": 1078043,
+    "bytes": 70606
+  },
+  {
+    "file": "/assets-optimized/sprites/advice2/giulio-advice2-exit.webp",
+    "sourceFile": "/assets/sprites/advice2/giulio-advice2-exit.png",
+    "width": 1600,
+    "height": 1193,
+    "sourceBytes": 1721944,
+    "bytes": 110522
+  },
+  {
+    "file": "/assets-optimized/sprites/advice2/giulio-advice2-finish.webp",
+    "sourceFile": "/assets/sprites/advice2/giulio-advice2-finish.png",
+    "width": 1128,
+    "height": 1600,
+    "sourceBytes": 1927833,
+    "bytes": 113534
+  },
+  {
+    "file": "/assets-optimized/sprites/advice2/giulio-advice2-holding-head.webp",
+    "sourceFile": "/assets/sprites/advice2/giulio-advice2-holding-head.png",
+    "width": 1285,
+    "height": 1600,
+    "sourceBytes": 1744008,
+    "bytes": 124792
+  },
+  {
+    "file": "/assets-optimized/sprites/advice2/giulio-advice2-impact.webp",
+    "sourceFile": "/assets/sprites/advice2/giulio-advice2-impact.png",
+    "width": 1600,
+    "height": 1222,
+    "sourceBytes": 1424122,
+    "bytes": 84014
+  },
+  {
+    "file": "/assets-optimized/sprites/advice2/giulio-advice2-realisation.webp",
+    "sourceFile": "/assets/sprites/advice2/giulio-advice2-realisation.png",
+    "width": 1600,
+    "height": 1177,
+    "sourceBytes": 1512137,
+    "bytes": 98476
+  },
+  {
+    "file": "/assets-optimized/sprites/advice2/giulio-advice2-sleeping.webp",
+    "sourceFile": "/assets/sprites/advice2/giulio-advice2-sleeping.png",
+    "width": 1600,
+    "height": 1231,
+    "sourceBytes": 1538255,
+    "bytes": 92676
+  },
+  {
+    "file": "/assets-optimized/sprites/advice2/giulio-advice2-theatrical.webp",
+    "sourceFile": "/assets/sprites/advice2/giulio-advice2-theatrical.png",
+    "width": 1085,
+    "height": 1600,
+    "sourceBytes": 2176491,
+    "bytes": 114654
+  },
+  {
+    "file": "/assets-optimized/sprites/advice3/giulio-advice3-chair-exit.webp",
+    "sourceFile": "/assets/sprites/advice3/giulio-advice3-chair-exit.png",
+    "width": 1600,
+    "height": 1016,
+    "sourceBytes": 1491004,
+    "bytes": 68564
+  },
+  {
+    "file": "/assets-optimized/sprites/advice3/giulio-advice3-chair-turn.webp",
+    "sourceFile": "/assets/sprites/advice3/giulio-advice3-chair-turn.png",
+    "width": 1600,
+    "height": 1185,
+    "sourceBytes": 1416222,
+    "bytes": 84154
+  },
+  {
+    "file": "/assets-optimized/sprites/advice3/giulio-advice3-exhausted.webp",
+    "sourceFile": "/assets/sprites/advice3/giulio-advice3-exhausted.png",
+    "width": 1600,
+    "height": 1212,
+    "sourceBytes": 1152558,
+    "bytes": 67038
+  },
+  {
+    "file": "/assets-optimized/sprites/advice3/giulio-advice3-finish.webp",
+    "sourceFile": "/assets/sprites/advice3/giulio-advice3-finish.png",
+    "width": 1600,
+    "height": 1184,
+    "sourceBytes": 1234674,
+    "bytes": 73572
+  },
+  {
+    "file": "/assets-optimized/sprites/advice3/giulio-advice3-frozen.webp",
+    "sourceFile": "/assets/sprites/advice3/giulio-advice3-frozen.png",
+    "width": 1600,
+    "height": 1190,
+    "sourceBytes": 1196989,
+    "bytes": 87734
+  },
+  {
+    "file": "/assets-optimized/sprites/advice3/giulio-advice3-pointing.webp",
+    "sourceFile": "/assets/sprites/advice3/giulio-advice3-pointing.png",
+    "width": 1600,
+    "height": 1229,
+    "sourceBytes": 978683,
+    "bytes": 75942
+  },
+  {
+    "file": "/assets-optimized/sprites/advice3/giulio-advice3-realisation.webp",
+    "sourceFile": "/assets/sprites/advice3/giulio-advice3-realisation.png",
+    "width": 1600,
+    "height": 1217,
+    "sourceBytes": 1645477,
+    "bytes": 104872
+  },
+  {
+    "file": "/assets-optimized/sprites/advice3/giulio-advice3-silent-stare.webp",
+    "sourceFile": "/assets/sprites/advice3/giulio-advice3-silent-stare.png",
+    "width": 1600,
+    "height": 1205,
+    "sourceBytes": 864661,
+    "bytes": 56240
+  },
+  {
+    "file": "/assets-optimized/sprites/advice3/giulio-advice3-theatrical.webp",
+    "sourceFile": "/assets/sprites/advice3/giulio-advice3-theatrical.png",
+    "width": 1600,
+    "height": 1248,
+    "sourceBytes": 1370464,
+    "bytes": 91556
+  },
+  {
+    "file": "/assets-optimized/sprites/advice3/giulio-advice3-typing.webp",
+    "sourceFile": "/assets/sprites/advice3/giulio-advice3-typing.png",
+    "width": 1600,
+    "height": 1155,
+    "sourceBytes": 1517452,
+    "bytes": 98826
+  },
+  {
+    "file": "/assets-optimized/sprites/advice3/giulio-advice3-working.webp",
+    "sourceFile": "/assets/sprites/advice3/giulio-advice3-working.png",
+    "width": 1600,
+    "height": 1157,
+    "sourceBytes": 1182688,
+    "bytes": 77406
+  },
+  {
+    "file": "/assets-optimized/sprites/advice4/giulio-advice4-advice-presenter.webp",
+    "sourceFile": "/uploaded/giulio-advice4-advice-presenter.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 372034
+  },
+  {
+    "file": "/assets-optimized/sprites/advice4/giulio-advice4-advice-realisation.webp",
+    "sourceFile": "/uploaded/giulio-advice4-advice-realisation.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 379048
+  },
+  {
+    "file": "/assets-optimized/sprites/advice4/giulio-advice4-fight-grin.webp",
+    "sourceFile": "/uploaded/giulio-advice4-fight-grin.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 365936
+  },
+  {
+    "file": "/assets-optimized/sprites/advice4/giulio-advice4-katana-guard.webp",
+    "sourceFile": "/uploaded/giulio-advice4-katana-guard.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 307740
+  },
+  {
+    "file": "/assets-optimized/sprites/advice4/giulio-advice4-katana-idle.webp",
+    "sourceFile": "/uploaded/giulio-advice4-katana-idle.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 342886
+  },
+  {
+    "file": "/assets-optimized/sprites/advice4/giulio-advice4-katana-slash.webp",
+    "sourceFile": "/uploaded/giulio-advice4-katana-slash.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 309864
+  },
+  {
+    "file": "/assets-optimized/sprites/advice4/giulio-advice4-ko-ground.webp",
+    "sourceFile": "/uploaded/giulio-advice4-ko-ground.png",
+    "width": 2448,
+    "height": 1160,
+    "sourceBytes": null,
+    "bytes": 97068
+  },
+  {
+    "file": "/assets-optimized/sprites/advice4/giulio-advice4-return-fight.webp",
+    "sourceFile": "/uploaded/giulio-advice4-return-fight.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 332130
+  },
+  {
+    "file": "/assets-optimized/sprites/advice4/giulio-advice4-rock-impact.webp",
+    "sourceFile": "/uploaded/giulio-advice4-rock-impact.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 395440
+  },
+  {
+    "file": "/assets-optimized/sprites/advice4/giulio-advice4-stand-dazed.webp",
+    "sourceFile": "/uploaded/giulio-advice4-stand-dazed.png",
+    "width": 2448,
+    "height": 1658,
+    "sourceBytes": null,
+    "bytes": 202728
+  },
+  {
+    "file": "/assets-optimized/sprites/advice5/giulio-advice5-adjusting-weight.webp",
+    "sourceFile": "/uploaded/giulio-advice5-adjusting-weight.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 323880
+  },
+  {
+    "file": "/assets-optimized/sprites/advice5/giulio-advice5-exit.webp",
+    "sourceFile": "/uploaded/giulio-advice5-exit.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 226492
+  },
+  {
+    "file": "/assets-optimized/sprites/advice5/giulio-advice5-finish.webp",
+    "sourceFile": "/uploaded/giulio-advice5-finish.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 260998
+  },
+  {
+    "file": "/assets-optimized/sprites/advice5/giulio-advice5-hopping.webp",
+    "sourceFile": "/uploaded/giulio-advice5-hopping.png",
+    "width": 1230,
+    "height": 2829,
+    "sourceBytes": null,
+    "bytes": 184410
+  },
+  {
+    "file": "/assets-optimized/sprites/advice5/giulio-advice5-pointing.webp",
+    "sourceFile": "/uploaded/giulio-advice5-pointing.png",
+    "width": 1425,
+    "height": 3073,
+    "sourceBytes": null,
+    "bytes": 216990
+  },
+  {
+    "file": "/assets-optimized/sprites/advice5/giulio-advice5-realisation.webp",
+    "sourceFile": "/uploaded/giulio-advice5-realisation.png",
+    "width": 1865,
+    "height": 2821,
+    "sourceBytes": null,
+    "bytes": 284344
+  },
+  {
+    "file": "/assets-optimized/sprites/advice5/giulio-advice5-silent-stare.webp",
+    "sourceFile": "/uploaded/giulio-advice5-silent-stare.png",
+    "width": 1174,
+    "height": 2909,
+    "sourceBytes": null,
+    "bytes": 244604
+  },
+  {
+    "file": "/assets-optimized/sprites/advice5/giulio-advice5-theatrical.webp",
+    "sourceFile": "/uploaded/giulio-advice5-theatrical.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 261442
+  },
+  {
+    "file": "/assets-optimized/sprites/advice5/giulio-advice5-toe-impact.webp",
+    "sourceFile": "/uploaded/giulio-advice5-toe-impact.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 274848
+  },
+  {
+    "file": "/assets-optimized/sprites/advice5/giulio-advice5-weight-slip.webp",
+    "sourceFile": "/uploaded/giulio-advice5-weight-slip.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 297132
+  },
+  {
+    "file": "/assets-optimized/sprites/advice5/giulio-advice5-workout.webp",
+    "sourceFile": "/uploaded/giulio-advice5-workout.png",
+    "width": 2448,
+    "height": 1288,
+    "sourceBytes": null,
+    "bytes": 128506
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-bed-collision.webp",
+    "sourceFile": "/uploaded/giulio-advice6-bed-collision.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 231720
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-exit.webp",
+    "sourceFile": "/uploaded/giulio-advice6-exit.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 379104
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-fallen-on-bed.webp",
+    "sourceFile": "/uploaded/giulio-advice6-fallen-on-bed.png",
+    "width": 2448,
+    "height": 1326,
+    "sourceBytes": null,
+    "bytes": 145060
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-finish.webp",
+    "sourceFile": "/uploaded/giulio-advice6-finish.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 328716
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-lifting-headset.webp",
+    "sourceFile": "/uploaded/giulio-advice6-lifting-headset.png",
+    "width": 2448,
+    "height": 1545,
+    "sourceBytes": null,
+    "bytes": 242142
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-playing-vr.webp",
+    "sourceFile": "/uploaded/giulio-advice6-playing-vr.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 245090
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-pointing-controller.webp",
+    "sourceFile": "/uploaded/giulio-advice6-pointing-controller.png",
+    "width": 2448,
+    "height": 1779,
+    "sourceBytes": null,
+    "bytes": 202394
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-realisation.webp",
+    "sourceFile": "/uploaded/giulio-advice6-realisation.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 304794
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-silent-stare.webp",
+    "sourceFile": "/uploaded/giulio-advice6-silent-stare.png",
+    "width": 2448,
+    "height": 1783,
+    "sourceBytes": null,
+    "bytes": 265314
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-theatrical.webp",
+    "sourceFile": "/uploaded/giulio-advice6-theatrical.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 291358
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-vr-dodge.webp",
+    "sourceFile": "/uploaded/giulio-advice6-vr-dodge.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 242430
+  },
+  {
+    "file": "/assets-optimized/sprites/advice6/giulio-advice6-walking-backward.webp",
+    "sourceFile": "/uploaded/giulio-advice6-walking-backward.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 182040
+  },
+  {
+    "file": "/assets-optimized/sprites/advice7/giulio-advice7-breakfast.webp",
+    "sourceFile": "/uploaded/giulio-advice7-breakfast.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 315012
+  },
+  {
+    "file": "/assets-optimized/sprites/advice7/giulio-advice7-coffee-croissant.webp",
+    "sourceFile": "/uploaded/giulio-advice7-coffee-croissant.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 318910
+  },
+  {
+    "file": "/assets-optimized/sprites/advice7/giulio-advice7-coffee-impact.webp",
+    "sourceFile": "/uploaded/giulio-advice7-coffee-impact.png",
+    "width": 2448,
+    "height": 2328,
+    "sourceBytes": null,
+    "bytes": 321322
+  },
+  {
+    "file": "/assets-optimized/sprites/advice7/giulio-advice7-exit.webp",
+    "sourceFile": "/uploaded/giulio-advice7-exit.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 344690
+  },
+  {
+    "file": "/assets-optimized/sprites/advice7/giulio-advice7-finish.webp",
+    "sourceFile": "/uploaded/giulio-advice7-finish.png",
+    "width": 2448,
+    "height": 2598,
+    "sourceBytes": null,
+    "bytes": 353648
+  },
+  {
+    "file": "/assets-optimized/sprites/advice7/giulio-advice7-inspecting-stain.webp",
+    "sourceFile": "/uploaded/giulio-advice7-inspecting-stain.png",
+    "width": 2448,
+    "height": 2085,
+    "sourceBytes": null,
+    "bytes": 295820
+  },
+  {
+    "file": "/assets-optimized/sprites/advice7/giulio-advice7-pointing-napkin.webp",
+    "sourceFile": "/uploaded/giulio-advice7-pointing-napkin.png",
+    "width": 2448,
+    "height": 2358,
+    "sourceBytes": null,
+    "bytes": 234582
+  },
+  {
+    "file": "/assets-optimized/sprites/advice7/giulio-advice7-realisation.webp",
+    "sourceFile": "/uploaded/giulio-advice7-realisation.png",
+    "width": 2448,
+    "height": 2385,
+    "sourceBytes": null,
+    "bytes": 309032
+  },
+  {
+    "file": "/assets-optimized/sprites/advice7/giulio-advice7-soaked-freeze.webp",
+    "sourceFile": "/uploaded/giulio-advice7-soaked-freeze.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 329600
+  },
+  {
+    "file": "/assets-optimized/sprites/advice7/giulio-advice7-theatrical.webp",
+    "sourceFile": "/uploaded/giulio-advice7-theatrical.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 425668
+  },
+  {
+    "file": "/assets-optimized/sprites/advice8/giulio-advice8-backward-leap.webp",
+    "sourceFile": "/uploaded/giulio-advice8-backward-leap.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 328988
+  },
+  {
+    "file": "/assets-optimized/sprites/advice8/giulio-advice8-brushing-ash.webp",
+    "sourceFile": "/uploaded/giulio-advice8-brushing-ash.png",
+    "width": 2448,
+    "height": 2710,
+    "sourceBytes": null,
+    "bytes": 278624
+  },
+  {
+    "file": "/assets-optimized/sprites/advice8/giulio-advice8-checking-burns.webp",
+    "sourceFile": "/uploaded/giulio-advice8-checking-burns.png",
+    "width": 1622,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 357902
+  },
+  {
+    "file": "/assets-optimized/sprites/advice8/giulio-advice8-cleaning-oven.webp",
+    "sourceFile": "/uploaded/giulio-advice8-cleaning-oven.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 232780
+  },
+  {
+    "file": "/assets-optimized/sprites/advice8/giulio-advice8-exit.webp",
+    "sourceFile": "/uploaded/giulio-advice8-exit.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 358848
+  },
+  {
+    "file": "/assets-optimized/sprites/advice8/giulio-advice8-finish.webp",
+    "sourceFile": "/uploaded/giulio-advice8-finish.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 288092
+  },
+  {
+    "file": "/assets-optimized/sprites/advice8/giulio-advice8-noticing-fire.webp",
+    "sourceFile": "/uploaded/giulio-advice8-noticing-fire.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 356720
+  },
+  {
+    "file": "/assets-optimized/sprites/advice8/giulio-advice8-pointing-oven.webp",
+    "sourceFile": "/uploaded/giulio-advice8-pointing-oven.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 252742
+  },
+  {
+    "file": "/assets-optimized/sprites/advice8/giulio-advice8-silent-stare.webp",
+    "sourceFile": "/uploaded/giulio-advice8-silent-stare.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 337290
+  },
+  {
+    "file": "/assets-optimized/sprites/advice8/giulio-advice8-theatrical.webp",
+    "sourceFile": "/uploaded/giulio-advice8-theatrical.png",
+    "width": 2448,
+    "height": 3264,
+    "sourceBytes": null,
+    "bytes": 359728
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-angry.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-angry.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 793837,
+    "bytes": 54800
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-annoyed.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-annoyed.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 715784,
+    "bytes": 51598
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-embarrassed.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-embarrassed.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 611548,
+    "bytes": 47474
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-excited.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-excited.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 636952,
+    "bytes": 48556
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-exhausted.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-exhausted.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 773556,
+    "bytes": 57548
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-exit-grin.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-exit-grin.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 657072,
+    "bytes": 46390
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-facepalm.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-facepalm.png",
+    "width": 644,
+    "height": 1000,
+    "sourceBytes": 1744882,
+    "bytes": 48294
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-fourth-wall.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-fourth-wall.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 1203557,
+    "bytes": 62308
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-groaning.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-groaning.png",
+    "width": 629,
+    "height": 1000,
+    "sourceBytes": 2228720,
+    "bytes": 56014
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-happy.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-happy.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 770606,
+    "bytes": 55040
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-jumping-exit.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-jumping-exit.png",
+    "width": 1000,
+    "height": 748,
+    "sourceBytes": 1432144,
+    "bytes": 42914
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-laughing.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-laughing.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 831332,
+    "bytes": 51764
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-neutral.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-neutral.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 730559,
+    "bytes": 51158
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-offended.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-offended.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 547652,
+    "bytes": 38612
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-pointing-full.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-pointing-full.png",
+    "width": 617,
+    "height": 1000,
+    "sourceBytes": 1226235,
+    "bytes": 31814
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-pointing.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-pointing.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 656630,
+    "bytes": 45294
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-presenting.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-presenting.png",
+    "width": 604,
+    "height": 1000,
+    "sourceBytes": 1407410,
+    "bytes": 38618
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-proud.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-proud.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 691390,
+    "bytes": 48426
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-realisation.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-realisation.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 885943,
+    "bytes": 66936
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-running-left.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-running-left.png",
+    "width": 1000,
+    "height": 742,
+    "sourceBytes": 2196782,
+    "bytes": 78888
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-running-right.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-running-right.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 1426743,
+    "bytes": 64796
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-silent-stare.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-silent-stare.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 769690,
+    "bytes": 52710
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-smug.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-smug.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 730878,
+    "bytes": 61220
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-standing.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-standing.png",
+    "width": 617,
+    "height": 1000,
+    "sourceBytes": 1396165,
+    "bytes": 36598
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-suspicious.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-suspicious.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 850995,
+    "bytes": 62608
+  },
+  {
+    "file": "/assets-optimized/sprites/shared/giulio-theatrical.webp",
+    "sourceFile": "/assets/sprites/shared/giulio-theatrical.png",
+    "width": 1000,
+    "height": 1000,
+    "sourceBytes": 693139,
+    "bytes": 48176
+  }
+]

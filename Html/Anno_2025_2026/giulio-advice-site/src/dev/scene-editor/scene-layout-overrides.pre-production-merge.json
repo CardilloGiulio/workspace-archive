@@ -1,0 +1,1579 @@
+{
+  "advice1": {
+    "desktop": {},
+    "mobile": {}
+  },
+  "advice2": {
+    "desktop": {},
+    "mobile": {}
+  },
+  "advice3": {
+    "desktop": {},
+    "mobile": {}
+  },
+  "advice4": {
+    "desktop": {
+      "character": {
+        "layouts": {
+          "fight": {
+            "desktop": {
+              "left": "23.8%",
+              "bottom": "6.1%"
+            }
+          }
+        }
+      },
+      "props": {
+        "boulder": {
+          "layout": {
+            "desktop": {
+              "left": "33.9%",
+              "bottom": "16.3%"
+            }
+          }
+        },
+        "tanjiroFighter": {
+          "layout": {
+            "desktop": {
+              "right": "28.4%",
+              "bottom": "4.4%"
+            }
+          }
+        },
+        "hpGiulio": {
+          "layout": {
+            "desktop": {
+              "left": "-31.6%",
+              "top": "9%",
+              "width": "91.6%",
+              "height": "24.2%"
+            }
+          }
+        },
+        "hpTanjiro": {
+          "layout": {
+            "desktop": {
+              "right": "-33.8%",
+              "top": "9%",
+              "width": "94.5%",
+              "height": "25.1%"
+            }
+          }
+        },
+        "sabito": {
+          "layout": {
+            "desktop": {
+              "left": "1.2%",
+              "bottom": "3.1%"
+            }
+          }
+        },
+        "makomo": {
+          "layout": {
+            "desktop": {
+              "right": "4.5%",
+              "bottom": "2.2%"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "layout": {
+          "desktop": {
+            "left": "46.4%",
+            "bottom": "10.4%"
+          }
+        }
+      },
+      "effects": {
+        "fallingRock": {
+          "layout": {
+            "desktop": {
+              "left": "24.6%",
+              "top": "31.9%"
+            }
+          }
+        },
+        "rockDust": {
+          "layout": {
+            "desktop": {
+              "left": "18.4%",
+              "bottom": "6%"
+            }
+          }
+        },
+        "clash": {
+          "layout": {
+            "desktop": {
+              "left": "40.8%",
+              "top": "46.6%"
+            }
+          }
+        },
+        "swordArc": {
+          "layout": {
+            "desktop": {
+              "left": "30.2%",
+              "top": "40.5%",
+              "rotate": "55deg"
+            }
+          }
+        },
+        "ko": {
+          "layout": {
+            "desktop": {
+              "left": "27.3%",
+              "top": "23.6%",
+              "width": "46.7%",
+              "height": "43.2%"
+            }
+          }
+        }
+      }
+    },
+    "mobile": {
+      "character": {
+        "layouts": {
+          "fight": {
+            "mobile": {
+              "left": "18.2%",
+              "bottom": "18.5%"
+            }
+          },
+          "impact": {
+            "mobile": {
+              "left": "12.5%",
+              "bottom": "20.1%",
+              "width": "36.5%",
+              "height": "43.2%",
+              "rotate": "-7.8deg"
+            }
+          },
+          "ground": {
+            "mobile": {
+              "left": "7.2%",
+              "bottom": "21.8%"
+            }
+          },
+          "upright": {
+            "mobile": {
+              "left": "8.9%",
+              "bottom": "21%"
+            }
+          }
+        }
+      },
+      "props": {
+        "boulder": {
+          "layout": {
+            "mobile": {
+              "left": "22.7%",
+              "bottom": "18.9%",
+              "width": "55.3%",
+              "height": "51.2%",
+              "rotate": "-3deg"
+            }
+          }
+        },
+        "tanjiroFighter": {
+          "layout": {
+            "mobile": {
+              "right": "6.7%",
+              "bottom": "1.7%",
+              "width": "42.3%",
+              "height": "58.9%",
+              "rotate": "-1.8deg"
+            }
+          }
+        },
+        "hpGiulio": {
+          "layout": {
+            "mobile": {
+              "left": "-15.2%",
+              "top": "6.6%",
+              "width": "95.8%",
+              "height": "14.9%",
+              "rotate": "-0.1deg"
+            }
+          }
+        },
+        "hpTanjiro": {
+          "layout": {
+            "mobile": {
+              "right": "-18%",
+              "top": "1.9%",
+              "width": "102.5%",
+              "height": "16%",
+              "rotate": "-0.7deg"
+            }
+          }
+        },
+        "sabito": {
+          "layout": {
+            "mobile": {
+              "left": "-1.9%",
+              "bottom": "18.9%",
+              "width": "17.6%",
+              "height": "30.2%",
+              "rotate": "0.6deg"
+            }
+          }
+        },
+        "makomo": {
+          "layout": {
+            "mobile": {
+              "right": "-8.2%",
+              "bottom": "20.6%",
+              "width": "22.1%",
+              "height": "38.6%",
+              "rotate": "0.4deg"
+            }
+          }
+        }
+      },
+      "effects": {
+        "fallingRock": {
+          "layout": {
+            "mobile": {
+              "left": "9.9%",
+              "top": "49.2%"
+            }
+          }
+        },
+        "clash": {
+          "layout": {
+            "mobile": {
+              "left": "41.5%",
+              "top": "56.3%"
+            }
+          }
+        },
+        "swordArc": {
+          "layout": {
+            "mobile": {
+              "left": "30.7%",
+              "top": "57.5%"
+            }
+          }
+        },
+        "dashDust": {
+          "layout": {
+            "mobile": {
+              "left": "55.4%",
+              "bottom": "27.3%"
+            }
+          }
+        },
+        "ko": {
+          "layout": {
+            "mobile": {
+              "left": "6.1%",
+              "top": "16.5%",
+              "width": "94.9%",
+              "height": "43.1%",
+              "rotate": "8.7deg"
+            }
+          }
+        }
+      }
+    }
+  },
+  "advice5": {
+    "desktop": {
+      "character": {
+        "layouts": {
+          "workout": {
+            "desktop": {
+              "left": "59.5%",
+              "bottom": "50.8%",
+              "width": "23.4%",
+              "height": "20.6%",
+              "rotate": "-29.7deg"
+            }
+          },
+          "upright": {
+            "desktop": {
+              "left": "52.8%",
+              "bottom": "39.1%",
+              "width": "15.2%",
+              "height": "41.8%"
+            }
+          },
+          "exit": {
+            "desktop": {
+              "left": "48.4%",
+              "bottom": "38%",
+              "width": "19.1%",
+              "height": "49.7%"
+            }
+          }
+        }
+      },
+      "props": {
+        "bench": {
+          "layout": {
+            "desktop": {
+              "left": "56.1%",
+              "bottom": "37.3%",
+              "width": "37.8%",
+              "height": "33.5%"
+            }
+          }
+        },
+        "barbell": {
+          "layout": {
+            "desktop": {
+              "left": "25%",
+              "top": "73.1%"
+            }
+          }
+        },
+        "rack": {
+          "layout": {
+            "desktop": {
+              "right": "81.6%",
+              "bottom": "6.5%"
+            }
+          }
+        },
+        "mat": {
+          "layout": {
+            "desktop": {
+              "left": "24.3%",
+              "bottom": "25.6%",
+              "width": "34%",
+              "height": "21.4%"
+            }
+          }
+        },
+        "water": {
+          "layout": {
+            "desktop": {
+              "right": "9.5%",
+              "bottom": "25%",
+              "width": "6.5%",
+              "height": "19.4%"
+            }
+          }
+        },
+        "towel": {
+          "layout": {
+            "desktop": {
+              "right": "65.8%",
+              "top": "26.1%"
+            }
+          }
+        },
+        "timer": {
+          "layout": {
+            "desktop": {
+              "left": "46.2%",
+              "top": "48.5%"
+            }
+          }
+        },
+        "mirror": {
+          "layout": {
+            "desktop": {
+              "left": "4%",
+              "top": "12%"
+            }
+          }
+        },
+        "shaker": {
+          "layout": {
+            "desktop": {
+              "right": "13.3%",
+              "bottom": "23.8%",
+              "width": "7.4%",
+              "height": "18.5%"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "layout": {
+          "desktop": {
+            "left": "60.4%",
+            "bottom": "57.1%",
+            "z": "1"
+          }
+        }
+      },
+      "effects": {
+        "toeImpact": {
+          "layout": {
+            "desktop": {
+              "left": "55.2%",
+              "bottom": "38.9%"
+            }
+          }
+        },
+        "painStars": {
+          "layout": {
+            "desktop": {
+              "left": "51.7%",
+              "top": "36.3%",
+              "width": "16%",
+              "height": "19.4%"
+            }
+          }
+        }
+      }
+    },
+    "mobile": {
+      "character": {
+        "layouts": {
+          "workout": {
+            "mobile": {
+              "left": "27.1%",
+              "bottom": "48.9%",
+              "width": "44.8%",
+              "height": "23.9%",
+              "rotate": "-31deg"
+            }
+          },
+          "upright": {
+            "mobile": {
+              "left": "14.7%",
+              "bottom": "38.3%"
+            }
+          },
+          "exit": {
+            "mobile": {
+              "left": "-9.7%",
+              "bottom": "41.2%",
+              "width": "57.9%",
+              "height": "89.4%",
+              "rotate": "-6.3deg"
+            }
+          }
+        }
+      },
+      "props": {
+        "bench": {
+          "layout": {
+            "mobile": {
+              "left": "40.3%",
+              "bottom": "39.7%",
+              "width": "50.3%",
+              "height": "25.1%",
+              "rotate": "-18.3deg"
+            }
+          }
+        },
+        "barbell": {
+          "layout": {
+            "mobile": {
+              "left": "61.4%",
+              "top": "31.9%"
+            }
+          }
+        },
+        "rack": {
+          "layout": {
+            "mobile": {
+              "right": "-13.5%",
+              "bottom": "-20%",
+              "width": "49%",
+              "height": "63.5%",
+              "rotate": "2.7deg"
+            }
+          }
+        },
+        "mat": {
+          "layout": {
+            "mobile": {
+              "left": "73.1%",
+              "bottom": "43.8%"
+            }
+          }
+        },
+        "water": {
+          "layout": {
+            "mobile": {
+              "right": "-5.7%",
+              "bottom": "45.9%",
+              "width": "12.6%",
+              "height": "19%",
+              "rotate": "0.4deg"
+            }
+          }
+        },
+        "towel": {
+          "layout": {
+            "mobile": {
+              "right": "68.9%",
+              "top": "4.6%",
+              "width": "19.4%",
+              "height": "30%",
+              "rotate": "-2.1deg"
+            }
+          }
+        },
+        "timer": {
+          "layout": {
+            "mobile": {
+              "left": "1.8%",
+              "top": "70.4%",
+              "width": "17.6%",
+              "height": "15.8%",
+              "rotate": "1.1deg"
+            }
+          }
+        },
+        "mirror": {
+          "layout": {
+            "mobile": {
+              "left": "13.5%",
+              "top": "22.5%"
+            }
+          }
+        },
+        "shaker": {
+          "layout": {
+            "mobile": {
+              "right": "2.8%",
+              "bottom": "48.4%"
+            }
+          }
+        },
+        "pullup": {
+          "layout": {
+            "mobile": {
+              "left": "27%",
+              "top": "11.5%",
+              "width": "37.7%",
+              "height": "11.2%",
+              "rotate": "7.6deg"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "layout": {
+          "mobile": {
+            "left": "39.1%",
+            "bottom": "53.3%"
+          }
+        }
+      },
+      "effects": {
+        "toeImpact": {
+          "layout": {
+            "mobile": {
+              "left": "25.8%",
+              "bottom": "41.3%"
+            }
+          }
+        },
+        "painStars": {
+          "layout": {
+            "mobile": {
+              "left": "16%",
+              "top": "37.1%"
+            }
+          }
+        },
+        "floorDust": {
+          "layout": {
+            "mobile": {
+              "left": "20.1%",
+              "bottom": "42.2%"
+            }
+          }
+        }
+      }
+    }
+  },
+  "advice6": {
+    "desktop": {
+      "character": {
+        "layouts": {
+          "upright": {
+            "desktop": {
+              "left": "75.6%",
+              "bottom": "7.3%"
+            }
+          },
+          "seated": {
+            "desktop": {
+              "left": "52.5%",
+              "bottom": "12.4%",
+              "width": "28.9%",
+              "height": "40.8%"
+            }
+          },
+          "exit": {
+            "desktop": {
+              "left": "61.5%",
+              "bottom": "8.4%",
+              "width": "24.7%",
+              "height": "64.4%"
+            }
+          }
+        }
+      },
+      "props": {
+        "wardrobe": {
+          "layout": {
+            "desktop": {
+              "right": "-5.8%",
+              "bottom": "-5.7%",
+              "width": "26.9%",
+              "height": "90.6%",
+              "z": "1"
+            }
+          }
+        },
+        "poster": {
+          "layout": {
+            "desktop": {
+              "left": "6.9%",
+              "top": "16.9%",
+              "width": "11.9%",
+              "height": "29.7%"
+            }
+          }
+        },
+        "nightstand": {
+          "layout": {
+            "desktop": {
+              "left": "37.8%",
+              "bottom": "24.3%"
+            }
+          }
+        },
+        "lamp": {
+          "layout": {
+            "desktop": {
+              "left": "40.2%",
+              "bottom": "42%"
+            }
+          }
+        },
+        "pillow": {
+          "layout": {
+            "desktop": {
+              "left": "0.9%",
+              "bottom": "45.1%",
+              "width": "9.1%",
+              "height": "8.3%",
+              "rotate": "80.6deg",
+              "z": "26"
+            }
+          }
+        },
+        "blanket": {
+          "layout": {
+            "desktop": {
+              "left": "-7.3%",
+              "bottom": "10.5%",
+              "z": "34"
+            }
+          }
+        },
+        "rug": {
+          "layout": {
+            "desktop": {
+              "left": "-3.3%",
+              "bottom": "-29%",
+              "width": "108.1%",
+              "height": "56.9%",
+              "rotate": "-35.2deg",
+              "z": "1"
+            }
+          }
+        },
+        "slippers": {
+          "layout": {
+            "desktop": {
+              "left": "86.8%",
+              "bottom": "13.2%"
+            }
+          }
+        },
+        "controllers": {
+          "layout": {
+            "desktop": {
+              "right": "33.1%",
+              "bottom": "72.4%"
+            }
+          }
+        },
+        "headset": {
+          "layout": {
+            "desktop": {
+              "right": "26.4%",
+              "bottom": "73.9%"
+            }
+          }
+        },
+        "clock": {
+          "layout": {
+            "desktop": {
+              "left": "43%",
+              "bottom": "42.3%"
+            }
+          }
+        },
+        "plush": {
+          "layout": {
+            "desktop": {
+              "right": "90.1%",
+              "bottom": "28.1%",
+              "z": "27"
+            }
+          }
+        },
+        "vrGrid": {
+          "layout": {
+            "desktop": {
+              "left": "44.8%",
+              "bottom": "4.2%",
+              "width": "67.3%",
+              "height": "68.4%"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "layout": {
+          "desktop": {
+            "left": "6.8%",
+            "bottom": "2.7%",
+            "width": "46.6%",
+            "height": "46.6%"
+          }
+        }
+      }
+    },
+    "mobile": {
+      "character": {
+        "layouts": {
+          "upright": {
+            "mobile": {
+              "left": "61.7%",
+              "bottom": "17.9%",
+              "width": "54.5%",
+              "height": "84.7%",
+              "rotate": "-0.8deg"
+            }
+          },
+          "seated": {
+            "mobile": {
+              "left": "50.7%",
+              "bottom": "19.1%",
+              "width": "57.4%",
+              "height": "48.7%",
+              "rotate": "-0.9deg"
+            }
+          },
+          "exit": {
+            "mobile": {
+              "left": "61.1%",
+              "bottom": "14%",
+              "width": "60.6%",
+              "height": "91.6%",
+              "rotate": "2.2deg"
+            }
+          }
+        }
+      },
+      "props": {
+        "wardrobe": {
+          "layout": {
+            "mobile": {
+              "right": "-15.8%",
+              "bottom": "6.5%",
+              "width": "52.9%",
+              "height": "104.1%",
+              "rotate": "-0.5deg"
+            }
+          }
+        },
+        "poster": {
+          "layout": {
+            "mobile": {
+              "left": "40.9%",
+              "top": "-15.5%",
+              "width": "33.1%",
+              "height": "47.3%",
+              "rotate": "1.4deg"
+            }
+          }
+        },
+        "nightstand": {
+          "layout": {
+            "mobile": {
+              "left": "16.3%",
+              "bottom": "28.9%",
+              "width": "32.4%",
+              "height": "36%",
+              "rotate": "0.9deg"
+            }
+          }
+        },
+        "lamp": {
+          "layout": {
+            "mobile": {
+              "left": "17%",
+              "bottom": "43.3%",
+              "width": "19.7%",
+              "height": "26.9%",
+              "rotate": "-2deg"
+            }
+          }
+        },
+        "pillow": {
+          "layout": {
+            "mobile": {
+              "left": "71%",
+              "bottom": "76.2%"
+            }
+          }
+        },
+        "blanket": {
+          "layout": {
+            "mobile": {
+              "left": "83.9%",
+              "bottom": "73.3%",
+              "width": "16.2%",
+              "height": "7.4%",
+              "rotate": "-1.7deg"
+            }
+          }
+        },
+        "rug": {
+          "layout": {
+            "mobile": {
+              "left": "32.5%",
+              "bottom": "4.3%"
+            }
+          }
+        },
+        "slippers": {
+          "layout": {
+            "mobile": {
+              "left": "44.5%",
+              "bottom": "14.1%"
+            }
+          }
+        },
+        "controllers": {
+          "layout": {
+            "mobile": {
+              "right": "11.1%",
+              "bottom": "67.7%"
+            }
+          }
+        },
+        "headset": {
+          "layout": {
+            "mobile": {
+              "right": "22.2%",
+              "bottom": "68.7%"
+            }
+          }
+        },
+        "clock": {
+          "layout": {
+            "mobile": {
+              "left": "30.1%",
+              "bottom": "50.6%"
+            }
+          }
+        },
+        "plush": {
+          "layout": {
+            "mobile": {
+              "right": "-6.5%",
+              "bottom": "67.6%"
+            }
+          }
+        },
+        "vrGrid": {
+          "layout": {
+            "mobile": {
+              "left": "-27.8%",
+              "bottom": "-7.6%"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "layout": {
+          "mobile": {
+            "left": "-20.9%",
+            "bottom": "6.3%",
+            "width": "67.9%",
+            "height": "39.7%",
+            "rotate": "-0.9deg"
+          }
+        }
+      }
+    }
+  },
+  "advice7": {
+    "desktop": {
+      "character": {
+        "layouts": {
+          "seated": {
+            "desktop": {
+              "left": "21.2%",
+              "bottom": "4.2%"
+            }
+          },
+          "upright": {
+            "desktop": {
+              "left": "22.6%",
+              "bottom": "3.1%"
+            }
+          },
+          "exit": {
+            "desktop": {
+              "left": "29.3%",
+              "bottom": "10.3%",
+              "width": "16.4%",
+              "height": "39.9%"
+            }
+          }
+        }
+      },
+      "props": {
+        "table": {
+          "layout": {
+            "desktop": {
+              "left": "63.1%",
+              "bottom": "-31.8%"
+            }
+          }
+        },
+        "plate": {
+          "layout": {
+            "desktop": {
+              "left": "12.5%",
+              "bottom": "25.2%"
+            }
+          }
+        },
+        "croissant": {
+          "layout": {
+            "desktop": {
+              "left": "13.5%",
+              "bottom": "24.7%",
+              "width": "12.5%",
+              "height": "8.3%"
+            }
+          }
+        },
+        "spoon": {
+          "layout": {
+            "desktop": {
+              "left": "21.7%",
+              "bottom": "13.3%",
+              "rotate": "-40.4deg"
+            }
+          }
+        },
+        "sugar": {
+          "layout": {
+            "desktop": {
+              "left": "19.2%",
+              "bottom": "9.8%"
+            }
+          }
+        },
+        "napkin": {
+          "layout": {
+            "desktop": {
+              "left": "13.2%",
+              "bottom": "7.5%"
+            }
+          }
+        },
+        "newspaper": {
+          "layout": {
+            "desktop": {
+              "left": "0.6%",
+              "bottom": "10.2%"
+            }
+          }
+        },
+        "bell": {
+          "layout": {
+            "desktop": {
+              "right": "31.7%",
+              "bottom": "23.7%",
+              "width": "8.2%",
+              "height": "11%"
+            }
+          }
+        },
+        "pastries": {
+          "layout": {
+            "desktop": {
+              "right": "84.8%",
+              "top": "57.4%",
+              "width": "24.3%",
+              "height": "34.3%"
+            }
+          }
+        },
+        "register": {
+          "layout": {
+            "desktop": {
+              "right": "20.4%",
+              "bottom": "31.7%"
+            }
+          }
+        },
+        "juice": {
+          "layout": {
+            "desktop": {
+              "left": "74.6%",
+              "bottom": "16.9%",
+              "width": "6.8%",
+              "height": "16.1%"
+            }
+          }
+        },
+        "steam": {
+          "layout": {
+            "desktop": {
+              "left": "19.6%",
+              "bottom": "29.8%"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "layout": {
+          "desktop": {
+            "left": "25.4%",
+            "bottom": "24.4%",
+            "width": "5.7%",
+            "height": "9.2%"
+          }
+        }
+      },
+      "effects": {
+        "splash": {
+          "layout": {
+            "desktop": {
+              "left": "27.4%",
+              "top": "73.2%",
+              "width": "7.1%",
+              "height": "9.1%"
+            }
+          }
+        },
+        "droplets": {
+          "layout": {
+            "desktop": {
+              "left": "28.7%",
+              "top": "70.5%",
+              "width": "8.6%",
+              "height": "10.6%"
+            }
+          }
+        },
+        "stain": {
+          "layout": {
+            "desktop": {
+              "left": "33%",
+              "bottom": "20.5%",
+              "width": "5.1%",
+              "height": "6.4%"
+            }
+          }
+        }
+      }
+    },
+    "mobile": {
+      "character": {
+        "layouts": {
+          "seated": {
+            "mobile": {
+              "left": "11.8%",
+              "bottom": "22.5%",
+              "width": "65.4%",
+              "height": "79.2%",
+              "rotate": "-2.4deg"
+            }
+          },
+          "upright": {
+            "mobile": {
+              "left": "20.2%",
+              "bottom": "21.4%",
+              "width": "56.5%",
+              "height": "83.3%",
+              "rotate": "-0.3deg"
+            }
+          },
+          "exit": {
+            "mobile": {
+              "left": "26.5%",
+              "bottom": "18.9%",
+              "width": "50%",
+              "height": "71.7%",
+              "rotate": "-2.7deg"
+            }
+          }
+        }
+      },
+      "props": {
+        "table": {
+          "layout": {
+            "mobile": {
+              "left": "-19.9%",
+              "bottom": "19.3%",
+              "width": "64.5%",
+              "height": "22.9%",
+              "rotate": "-0.5deg"
+            }
+          }
+        },
+        "plate": {
+          "layout": {
+            "mobile": {
+              "left": "0.7%",
+              "bottom": "36.4%"
+            }
+          }
+        },
+        "croissant": {
+          "layout": {
+            "mobile": {
+              "left": "6.7%",
+              "bottom": "37.7%"
+            }
+          }
+        },
+        "spoon": {
+          "layout": {
+            "mobile": {
+              "left": "77.5%",
+              "bottom": "37.5%"
+            }
+          }
+        },
+        "sugar": {
+          "layout": {
+            "mobile": {
+              "left": "75.3%",
+              "bottom": "35%"
+            }
+          }
+        },
+        "napkin": {
+          "layout": {
+            "mobile": {
+              "left": "86.1%",
+              "bottom": "32.2%"
+            }
+          }
+        },
+        "newspaper": {
+          "layout": {
+            "mobile": {
+              "left": "47.7%",
+              "bottom": "45.2%",
+              "width": "14.3%",
+              "height": "5%",
+              "rotate": "0.6deg"
+            }
+          }
+        },
+        "bell": {
+          "layout": {
+            "mobile": {
+              "right": "38.2%",
+              "bottom": "40.8%"
+            }
+          }
+        },
+        "pastries": {
+          "layout": {
+            "mobile": {
+              "right": "60.2%",
+              "top": "43.4%"
+            }
+          }
+        },
+        "register": {
+          "layout": {
+            "mobile": {
+              "right": "10%",
+              "bottom": "42.9%"
+            }
+          }
+        },
+        "juice": {
+          "layout": {
+            "mobile": {
+              "left": "64.5%",
+              "bottom": "38.5%"
+            }
+          }
+        },
+        "steam": {
+          "layout": {
+            "mobile": {
+              "left": "22.2%",
+              "bottom": "33.1%"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "layout": {
+          "mobile": {
+            "left": "18.8%",
+            "bottom": "35.1%"
+          }
+        }
+      },
+      "effects": {
+        "stain": {
+          "layout": {
+            "mobile": {
+              "left": "32.1%",
+              "bottom": "27.1%",
+              "width": "22.2%",
+              "height": "15.7%",
+              "rotate": "-5.8deg"
+            }
+          }
+        }
+      }
+    }
+  },
+  "advice8": {
+    "desktop": {
+      "character": {
+        "layouts": {
+          "cleaning": {
+            "desktop": {
+              "left": "56.2%",
+              "bottom": "24.7%"
+            }
+          },
+          "upright": {
+            "desktop": {
+              "left": "42.9%",
+              "bottom": "6.7%",
+              "width": "21.8%",
+              "height": "59.4%"
+            }
+          },
+          "exit": {
+            "desktop": {
+              "left": "37.5%",
+              "bottom": "3.9%"
+            }
+          }
+        }
+      },
+      "props": {
+        "oven": {
+          "layout": {
+            "desktop": {
+              "left": "39.6%",
+              "bottom": "7.7%",
+              "width": "66.4%",
+              "height": "98.9%"
+            }
+          }
+        },
+        "logs": {
+          "layout": {
+            "desktop": {
+              "left": "67.3%",
+              "bottom": "47.4%"
+            }
+          }
+        },
+        "brush": {
+          "layout": {
+            "desktop": {
+              "left": "32.5%",
+              "bottom": "17.3%",
+              "width": "20.5%",
+              "height": "72%",
+              "rotate": "98.9deg"
+            }
+          }
+        },
+        "ash": {
+          "layout": {
+            "desktop": {
+              "left": "58%",
+              "bottom": "40.6%"
+            }
+          }
+        },
+        "bucket": {
+          "layout": {
+            "desktop": {
+              "left": "26.3%",
+              "bottom": "48.9%"
+            }
+          }
+        },
+        "wood": {
+          "layout": {
+            "desktop": {
+              "right": "7.6%",
+              "bottom": "-2.6%",
+              "width": "28.8%",
+              "height": "42%"
+            }
+          }
+        },
+        "thermometer": {
+          "layout": {
+            "desktop": {
+              "left": "60.7%",
+              "top": "41.6%"
+            }
+          }
+        },
+        "flour": {
+          "layout": {
+            "desktop": {
+              "right": "56.4%",
+              "bottom": "18.1%"
+            }
+          }
+        },
+        "vent": {
+          "layout": {
+            "desktop": {
+              "right": "62.6%",
+              "top": "63.9%",
+              "width": "12.6%",
+              "height": "39.3%"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "layout": {
+          "desktop": {
+            "right": "17.2%",
+            "bottom": "44.6%",
+            "width": "11.1%",
+            "height": "20.8%"
+          }
+        }
+      },
+      "effects": {
+        "fire": {
+          "layout": {
+            "desktop": {
+              "left": "71%",
+              "bottom": "48.3%",
+              "width": "16%",
+              "height": "17.1%"
+            }
+          }
+        },
+        "burst": {
+          "layout": {
+            "desktop": {
+              "left": "66.9%",
+              "bottom": "43.6%",
+              "width": "20.6%",
+              "height": "28.5%"
+            }
+          }
+        },
+        "smoke": {
+          "layout": {
+            "desktop": {
+              "left": "56.5%",
+              "bottom": "32.4%",
+              "width": "37.4%",
+              "height": "41.8%"
+            }
+          }
+        },
+        "sparks": {
+          "layout": {
+            "desktop": {
+              "left": "69.8%",
+              "bottom": "48.6%",
+              "width": "11%",
+              "height": "13.5%"
+            }
+          }
+        }
+      }
+    },
+    "mobile": {
+      "character": {
+        "layouts": {
+          "cleaning": {
+            "mobile": {
+              "left": "38.5%",
+              "bottom": "28.1%",
+              "width": "64.2%",
+              "height": "75.2%",
+              "rotate": "-7.4deg"
+            }
+          },
+          "upright": {
+            "mobile": {
+              "left": "2.2%",
+              "bottom": "19%",
+              "width": "82.9%",
+              "height": "128.9%",
+              "rotate": "-1.2deg"
+            }
+          },
+          "exit": {
+            "mobile": {
+              "left": "1.1%",
+              "bottom": "20.8%",
+              "width": "72.6%",
+              "height": "109.9%",
+              "rotate": "2.4deg"
+            }
+          }
+        }
+      },
+      "props": {
+        "oven": {
+          "layout": {
+            "mobile": {
+              "left": "44%",
+              "bottom": "13.1%",
+              "width": "90.1%",
+              "height": "84.1%",
+              "rotate": "1.5deg"
+            }
+          }
+        },
+        "logs": {
+          "layout": {
+            "mobile": {
+              "left": "80.1%",
+              "bottom": "49.4%"
+            }
+          }
+        },
+        "brush": {
+          "layout": {
+            "mobile": {
+              "left": "10.6%",
+              "bottom": "25.7%",
+              "width": "33.1%",
+              "height": "62.6%",
+              "rotate": "100.5deg"
+            }
+          }
+        },
+        "ash": {
+          "layout": {
+            "mobile": {
+              "left": "59.6%",
+              "bottom": "42.6%"
+            }
+          }
+        },
+        "bucket": {
+          "layout": {
+            "mobile": {
+              "left": "-7.4%",
+              "bottom": "50.1%"
+            }
+          }
+        },
+        "wood": {
+          "layout": {
+            "mobile": {
+              "right": "-27.5%",
+              "bottom": "4.4%",
+              "width": "65%",
+              "height": "53.5%",
+              "rotate": "-0.7deg"
+            }
+          }
+        },
+        "thermometer": {
+          "layout": {
+            "mobile": {
+              "left": "-2.9%",
+              "top": "75.7%"
+            }
+          }
+        },
+        "flour": {
+          "layout": {
+            "mobile": {
+              "right": "46.8%",
+              "bottom": "35.5%"
+            }
+          }
+        },
+        "vent": {
+          "layout": {
+            "mobile": {
+              "right": "66%",
+              "top": "37.6%",
+              "width": "33.4%",
+              "height": "55.6%",
+              "rotate": "-1deg"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "layout": {
+          "mobile": {
+            "right": "-1%",
+            "bottom": "48.1%"
+          }
+        }
+      },
+      "effects": {
+        "fire": {
+          "layout": {
+            "mobile": {
+              "left": "84.2%",
+              "bottom": "45.8%",
+              "width": "32.2%",
+              "height": "19.5%",
+              "rotate": "-6.5deg"
+            }
+          }
+        },
+        "burst": {
+          "layout": {
+            "mobile": {
+              "left": "71.1%",
+              "bottom": "38.7%"
+            }
+          }
+        },
+        "smoke": {
+          "layout": {
+            "mobile": {
+              "left": "64.7%",
+              "bottom": "40.7%"
+            }
+          }
+        },
+        "sparks": {
+          "layout": {
+            "mobile": {
+              "left": "63.4%",
+              "bottom": "39.3%"
+            }
+          }
+        }
+      }
+    }
+  }
+}

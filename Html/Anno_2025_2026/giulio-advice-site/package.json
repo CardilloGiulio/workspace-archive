@@ -1,0 +1,16 @@
+{
+  "name": "giulio-advice-site",
+  "version": "1.2.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "serve:static": "python3 scripts/serve_static.py 8080",
+    "validate": "node scripts/validate-project.mjs"
+  },
+  "devDependencies": {
+    "vite": "^8.1.5"
+  }
+}
